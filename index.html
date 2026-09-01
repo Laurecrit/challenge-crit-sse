@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Challenge Smart Sourcing · Indeed × crit.</title>
+<link rel="icon" href="crit-embleme.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ BANDEAU ============ -->
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-top">
+      <div class="hero-logos">
+        <img class="crit" src="crit-logo-blanc.svg" alt="crit.">
+        <span class="hero-cross">×</span>
+        <span class="badge-indeed">indeed<span class="dot">.</span></span>
+      </div>
+      <div class="status" id="status">
+        <span class="led"></span><span id="status-txt">Synchronisation…</span>
+      </div>
+    </div>
+    <div class="hero-titles">
+      <h1 id="h-titre">Challenge Smart Sourcing</h1>
+      <p class="sub" id="h-sous">Indeed × crit. — CVthèque</p>
+      <div class="hero-meta" id="h-meta"></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ KPIS ============ -->
+  <section class="kpis" id="kpis"></section>
+
+  <!-- ============ BARRE OUTILS ============ -->
+  <div class="toolbar">
+    <div class="tabs">
+      <button class="tab active" data-view="agences">🏢 Agences <span class="hide-sm">— National</span></button>
+      <button class="tab" data-view="individuel">👤 Individuel <span class="hide-sm">— Top 3/région</span></button>
+      <button class="tab" data-view="bareme">📊 Règles</button>
+    </div>
+    <div class="controls">
+      <input class="search" id="search" type="search" placeholder="Rechercher une agence, un nom…">
+      <select class="select" id="filter-region"><option value="">Toutes les régions</option></select>
+      <label class="podium-toggle" id="podium-wrap" style="display:none">
+        <input type="checkbox" id="only-podium"> Podium seulement
+      </label>
+    </div>
+  </div>
+
+  <!-- ============ VUE AGENCES ============ -->
+  <section class="card" id="view-agences">
+    <div class="card-head">
+      <h2>🏢 Classement des agences <span class="muted">· national</span></h2>
+      <span class="count" id="count-agences"></span>
+    </div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr>
+          <th style="width:64px">Rang</th>
+          <th>Agence</th>
+          <th class="hide-sm">Région</th>
+          <th class="num hide-sm">CV</th>
+          <th class="num hide-sm">Contacts</th>
+          <th class="num hide-sm">Rép. +</th>
+          <th class="num">Score</th>
+          <th class="num">Progression</th>
+        </tr></thead>
+        <tbody id="tb-agences"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ VUE INDIVIDUEL ============ -->
+  <section class="card hidden" id="view-individuel">
+    <div class="card-head">
+      <h2>👤 Classement individuel <span class="muted">· Top 3 par région</span></h2>
+      <span class="count" id="count-individuel"></span>
+    </div>
+    <div id="individuel-body" style="overflow-x:auto"></div>
+  </section>
+
+  <!-- ============ VUE RÈGLES / BARÈME ============ -->
+  <section class="card hidden" id="view-bareme">
+    <div class="card-head">
+      <h2>📊 Règles & barème</h2>
+      <span class="count">Score d'usage · classement sur la progression</span>
+    </div>
+
+    <div style="padding:20px 22px 6px">
+      <p style="font-size:14.5px; color:var(--gris-fonce); margin-bottom:16px">
+        Chaque geste sur la CVthèque rapporte des points. Le classement se fait sur la
+        <strong>progression</strong> : score de la période challenge <em>moins</em> le score de la
+        période de référence (juin). On récompense ceux qui <strong>progressent le plus</strong>,
+        pas les plus gros volumes — aucune région n'est pénalisée par son mix de licences.
+      </p>
+    </div>
+
+    <div style="overflow-x:auto">
+      <table class="bareme">
+        <thead><tr>
+          <th>Geste sur la CVthèque</th>
+          <th class="num">Pondération</th>
+        </tr></thead>
+        <tbody id="tb-bareme"></tbody>
+      </table>
+    </div>
+
+    <div style="padding:18px 22px; font-size:13.5px; color:var(--gris); border-top:1px solid var(--trait)">
+      <strong style="color:var(--gris-fonce)">Score</strong> = CV consultés × 1 &nbsp;+&nbsp;
+      Contacts envoyés × 3 &nbsp;+&nbsp; Réponses positives × 5.<br>
+      <strong style="color:var(--gris-fonce)">Progression (Δ)</strong> = Score challenge − Score juin.
+      Le contact envoyé ⭐ est le geste qui pèse le plus après la réponse positive.
+    </div>
+
+    <div style="padding:0 22px 22px; display:grid; grid-template-columns:1fr 1fr; gap:14px">
+      <div style="background:var(--fond-zebra); border-radius:10px; padding:16px 18px">
+        <div style="font-family:Raleway,Tahoma,sans-serif; font-weight:800; color:var(--rouge); margin-bottom:6px">🏆 Top 1 Agence — National</div>
+        <div style="font-size:13.5px; color:var(--gris-fonce)">Repas d'équipe. Peu importe la licence.</div>
+      </div>
+      <div style="background:var(--fond-zebra); border-radius:10px; padding:16px 18px">
+        <div style="font-family:Raleway,Tahoma,sans-serif; font-weight:800; color:var(--rouge); margin-bottom:6px">🥇🥈 Top 2 & 3 par Région</div>
+        <div style="font-size:13.5px; color:var(--gris-fonce)">Goodies Or (Top 2) & Argent (Top 3). Peu importe la licence.</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>Challenge Smart Sourcing · Indeed × crit.</span>
+    <span class="sep">•</span>
+    <span id="foot-saison">Semestre 2 · 2026</span>
+    <span class="sep">•</span>
+    <span id="foot-maj"></span>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   CONFIGURATION — lecture du Google Sheet en direct
+   ------------------------------------------------------------
+   Publier les onglets "Agences" et "Users" en CSV :
+   Fichier > Partager > Publier sur le web > onglet > CSV.
+   Coller les 2 URL ci-dessous. Tant qu'elles sont vides,
+   le site lit data.json (généré depuis ton Excel Indeed).
+   ============================================================ */
+const CONFIG = {
+  SHEET_AGENCES_CSV:    "",   // onglet "Agences" publié en CSV
+  SHEET_USERS_CSV:      "",   // onglet "Users" publié en CSV
+  REFRESH_MS: 60000
+};
+
+/* Ordre d'affichage des régions */
+const ORDRE_REGIONS = ["AURA","BPDL","Nord","Est","Arc Méditerranée","Sud-Ouest",
+  "Centre-Est","Centre-Val de Loire","Normandie","E&C","IDF"];
+
+/* Codes région Excel -> libellés lisibles */
+const REG_LABEL = {
+  "ARCMED":"Arc Méditerranée","AURA":"AURA","BPDL":"BPDL","CENTRE-EST":"Centre-Est",
+  "CVDL":"Centre-Val de Loire","EC":"E&C","EST":"Est","IDF":"IDF","NDIE":"Normandie",
+  "NORD":"Nord","SO":"Sud-Ouest"
+};
+
+let DATA = { meta:{}, agences:[], individuel:[] };
+let currentView = "agences";
+
+/* ---------- Chargement ---------- */
+async function load() {
+  try {
+    if (CONFIG.SHEET_AGENCES_CSV || CONFIG.SHEET_USERS_CSV) {
+      await loadFromSheet(); setStatus(true);
+    } else {
+      DATA = await (await fetch("data.json?_=" + Date.now())).json();
+      setStatus(true, true);
+    }
+  } catch (e) {
+    console.error(e); setStatus(false);
+    try { DATA = await (await fetch("data.json?_=" + Date.now())).json(); } catch(_) {}
+  }
+  render();
+}
+
+async function loadFromSheet() {
+  const base = await (await fetch("data.json")).json();
+  DATA.meta = base.meta;
+  const jobs = [];
+  if (CONFIG.SHEET_AGENCES_CSV)
+    jobs.push(fetch(CONFIG.SHEET_AGENCES_CSV+"&_="+Date.now()).then(r=>r.text())
+      .then(t=>{ DATA.agences = rankAgences(parseRows(csv(t))); }));
+  if (CONFIG.SHEET_USERS_CSV)
+    jobs.push(fetch(CONFIG.SHEET_USERS_CSV+"&_="+Date.now()).then(r=>r.text())
+      .then(t=>{ DATA.individuel = rankUsers(parseRows(csv(t))); }));
+  await Promise.all(jobs);
+  if (!DATA.agences.length)    DATA.agences = base.agences;
+  if (!DATA.individuel.length) DATA.individuel = base.individuel;
+}
+
+/* ---------- CSV ---------- */
+function csv(text){
+  const rows=[]; let row=[],val="",q=false;
+  for(let i=0;i<text.length;i++){const c=text[i];
+    if(q){ if(c==='"'&&text[i+1]==='"'){val+='"';i++;} else if(c==='"'){q=false;} else val+=c; }
+    else { if(c==='"')q=true; else if(c===','){row.push(val);val="";}
+      else if(c==='\n'){row.push(val);rows.push(row);row=[];val="";}
+      else if(c==='\r'){} else val+=c; }
+  }
+  if(val.length||row.length){row.push(val);rows.push(row);}
+  return rows;
+}
+const num = v => { const n=parseFloat(String(v).replace(/\s/g,"").replace(",",".")); return isNaN(n)?0:Math.round(n); };
+const pick = (o,keys)=>{ for(const k of keys) if(o[k]!==undefined&&o[k]!=="") return o[k]; return ""; };
+const cleanReg = r => { if(!r) return ""; const code=String(r).split(",")[0].trim().toUpperCase(); return REG_LABEL[code]||String(r).split(",")[0].trim(); };
+
+/* Parse un CSV publié depuis l'Excel : entêtes en ligne 4
+   (Rang, Nom, Région, CV, CT, RP, Score [réf], CV, CT, RP, Score [chall], Δ Score).
+   On lit par POSITION car "CV/CT/RP/Score" apparaissent 2 fois. */
+function parseRows(rows){
+  // trouver la ligne d'entête contenant "Nom" et "Région"
+  let hi = rows.findIndex(r => r.map(x=>String(x).toLowerCase().trim()).includes("nom")
+                            && r.some(x=>String(x).toLowerCase().includes("gion")));
+  if (hi < 0) hi = 0;
+  const body = rows.slice(hi+1);
+  const out = [];
+  for (const r of body){
+    const nom = (r[1]||"").trim(), reg = (r[2]||"").trim();
+    if(!nom || !reg) continue;
+    if(String(nom).toLowerCase().startsWith("total")) continue;
+    out.push({
+      nom, region: cleanReg(reg),
+      cv:num(r[7]), contacts:num(r[8]), reponses:num(r[9]), score:num(r[10]),
+      score_ref:num(r[6]),
+      delta: r[11]!==undefined && r[11]!=="" ? num(r[11]) : (num(r[10]) - num(r[6]))
+    });
+  }
+  return out;
+}
+
+function rankAgences(list){
+  list = list.filter(a=>a.nom);
+  list.sort((a,b)=>b.delta-a.delta);
+  list.forEach((a,i)=>a.rang=i+1);
+  return list.map(a=>({rang:a.rang,agence:a.nom,region:a.region,cv:a.cv,contacts:a.contacts,reponses:a.reponses,score:a.score,delta:a.delta,score_ref:a.score_ref}));
+}
+function rankUsers(list){
+  const byReg={};
+  list.filter(u=>u.nom).forEach(u=>(byReg[u.region]=byReg[u.region]||[]).push(u));
+  const res=[];
+  Object.keys(byReg).forEach(reg=>{
+    byReg[reg].sort((a,b)=>b.delta-a.delta);
+    byReg[reg].forEach((u,i)=>{ u.rang=i+1; res.push(u); });
+  });
+  return res.map(u=>({rang:u.rang,nom:u.nom,region:u.region,cv:u.cv,contacts:u.contacts,reponses:u.reponses,score:u.score,delta:u.delta,score_ref:u.score_ref}));
+}
+
+/* ---------- Statut ---------- */
+function setStatus(ok, demo){
+  const s=document.getElementById("status"), t=document.getElementById("status-txt");
+  if(ok && demo){ s.classList.add("err"); t.textContent="Données de simulation"; }
+  else if(ok){ s.classList.remove("err"); t.textContent="Données à jour"; }
+  else { s.classList.add("err"); t.textContent="Mode secours (data.json)"; }
+}
+
+/* ---------- Rendu ---------- */
+function render(){
+  const m=DATA.meta||{};
+  document.getElementById("h-titre").textContent=m.titre||"Challenge Smart Sourcing";
+  document.getElementById("h-sous").textContent=m.sous_titre||"Indeed × crit. — CVthèque";
+  document.getElementById("foot-saison").textContent=m.saison||"Rentrée 2026";
+  document.getElementById("foot-maj").textContent=m.maj?("Mise à jour : "+m.maj):"";
+  document.getElementById("h-meta").innerHTML=
+    (m.semaine?`<span class="chip rouge">Semaine ${m.semaine}</span>`:"")+
+    (m.periode?`<span class="chip"><span class="lbl">Période</span> ${esc(m.periode)}</span>`:"")+
+    `<span class="chip"><span class="lbl">Durée</span> 8 semaines</span>`+
+    (m.reference?`<span class="chip"><span class="lbl">Réf.</span> juin 2026</span>`:"")+
+    `<span class="chip"><span class="lbl">Périmètre</span> Réseau France</span>`;
+  renderKpis(); renderRegionFilter(); renderAgences(); renderIndividuel(); renderBareme();
+}
+
+function renderKpis(){
+  const a=DATA.agences||[], u=DATA.individuel||[];
+  const totDelta=a.reduce((s,x)=>s+(x.delta||0),0);
+  const totCV=a.reduce((s,x)=>s+(x.cv||0),0);
+  const totC=a.reduce((s,x)=>s+(x.contacts||0),0);
+  const cards=[
+    {v:a.length, l:"Agences classées", c:""},
+    {v:u.length, l:"Recruteurs actifs", c:"g"},
+    {v:totC.toLocaleString("fr-FR"), l:"Contacts envoyés", c:"o"},
+    {v:"+"+totDelta.toLocaleString("fr-FR"), l:"Progression cumulée", c:""}
+  ];
+  document.getElementById("kpis").innerHTML=cards.map(k=>
+    `<div class="kpi ${k.c}"><div class="k-val">${k.v}</div><div class="k-lbl">${k.l}</div></div>`).join("");
+}
+
+function regionsPresent(){
+  const set=new Set();
+  (DATA.agences||[]).forEach(a=>a.region&&set.add(a.region));
+  (DATA.individuel||[]).forEach(u=>u.region&&set.add(u.region));
+  return [...set].sort((a,b)=>{const ia=ORDRE_REGIONS.indexOf(a),ib=ORDRE_REGIONS.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib);});
+}
+function renderRegionFilter(){
+  const sel=document.getElementById("filter-region"), cur=sel.value;
+  sel.innerHTML=`<option value="">Toutes les régions</option>`+regionsPresent().map(r=>`<option value="${esc(r)}">${esc(r)}</option>`).join("");
+  sel.value=cur;
+}
+
+function progHtml(d){
+  if(d>0) return `<span class="evo up">▲ +${d}</span>`;
+  if(d<0) return `<span class="evo down">▼ ${d}</span>`;
+  return `<span class="evo flat">±0</span>`;
+}
+function rankClass(r){ return r<=3?`rank r${r}`:"rank"; }
+
+function renderAgences(){
+  const q=document.getElementById("search").value.trim().toLowerCase();
+  const reg=document.getElementById("filter-region").value;
+  let list=(DATA.agences||[]).slice();
+  if(reg) list=list.filter(a=>a.region===reg);
+  if(q) list=list.filter(a=>(a.agence+" "+a.region).toLowerCase().includes(q));
+  document.getElementById("count-agences").textContent=list.length+" agence"+(list.length>1?"s":"");
+  const tb=document.getElementById("tb-agences");
+  if(!list.length){ tb.innerHTML=`<tr><td colspan="8" class="empty">Aucune agence ne correspond.</td></tr>`; return; }
+  tb.innerHTML=list.map(a=>`
+    <tr>
+      <td><span class="${rankClass(a.rang)}">${a.rang}</span></td>
+      <td><span class="name">${esc(a.agence)}</span></td>
+      <td class="hide-sm"><span class="reg-tag">${esc(a.region)}</span></td>
+      <td class="num hide-sm">${(a.cv||0).toLocaleString("fr-FR")}</td>
+      <td class="num hide-sm">${a.contacts||0}</td>
+      <td class="num hide-sm">${a.reponses||0}</td>
+      <td class="num">${(a.score||0).toLocaleString("fr-FR")}</td>
+      <td class="num"><span class="pts">${progHtmlPts(a.delta)}</span></td>
+    </tr>`).join("");
+}
+function progHtmlPts(d){
+  const s=(d>0?"+":"")+ (d||0).toLocaleString("fr-FR");
+  return `<span style="color:${d<0?'var(--gris)':'var(--rouge)'}">${s}</span>`;
+}
+
+function renderIndividuel(){
+  const q=document.getElementById("search").value.trim().toLowerCase();
+  const reg=document.getElementById("filter-region").value;
+  const onlyPodium=document.getElementById("only-podium")?.checked;
+  let list=(DATA.individuel||[]).slice();
+  if(reg) list=list.filter(u=>u.region===reg);
+  if(onlyPodium) list=list.filter(u=>u.rang<=3);
+  if(q) list=list.filter(u=>(u.nom+" "+u.region).toLowerCase().includes(q));
+  document.getElementById("count-individuel").textContent=list.length+" participant"+(list.length>1?"s":"");
+  const body=document.getElementById("individuel-body");
+  if(!list.length){ body.innerHTML=`<div class="empty">Aucun participant ne correspond.</div>`; return; }
+  const groups={};
+  list.forEach(u=>(groups[u.region]=groups[u.region]||[]).push(u));
+  const regs=Object.keys(groups).sort((a,b)=>{const ia=ORDRE_REGIONS.indexOf(a),ib=ORDRE_REGIONS.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib);});
+  body.innerHTML=regs.map(r=>{
+    const rows=groups[r].sort((a,b)=>a.rang-b.rang).map(u=>{
+      const medal = u.rang===1?"🥇":u.rang===2?"🥈":u.rang===3?"🥉":"";
+      return `
+      <tr>
+        <td><span class="${rankClass(u.rang)}">${u.rang}</span></td>
+        <td><span class="name">${medal?medal+" ":""}${esc(u.nom)}</span></td>
+        <td class="num hide-sm">${(u.cv||0).toLocaleString("fr-FR")}</td>
+        <td class="num hide-sm">${u.contacts||0}</td>
+        <td class="num hide-sm">${u.reponses||0}</td>
+        <td class="num">${(u.score||0).toLocaleString("fr-FR")}</td>
+        <td class="num"><span class="pts">${progHtmlPts(u.delta)}</span></td>
+      </tr>`;}).join("");
+    return `
+      <div class="region-block">
+        <div class="region-head">📍 ${esc(r)} <span class="muted" style="font-weight:400; margin-left:auto">${groups[r].length} recruteur${groups[r].length>1?"s":""}</span></div>
+        <table>
+          <thead><tr>
+            <th style="width:64px">Rang</th><th>Recruteur</th>
+            <th class="num hide-sm">CV</th><th class="num hide-sm">Contacts</th>
+            <th class="num hide-sm">Rép. +</th><th class="num">Score</th><th class="num">Progression</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  }).join("");
+}
+
+function renderBareme(){
+  const rows=[
+    {g:"Consultation — CV vu", p:"× 1"},
+    {g:"Contact envoyé ⭐", p:"× 3"},
+    {g:"Réponse positive", p:"× 5"}
+  ];
+  document.getElementById("tb-bareme").innerHTML=rows.map(r=>`
+    <tr><td class="kpi-name">${esc(r.g)}</td><td class="num"><span class="pts">${r.p}</span></td></tr>`).join("");
+}
+
+function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+/* ---------- Interactions ---------- */
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+  t.classList.add("active"); currentView=t.dataset.view;
+  document.getElementById("view-agences").classList.toggle("hidden",currentView!=="agences");
+  document.getElementById("view-individuel").classList.toggle("hidden",currentView!=="individuel");
+  document.getElementById("view-bareme").classList.toggle("hidden",currentView!=="bareme");
+  const show=currentView!=="bareme";
+  document.getElementById("search").style.visibility=show?"visible":"hidden";
+  document.getElementById("filter-region").style.visibility=show?"visible":"hidden";
+  const pod=document.getElementById("podium-wrap");
+  if(pod) pod.style.display=currentView==="individuel"?"inline-flex":"none";
+}));
+document.getElementById("search").addEventListener("input",()=>{renderAgences();renderIndividuel();});
+document.getElementById("filter-region").addEventListener("change",()=>{renderAgences();renderIndividuel();});
+(document.getElementById("only-podium")||{}).onchange=()=>renderIndividuel();
+
+load();
+setInterval(load, CONFIG.REFRESH_MS);
+</script>
+</body>
+</html>
