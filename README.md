@@ -1,13 +1,22 @@
 # Challenge Smart Sourcing · Indeed × crit. — Mini-site classement
 
 Site de classement hebdomadaire du challenge CVthèque Indeed, à la charte crit.
-Il affiche **2 classements** (Agences national + Users Top 3/région) et le **barème**,
-avec recherche, filtre par région, KPIs et rafraîchissement automatique.
+Il affiche **2 classements** (Agences national + Users par région), le **suivi des crédits
+par région** et le **barème**, avec recherche, filtre par région, KPIs et rafraîchissement
+automatique.
+
+> **État au 05/09/2026 — semaine 1.** Le site tourne sur `data.json`, qui contient les
+> **données réelles** de la semaine 1 (31/08 → 04/09), générées depuis
+> `Challenge_CVtheque_CRIT_Classement_S1_Final.xlsx` transmis par Indeed.
+> Les URL du Google Sheet sont en veille dans `index.html` (constantes
+> `SHEET_*_CSV_ATTENTE`) : la publication CSV est bloquée par les restrictions de
+> domaine Google Workspace. Dès que l'accès public est ouvert, il suffit de recopier
+> ces 2 URL dans `CONFIG` pour repasser en direct.
 
 ## Fichiers
 - `index.html` — la page (tout le code JS est dedans)
 - `style.css` — le style (charte crit.)
-- `data.json` — les données (mode démo, ou données de secours)
+- `data.json` — les données (classements, quotas crédits, KPIs, récompenses)
 - `crit-logo-blanc.svg`, `crit-embleme.svg` — logos
 
 ---
@@ -19,7 +28,7 @@ avec recherche, filtre par région, KPIs et rafraîchissement automatique.
 3. Onglet **Settings > Pages** : Source = branche `main`, dossier `/root`, Save.
 4. Au bout d'1 min, l'URL s'affiche : `https://<ton-compte>.github.io/challenge-crit-sse/`
 
-Le site marche immédiatement avec les données de démo de `data.json`.
+Le site marche immédiatement avec les données de `data.json`.
 
 ---
 
@@ -65,16 +74,36 @@ ignore les lignes de titre du haut, et convertit les codes région
 
 ---
 
-## 3) Mise à jour hebdo (30 secondes)
+## 3) Mise à jour hebdo
 Si le Sheet est branché : **rien à faire**, le site se met à jour seul.
-Sinon, éditer `data.json` (semaine, période, chiffres) et re-uploader le fichier.
+Sinon, remplacer `data.json` et re-uploader le fichier.
 
-Pense à mettre à jour dans `data.json` le bloc `meta` :
-`semaine`, `periode`, `maj` (pour l'affichage bandeau + pied de page).
+Bloc `meta` à mettre à jour chaque semaine :
+`semaine`, `periode`, `maj`, `source`, et le tableau `kpis`
+(4 valeurs reprises telles quelles de l'onglet **Synthèse** du fichier Indeed).
+
+### Structure de `data.json`
+| Clé | Contenu |
+|---|---|
+| `meta.kpis` | les 4 chiffres du bandeau, **repris de l'onglet Synthèse** (jamais recalculés) |
+| `meta.quotas_note` | légende des seuils de statut crédits |
+| `meta.recompenses` | les 3 cartes de l'onglet Règles |
+| `quotas[]` | onglet **Quotas & conso**, une ligne par région + le total |
+| `agences[]` | onglet **Agences** (230 lignes, rang national sur la progression) |
+| `individuel[]` | onglet **Individuel** (305 lignes, rang par région) |
+
+Chaque entrée porte `actif` (= score de la semaine > 0) : la case **« Actifs seulement »**
+de la barre d'outils, cochée par défaut, masque les comptes à zéro. Décocher affiche
+l'intégralité du parc, utile pour repérer les dormants.
+
+Chaque entrée porte aussi `src`, le libellé brut de l'export Indeed
+(`Clermontferrand · 640`), conservé pour audit : c'est `agence` / `nom` qui est affiché,
+après normalisation typographique (`Clermont-Ferrand · 640`).
 
 ---
 
 ## Notes charte
 Couleurs crit. (rouge #D50032, orange #FF6A14, gris foncé #333F48), Raleway + Open Sans.
 Or/argent/bronze des médailles = usage podium (hors 4 couleurs, assumé).
-Le rouge n'est jamais utilisé comme indicateur d'alerte.
+Le rouge n'est jamais utilisé comme indicateur d'alerte : les statuts de l'onglet
+Crédits sont portés par les pastilles 🔴 🟠 🟢 du fichier de suivi, sur un fond neutre.

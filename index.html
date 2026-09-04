@@ -36,17 +36,22 @@
 
   <!-- ============ KPIS ============ -->
   <section class="kpis" id="kpis"></section>
+  <p class="kpis-note" id="kpis-note"></p>
 
   <!-- ============ BARRE OUTILS ============ -->
   <div class="toolbar">
     <div class="tabs">
       <button class="tab active" data-view="agences">🏢 Agences <span class="hide-sm">— National</span></button>
       <button class="tab" data-view="individuel">👤 Individuel <span class="hide-sm">— Top 3/région</span></button>
+      <button class="tab" data-view="credits">💳 Crédits <span class="hide-sm">— par région</span></button>
       <button class="tab" data-view="bareme">📊 Règles</button>
     </div>
     <div class="controls">
       <input class="search" id="search" type="search" placeholder="Rechercher une agence, un nom…">
       <select class="select" id="filter-region"><option value="">Toutes les régions</option></select>
+      <label class="podium-toggle" id="actifs-wrap">
+        <input type="checkbox" id="only-actifs" checked> Actifs seulement
+      </label>
       <label class="podium-toggle" id="podium-wrap" style="display:none">
         <input type="checkbox" id="only-podium"> Podium seulement
       </label>
@@ -85,6 +90,29 @@
     <div id="individuel-body" style="overflow-x:auto"></div>
   </section>
 
+  <!-- ============ VUE CRÉDITS ============ -->
+  <section class="card hidden" id="view-credits">
+    <div class="card-head">
+      <h2>💳 Quotas &amp; consommation <span class="muted">· crédits Smart Sourcing</span></h2>
+      <span class="count" id="count-credits"></span>
+    </div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr>
+          <th>Région</th>
+          <th class="num hide-sm">Crédits alloués</th>
+          <th class="num hide-sm">Restant au démarrage</th>
+          <th class="num">Conso challenge</th>
+          <th class="num">Restant à date</th>
+          <th class="num">Engagement</th>
+          <th>Statut</th>
+        </tr></thead>
+        <tbody id="tb-credits"></tbody>
+      </table>
+    </div>
+    <div class="note-source" id="credits-note"></div>
+  </section>
+
   <!-- ============ VUE RÈGLES / BARÈME ============ -->
   <section class="card hidden" id="view-bareme">
     <div class="card-head">
@@ -118,16 +146,7 @@
       Le contact envoyé ⭐ est le geste qui pèse le plus après la réponse positive.
     </div>
 
-    <div style="padding:0 22px 22px; display:grid; grid-template-columns:1fr 1fr; gap:14px">
-      <div style="background:var(--fond-zebra); border-radius:10px; padding:16px 18px">
-        <div style="font-family:Raleway,Tahoma,sans-serif; font-weight:800; color:var(--rouge); margin-bottom:6px">🏆 Top 1 Agence — National</div>
-        <div style="font-size:13.5px; color:var(--gris-fonce)">Repas d'équipe. Peu importe la licence.</div>
-      </div>
-      <div style="background:var(--fond-zebra); border-radius:10px; padding:16px 18px">
-        <div style="font-family:Raleway,Tahoma,sans-serif; font-weight:800; color:var(--rouge); margin-bottom:6px">🥇🥈 Top 2 & 3 par Région</div>
-        <div style="font-size:13.5px; color:var(--gris-fonce)">Goodies Or (Top 2) & Argent (Top 3). Peu importe la licence.</div>
-      </div>
-    </div>
+    <div class="recompenses" id="recompenses"></div>
   </section>
 
 </main>
@@ -151,15 +170,22 @@
    Coller les 2 URL ci-dessous. Tant qu'elles sont vides,
    le site lit data.json (généré depuis ton Excel Indeed).
    ============================================================ */
+/* Les 2 URL du Google Sheet sont mises en veille : l'accès public est bloqué par
+   les restrictions de domaine Google Workspace. Le site lit donc data.json, qui
+   contient les données réelles de la semaine 1. Dès que le Sheet est accessible,
+   recopier les URL de SHEET_*_CSV_ATTENTE dans SHEET_*_CSV. */
+const SHEET_AGENCES_CSV_ATTENTE = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRenCEKB-oH3GzGT1etCijTvWjjaA5zq7GY8GFxM0SbdntMqZ9S9iawOPSH1Z37tOmp8s4xReBXa3ko/pub?gid=144906836&single=true&output=csv";
+const SHEET_USERS_CSV_ATTENTE   = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRenCEKB-oH3GzGT1etCijTvWjjaA5zq7GY8GFxM0SbdntMqZ9S9iawOPSH1Z37tOmp8s4xReBXa3ko/pub?gid=235824362&single=true&output=csv";
+
 const CONFIG = {
-  SHEET_AGENCES_CSV:    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRenCEKB-oH3GzGT1etCijTvWjjaA5zq7GY8GFxM0SbdntMqZ9S9iawOPSH1Z37tOmp8s4xReBXa3ko/pub?gid=144906836&single=true&output=csv",   // onglet "Agences" publié en CSV
-  SHEET_USERS_CSV:      "https://docs.google.com/spreadsheets/d/e/2PACX-1vRenCEKB-oH3GzGT1etCijTvWjjaA5zq7GY8GFxM0SbdntMqZ9S9iawOPSH1Z37tOmp8s4xReBXa3ko/pub?gid=235824362&single=true&output=csv",   // onglet "Users" publié en CSV
+  SHEET_AGENCES_CSV:    "",
+  SHEET_USERS_CSV:      "",
   REFRESH_MS: 60000
 };
 
 /* Ordre d'affichage des régions */
 const ORDRE_REGIONS = ["AURA","BPDL","Nord","Est","Arc Méditerranée","Sud-Ouest",
-  "Centre-Est","Centre-Val de Loire","Normandie","E&C","IDF"];
+  "Centre-Est","Centre-Val de Loire","Normandie","Île-de-France","E&C","IDF"];
 
 /* Codes région Excel -> libellés lisibles */
 const REG_LABEL = {
@@ -262,7 +288,8 @@ function rankUsers(list){
 /* ---------- Statut ---------- */
 function setStatus(ok, demo){
   const s=document.getElementById("status"), t=document.getElementById("status-txt");
-  if(ok && demo){ s.classList.add("err"); t.textContent="Données de simulation"; }
+  if(ok && demo){ s.classList.remove("err");
+    t.textContent=(DATA.meta&&DATA.meta.source)||"Données à jour"; }
   else if(ok){ s.classList.remove("err"); t.textContent="Données à jour"; }
   else { s.classList.add("err"); t.textContent="Mode secours (data.json)"; }
 }
@@ -280,22 +307,65 @@ function render(){
     `<span class="chip"><span class="lbl">Durée</span> 8 semaines</span>`+
     (m.reference?`<span class="chip"><span class="lbl">Réf.</span> juin 2026</span>`:"")+
     `<span class="chip"><span class="lbl">Périmètre</span> Réseau France</span>`;
-  renderKpis(); renderRegionFilter(); renderAgences(); renderIndividuel(); renderBareme();
+  renderKpis(); renderRegionFilter(); renderAgences(); renderIndividuel();
+  renderCredits(); renderBareme(); renderRecompenses();
 }
 
+/* Les KPI viennent de l'onglet Synthèse du fichier de suivi (meta.kpis).
+   À défaut seulement, ils sont recalculés depuis les listes. */
 function renderKpis(){
-  const a=DATA.agences||[], u=DATA.individuel||[];
-  const totDelta=a.reduce((s,x)=>s+(x.delta||0),0);
-  const totCV=a.reduce((s,x)=>s+(x.cv||0),0);
-  const totC=a.reduce((s,x)=>s+(x.contacts||0),0);
-  const cards=[
-    {v:a.length, l:"Agences classées", c:""},
-    {v:u.length, l:"Recruteurs actifs", c:"g"},
-    {v:totC.toLocaleString("fr-FR"), l:"Contacts envoyés", c:"o"},
-    {v:"+"+totDelta.toLocaleString("fr-FR"), l:"Progression cumulée", c:""}
-  ];
+  const m=DATA.meta||{}, a=DATA.agences||[], u=DATA.individuel||[];
+  const classes=["","g","o",""];
+  let cards;
+  if(Array.isArray(m.kpis) && m.kpis.length){
+    cards=m.kpis.map((k,i)=>({v:k.valeur, l:k.libelle, c:classes[i]||""}));
+  } else {
+    const act=x=>x.actif!==undefined?x.actif:(x.score||0)>0;
+    cards=[
+      {v:a.filter(act).length, l:"Agences classées", c:""},
+      {v:u.filter(act).length, l:"Recruteurs actifs", c:"g"},
+      {v:u.reduce((s,x)=>s+(x.contacts||0),0).toLocaleString("fr-FR"), l:"Contacts envoyés", c:"o"},
+      {v:"+"+u.reduce((s,x)=>s+(x.delta>0?x.delta:0),0).toLocaleString("fr-FR"), l:"Progression cumulée", c:""}
+    ];
+  }
   document.getElementById("kpis").innerHTML=cards.map(k=>
     `<div class="kpi ${k.c}"><div class="k-val">${k.v}</div><div class="k-lbl">${k.l}</div></div>`).join("");
+  const n=document.getElementById("kpis-note");
+  if(n) n.textContent=m.kpis_note||"";
+}
+
+/* ---------- Crédits par région ---------- */
+function renderCredits(){
+  const q=(DATA.quotas||[]);
+  const tb=document.getElementById("tb-credits");
+  if(!tb) return;
+  document.getElementById("count-credits").textContent=
+    q.filter(r=>!r.total).length+" régions";
+  const cl=s=>s.indexOf("🟢")>=0?"ok":s.indexOf("🟠")>=0?"mid":"low";
+  tb.innerHTML=q.map(r=>`
+    <tr class="${r.total?"row-total":""}">
+      <td><span class="name">${esc(r.region)}</span></td>
+      <td class="num hide-sm">${(r.alloues||0).toLocaleString("fr-FR")}</td>
+      <td class="num hide-sm">${(r.restant_depart||0).toLocaleString("fr-FR")}</td>
+      <td class="num"><span class="pts">${(r.conso_challenge||0).toLocaleString("fr-FR")}</span></td>
+      <td class="num">${(r.restant||0).toLocaleString("fr-FR")}</td>
+      <td class="num">${String(r.taux).replace(".",",")} %</td>
+      <td><span class="statut ${cl(r.statut||"")}">${esc(r.statut)}</span></td>
+    </tr>`).join("");
+  const n=document.getElementById("credits-note");
+  if(n) n.textContent=(DATA.meta||{}).quotas_note||"";
+}
+
+/* ---------- Récompenses ---------- */
+function renderRecompenses(){
+  const el=document.getElementById("recompenses");
+  if(!el) return;
+  const list=((DATA.meta||{}).recompenses)||[];
+  el.innerHTML=list.map(r=>`
+    <div class="reco">
+      <div class="reco-t">${esc(r.titre)}</div>
+      <div class="reco-x">${esc(r.texte)}</div>
+    </div>`).join("");
 }
 
 function regionsPresent(){
@@ -321,6 +391,7 @@ function renderAgences(){
   const q=document.getElementById("search").value.trim().toLowerCase();
   const reg=document.getElementById("filter-region").value;
   let list=(DATA.agences||[]).slice();
+  if(actifsSeuls()) list=list.filter(estActif);
   if(reg) list=list.filter(a=>a.region===reg);
   if(q) list=list.filter(a=>(a.agence+" "+a.region).toLowerCase().includes(q));
   document.getElementById("count-agences").textContent=list.length+" agence"+(list.length>1?"s":"");
@@ -348,6 +419,7 @@ function renderIndividuel(){
   const reg=document.getElementById("filter-region").value;
   const onlyPodium=document.getElementById("only-podium")?.checked;
   let list=(DATA.individuel||[]).slice();
+  if(actifsSeuls()) list=list.filter(estActif);
   if(reg) list=list.filter(u=>u.region===reg);
   if(onlyPodium) list=list.filter(u=>u.rang<=3);
   if(q) list=list.filter(u=>(u.nom+" "+u.region).toLowerCase().includes(q));
@@ -395,6 +467,9 @@ function renderBareme(){
     <tr><td class="kpi-name">${esc(r.g)}</td><td class="num"><span class="pts">${r.p}</span></td></tr>`).join("");
 }
 
+function estActif(x){ return x.actif!==undefined ? x.actif : (x.score||0)>0; }
+function actifsSeuls(){ const c=document.getElementById("only-actifs"); return c?c.checked:false; }
+
 function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
 /* ---------- Interactions ---------- */
@@ -403,16 +478,20 @@ document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
   t.classList.add("active"); currentView=t.dataset.view;
   document.getElementById("view-agences").classList.toggle("hidden",currentView!=="agences");
   document.getElementById("view-individuel").classList.toggle("hidden",currentView!=="individuel");
+  document.getElementById("view-credits").classList.toggle("hidden",currentView!=="credits");
   document.getElementById("view-bareme").classList.toggle("hidden",currentView!=="bareme");
-  const show=currentView!=="bareme";
+  const show=(currentView==="agences"||currentView==="individuel");
   document.getElementById("search").style.visibility=show?"visible":"hidden";
   document.getElementById("filter-region").style.visibility=show?"visible":"hidden";
   const pod=document.getElementById("podium-wrap");
   if(pod) pod.style.display=currentView==="individuel"?"inline-flex":"none";
+  const act=document.getElementById("actifs-wrap");
+  if(act) act.style.display=show?"inline-flex":"none";
 }));
 document.getElementById("search").addEventListener("input",()=>{renderAgences();renderIndividuel();});
 document.getElementById("filter-region").addEventListener("change",()=>{renderAgences();renderIndividuel();});
 (document.getElementById("only-podium")||{}).onchange=()=>renderIndividuel();
+(document.getElementById("only-actifs")||{}).onchange=()=>{renderAgences();renderIndividuel();};
 
 load();
 setInterval(load, CONFIG.REFRESH_MS);
