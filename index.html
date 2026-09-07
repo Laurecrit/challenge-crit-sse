@@ -306,7 +306,7 @@ function render(){
     (m.periode?`<span class="chip"><span class="lbl">Période</span> ${esc(m.periode)}</span>`:"")+
     `<span class="chip"><span class="lbl">Durée</span> 8 semaines</span>`+
     (m.reference?`<span class="chip"><span class="lbl">Réf.</span> juin 2026</span>`:"")+
-    `<span class="chip"><span class="lbl">Périmètre</span> Réseau France</span>`;
+    `<span class="chip"><span class="lbl">Périmètre</span> ${esc(m.perimetre||"Réseau France")}</span>`;
   renderKpis(); renderRegionFilter(); renderAgences(); renderIndividuel();
   renderCredits(); renderBareme(); renderRecompenses();
 }

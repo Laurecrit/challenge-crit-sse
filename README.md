@@ -7,7 +7,9 @@ automatique.
 
 > **État au 05/09/2026 — semaine 1.** Le site tourne sur `data.json`, qui contient les
 > **données réelles** de la semaine 1 (31/08 → 04/09), générées depuis
-> `Challenge_CVtheque_CRIT_Classement_S1_Final.xlsx` transmis par Indeed.
+> `Challenge_CVtheque_CRIT_Classement_S1_Final2.xlsx` transmis par Indeed
+> (version corrigée : la région **E&C** manquait dans le premier envoi).
+> 11 régions, 234 agences, 325 licences individuelles.
 > Les URL du Google Sheet sont en veille dans `index.html` (constantes
 > `SHEET_*_CSV_ATTENTE`) : la publication CSV est bloquée par les restrictions de
 > domaine Google Workspace. Dès que l'accès public est ouvert, il suffit de recopier
@@ -62,6 +64,7 @@ Le site lit les onglets **par position de colonne**, exactement comme ton fichie
 Il repère tout seul la ligne d'entête (celle qui contient « Nom » et « Région »),
 ignore les lignes de titre du haut, et convertit les codes région
 (EST, BPDL, ARCMED, NDIE, EC, SO, CVDL…) en libellés lisibles.
+Dans `data.json`, le code `EC` de l'export est déjà converti en `E&C`.
 
 **Ce que le site calcule tout seul — rien à trier dans le Sheet :**
 - le **classement national des agences** sur la progression (Δ Score) ;
@@ -89,8 +92,8 @@ Bloc `meta` à mettre à jour chaque semaine :
 | `meta.quotas_note` | légende des seuils de statut crédits |
 | `meta.recompenses` | les 3 cartes de l'onglet Règles |
 | `quotas[]` | onglet **Quotas & conso**, une ligne par région + le total |
-| `agences[]` | onglet **Agences** (230 lignes, rang national sur la progression) |
-| `individuel[]` | onglet **Individuel** (305 lignes, rang par région) |
+| `agences[]` | onglet **Agences** (234 lignes, rang national sur la progression) |
+| `individuel[]` | onglet **Individuel** (325 lignes, rang par région) |
 
 Chaque entrée porte `actif` (= score de la semaine > 0) : la case **« Actifs seulement »**
 de la barre d'outils, cochée par défaut, masque les comptes à zéro. Décocher affiche

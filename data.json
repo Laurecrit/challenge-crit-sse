@@ -8,27 +8,27 @@
   "reference": "Référence : juin 2026",
   "maj": "05/09/2026",
   "source": "Semaine 1 · données Indeed au 04/09",
-  "perimetre": "Réseau intérim France (hors Expert & Cadres)",
+  "perimetre": "Réseau France, Expert & Cadres inclus",
   "ponderation": "Score = CV×1 + Contacts×3 + Réponses positives×5 · classement sur la progression (Δ vs juin)",
   "kpis": [
    {
-    "valeur": "51",
+    "valeur": "53",
     "libelle": "Agences classées"
    },
    {
-    "valeur": "67",
+    "valeur": "74",
     "libelle": "Recruteurs actifs"
    },
    {
-    "valeur": "949",
+    "valeur": "969",
     "libelle": "Contacts envoyés"
    },
    {
-    "valeur": "+8 880",
+    "valeur": "+9 056",
     "libelle": "Progression cumulée"
    }
   ],
-  "kpis_note": "Source : onglet Synthèse du fichier de suivi Indeed. Progression cumulée = somme des progressions positives (onglet Individuel). 238 comptes sur 305 n’ont encore rien consommé.",
+  "kpis_note": "Source : onglet Synthèse du fichier de suivi Indeed (version corrigée du 05/09, région E&C incluse). Progression cumulée = somme des progressions positives (onglet Individuel). 251 comptes sur 325 n’ont encore rien consommé cette semaine.",
   "quotas_note": "Statut = engagement de la semaine (crédits consommés ÷ solde de départ) : 🔴 < 2 % · 🟠 2-5 % · 🟢 ≥ 5 %.",
   "recompenses": [
    {
@@ -102,6 +102,17 @@
    "total": false
   },
   {
+   "region": "E&C",
+   "alloues": 2489,
+   "conso_avant": 628,
+   "restant_depart": 1861,
+   "conso_challenge": 20,
+   "restant": 1841,
+   "taux": 1.07,
+   "statut": "🔴 À réveiller",
+   "total": false
+  },
+  {
    "region": "Est",
    "alloues": 1970,
    "conso_avant": 648,
@@ -158,12 +169,12 @@
   },
   {
    "region": "TOTAL RÉGIONS",
-   "alloues": 31860,
-   "conso_avant": 6257,
-   "restant_depart": 25603,
-   "conso_challenge": 949,
-   "restant": 24654,
-   "taux": 3.71,
+   "alloues": 34349,
+   "conso_avant": 6885,
+   "restant_depart": 27464,
+   "conso_challenge": 969,
+   "restant": 26495,
+   "taux": 3.53,
    "statut": "🟠 En marche",
    "total": true
   }
@@ -405,6 +416,19 @@
   },
   {
    "rang": 19,
+   "agence": "Strasbourg · 425",
+   "src": "Strasbourg · 425",
+   "region": "E&C",
+   "cv": 50,
+   "contacts": 9,
+   "reponses": 4,
+   "score": 97,
+   "delta": 87,
+   "score_ref": 10,
+   "actif": true
+  },
+  {
+   "rang": 20,
    "agence": "Vannes · 399",
    "src": "Vannes · 399",
    "region": "BPDL",
@@ -417,7 +441,7 @@
    "actif": true
   },
   {
-   "rang": 20,
+   "rang": 21,
    "agence": "Châteauroux · 45",
    "src": "Chateauroux · 45",
    "region": "Centre-Val de Loire",
@@ -430,7 +454,7 @@
    "actif": true
   },
   {
-   "rang": 21,
+   "rang": 22,
    "agence": "Saint-Omer · 506",
    "src": "Saintomer · 506",
    "region": "Nord",
@@ -443,7 +467,7 @@
    "actif": true
   },
   {
-   "rang": 22,
+   "rang": 23,
    "agence": "Grenoble · 509",
    "src": "Grenoble · 509",
    "region": "AURA",
@@ -456,7 +480,7 @@
    "actif": true
   },
   {
-   "rang": 23,
+   "rang": 24,
    "agence": "Chaumont · 473",
    "src": "Chaumont · 473",
    "region": "Centre-Est",
@@ -469,7 +493,7 @@
    "actif": true
   },
   {
-   "rang": 24,
+   "rang": 25,
    "agence": "Givet · 160",
    "src": "Givet · 160",
    "region": "Nord",
@@ -482,7 +506,7 @@
    "actif": true
   },
   {
-   "rang": 25,
+   "rang": 26,
    "agence": "Haguenau · 430",
    "src": "Haguenau · 430",
    "region": "Est",
@@ -495,7 +519,7 @@
    "actif": true
   },
   {
-   "rang": 26,
+   "rang": 27,
    "agence": "Clermont-Ferrand · 278",
    "src": "Clermontferrand · 278",
    "region": "AURA",
@@ -508,7 +532,7 @@
    "actif": true
   },
   {
-   "rang": 27,
+   "rang": 28,
    "agence": "Vichy · 339",
    "src": "Vichy · 339",
    "region": "AURA",
@@ -521,7 +545,7 @@
    "actif": true
   },
   {
-   "rang": 28,
+   "rang": 29,
    "agence": "Dinan · 380",
    "src": "Dinan · 380",
    "region": "BPDL",
@@ -534,7 +558,20 @@
    "actif": true
   },
   {
-   "rang": 29,
+   "rang": 30,
+   "agence": "Gallargues-le-Montueux · 541",
+   "src": "Gallargues · 541",
+   "region": "E&C",
+   "cv": 39,
+   "contacts": 4,
+   "reponses": 0,
+   "score": 51,
+   "delta": 42,
+   "score_ref": 9,
+   "actif": true
+  },
+  {
+   "rang": 31,
    "agence": "Saint-Évarzec · 138",
    "src": "Stevarzec · 138",
    "region": "BPDL",
@@ -547,7 +584,7 @@
    "actif": true
   },
   {
-   "rang": 30,
+   "rang": 32,
    "agence": "Troyes · 562",
    "src": "Troyes · 562",
    "region": "Centre-Est",
@@ -560,7 +597,7 @@
    "actif": true
   },
   {
-   "rang": 31,
+   "rang": 33,
    "agence": "Vienne · 573",
    "src": "Vienne · 573",
    "region": "AURA",
@@ -573,7 +610,7 @@
    "actif": true
   },
   {
-   "rang": 32,
+   "rang": 34,
    "agence": "Nesle · 256",
    "src": "Nesle · 256",
    "region": "Nord",
@@ -586,7 +623,7 @@
    "actif": true
   },
   {
-   "rang": 33,
+   "rang": 35,
    "agence": "Toulouse · 535",
    "src": "Toulouse · 535",
    "region": "Sud-Ouest",
@@ -599,7 +636,7 @@
    "actif": true
   },
   {
-   "rang": 34,
+   "rang": 36,
    "agence": "Châteaubourg · 196",
    "src": "Chateaubourg · 196",
    "region": "BPDL",
@@ -612,7 +649,7 @@
    "actif": true
   },
   {
-   "rang": 35,
+   "rang": 37,
    "agence": "Tours · 40",
    "src": "Tours · 40",
    "region": "Centre-Val de Loire",
@@ -625,7 +662,7 @@
    "actif": true
   },
   {
-   "rang": 36,
+   "rang": 38,
    "agence": "Brest · 70",
    "src": "Brest · 70",
    "region": "BPDL",
@@ -638,7 +675,7 @@
    "actif": true
   },
   {
-   "rang": 37,
+   "rang": 39,
    "agence": "Lorient · 142",
    "src": "Lorient · 142",
    "region": "BPDL",
@@ -651,7 +688,7 @@
    "actif": true
   },
   {
-   "rang": 38,
+   "rang": 40,
    "agence": "Auxerre · 104",
    "src": "Auxerre · 104",
    "region": "Centre-Est",
@@ -664,7 +701,7 @@
    "actif": true
   },
   {
-   "rang": 39,
+   "rang": 41,
    "agence": "Blois · 184",
    "src": "Blois · 184",
    "region": "Centre-Val de Loire",
@@ -677,7 +714,7 @@
    "actif": true
   },
   {
-   "rang": 40,
+   "rang": 42,
    "agence": "Dijon · 462",
    "src": "Dijon · 462",
    "region": "Centre-Est",
@@ -690,7 +727,7 @@
    "actif": true
   },
   {
-   "rang": 41,
+   "rang": 43,
    "agence": "Alençon · 536",
    "src": "Alencon · 536",
    "region": "Normandie",
@@ -703,7 +740,7 @@
    "actif": true
   },
   {
-   "rang": 42,
+   "rang": 44,
    "agence": "Val-de-Reuil · 384",
    "src": "Valdereuil · 384",
    "region": "Normandie",
@@ -716,7 +753,7 @@
    "actif": true
   },
   {
-   "rang": 43,
+   "rang": 45,
    "agence": "Fougères · 119",
    "src": "Fougeres · 119",
    "region": "BPDL",
@@ -729,7 +766,7 @@
    "actif": true
   },
   {
-   "rang": 44,
+   "rang": 46,
    "agence": "Saint-Louis · 444",
    "src": "Saintlouis · 444",
    "region": "Est",
@@ -742,7 +779,7 @@
    "actif": true
   },
   {
-   "rang": 45,
+   "rang": 47,
    "agence": "Clermont-Ferrand · 237",
    "src": "Clermontferrand · 237",
    "region": "AURA",
@@ -755,7 +792,7 @@
    "actif": true
   },
   {
-   "rang": 46,
+   "rang": 48,
    "agence": "Lieusaint · 411",
    "src": "Lieusaint · 411",
    "region": "Île-de-France",
@@ -768,7 +805,7 @@
    "actif": true
   },
   {
-   "rang": 47,
+   "rang": 49,
    "agence": "Recrutement Centre-Est",
    "src": "Recrutement Centreest",
    "region": "Centre-Est",
@@ -781,7 +818,7 @@
    "actif": false
   },
   {
-   "rang": 48,
+   "rang": 50,
    "agence": "Saintes · 309",
    "src": "Saintes · 309",
    "region": "Sud-Ouest",
@@ -794,7 +831,7 @@
    "actif": false
   },
   {
-   "rang": 49,
+   "rang": 51,
    "agence": "Monswiller · 474",
    "src": "Monswiller · 474",
    "region": "Est",
@@ -807,7 +844,7 @@
    "actif": false
   },
   {
-   "rang": 50,
+   "rang": 52,
    "agence": "Annecy · 61",
    "src": "Annecy · 61",
    "region": "AURA",
@@ -820,7 +857,7 @@
    "actif": false
   },
   {
-   "rang": 51,
+   "rang": 53,
    "agence": "Bourg-en-Bresse · 540",
    "src": "Bourgenbresse · 540",
    "region": "AURA",
@@ -833,7 +870,7 @@
    "actif": false
   },
   {
-   "rang": 52,
+   "rang": 54,
    "agence": "Bourgoin-Jallieu · 614",
    "src": "Bourgoinjallieu · 614",
    "region": "AURA",
@@ -846,7 +883,7 @@
    "actif": false
   },
   {
-   "rang": 53,
+   "rang": 55,
    "agence": "Brignais · 123",
    "src": "Brignais · 123",
    "region": "AURA",
@@ -859,7 +896,7 @@
    "actif": false
   },
   {
-   "rang": 54,
+   "rang": 56,
    "agence": "Chambéry · 527",
    "src": "Chambery · 527",
    "region": "AURA",
@@ -872,7 +909,7 @@
    "actif": false
   },
   {
-   "rang": 55,
+   "rang": 57,
    "agence": "Clermont-Ferrand · 280",
    "src": "Clermontferrand · 280",
    "region": "AURA",
@@ -885,7 +922,7 @@
    "actif": false
   },
   {
-   "rang": 56,
+   "rang": 58,
    "agence": "Décines · 120",
    "src": "Decines · 120",
    "region": "AURA",
@@ -898,7 +935,7 @@
    "actif": false
   },
   {
-   "rang": 57,
+   "rang": 59,
    "agence": "Grenoble · 524",
    "src": "Grenoble · 524",
    "region": "AURA",
@@ -911,7 +948,7 @@
    "actif": false
   },
   {
-   "rang": 58,
+   "rang": 60,
    "agence": "L’Arbresle · 128",
    "src": "Larbresle · 128",
    "region": "AURA",
@@ -924,7 +961,7 @@
    "actif": false
   },
   {
-   "rang": 59,
+   "rang": 61,
    "agence": "Limas · 314",
    "src": "Limas · 314",
    "region": "AURA",
@@ -937,7 +974,7 @@
    "actif": false
   },
   {
-   "rang": 60,
+   "rang": 62,
    "agence": "Lyon · 235",
    "src": "Lyon · 235",
    "region": "AURA",
@@ -950,7 +987,7 @@
    "actif": false
   },
   {
-   "rang": 61,
+   "rang": 63,
    "agence": "Lyon · 247",
    "src": "Lyon · 247",
    "region": "AURA",
@@ -963,7 +1000,7 @@
    "actif": false
   },
   {
-   "rang": 62,
+   "rang": 64,
    "agence": "Lyon · 266",
    "src": "Lyon · 266",
    "region": "AURA",
@@ -976,7 +1013,7 @@
    "actif": false
   },
   {
-   "rang": 63,
+   "rang": 65,
    "agence": "Lyon · 332",
    "src": "Lyon · 332",
    "region": "AURA",
@@ -989,7 +1026,7 @@
    "actif": false
   },
   {
-   "rang": 64,
+   "rang": 66,
    "agence": "Lyon · 402",
    "src": "Lyon · 402",
    "region": "AURA",
@@ -1002,7 +1039,7 @@
    "actif": false
   },
   {
-   "rang": 65,
+   "rang": 67,
    "agence": "Montélimar · 545",
    "src": "Montelimar · 545",
    "region": "AURA",
@@ -1015,7 +1052,7 @@
    "actif": false
   },
   {
-   "rang": 66,
+   "rang": 68,
    "agence": "Riom · 717",
    "src": "Riom · 717",
    "region": "AURA",
@@ -1028,7 +1065,7 @@
    "actif": false
   },
   {
-   "rang": 67,
+   "rang": 69,
    "agence": "Saint-Quentin · 127",
    "src": "Saintquentin · 127",
    "region": "AURA",
@@ -1041,7 +1078,7 @@
    "actif": false
   },
   {
-   "rang": 68,
+   "rang": 70,
    "agence": "Valence · 67",
    "src": "Valence · 67",
    "region": "AURA",
@@ -1054,7 +1091,7 @@
    "actif": false
   },
   {
-   "rang": 69,
+   "rang": 71,
    "agence": "Voiron · 591",
    "src": "Voiron · 591",
    "region": "AURA",
@@ -1067,7 +1104,7 @@
    "actif": false
   },
   {
-   "rang": 70,
+   "rang": 72,
    "agence": "Sète · 140",
    "src": "Sete · 140",
    "region": "Arc Méditerranée",
@@ -1080,7 +1117,7 @@
    "actif": false
   },
   {
-   "rang": 71,
+   "rang": 73,
    "agence": "Aubagne · 56",
    "src": "Aubagne · 56",
    "region": "Arc Méditerranée",
@@ -1093,7 +1130,7 @@
    "actif": false
   },
   {
-   "rang": 72,
+   "rang": 74,
    "agence": "Avignon · 193",
    "src": "Avignon · 193",
    "region": "Arc Méditerranée",
@@ -1106,7 +1143,7 @@
    "actif": false
   },
   {
-   "rang": 73,
+   "rang": 75,
    "agence": "Bagnols · 153",
    "src": "Bagnols · 153",
    "region": "Arc Méditerranée",
@@ -1119,7 +1156,7 @@
    "actif": false
   },
   {
-   "rang": 74,
+   "rang": 76,
    "agence": "Lunel · 189",
    "src": "Lunel · 189",
    "region": "Arc Méditerranée",
@@ -1132,7 +1169,7 @@
    "actif": false
   },
   {
-   "rang": 75,
+   "rang": 77,
    "agence": "Toulon · 26",
    "src": "Toulon · 26",
    "region": "Arc Méditerranée",
@@ -1145,7 +1182,7 @@
    "actif": false
   },
   {
-   "rang": 76,
+   "rang": 78,
    "agence": "Brignoles · 315",
    "src": "Brignoles · 315",
    "region": "Arc Méditerranée",
@@ -1158,7 +1195,7 @@
    "actif": false
   },
   {
-   "rang": 77,
+   "rang": 79,
    "agence": "Aix-en-Provence · 461",
    "src": "Aixenprovence · 461",
    "region": "Arc Méditerranée",
@@ -1171,7 +1208,7 @@
    "actif": false
   },
   {
-   "rang": 78,
+   "rang": 80,
    "agence": "Antony · 361",
    "src": "Antony · 361",
    "region": "Île-de-France",
@@ -1184,7 +1221,7 @@
    "actif": false
   },
   {
-   "rang": 79,
+   "rang": 81,
    "agence": "Arras · 503",
    "src": "Arras · 503",
    "region": "Nord",
@@ -1197,7 +1234,7 @@
    "actif": false
   },
   {
-   "rang": 80,
+   "rang": 82,
    "agence": "Marseille · 522",
    "src": "Marseille · 522",
    "region": "Arc Méditerranée",
@@ -1210,7 +1247,7 @@
    "actif": false
   },
   {
-   "rang": 81,
+   "rang": 83,
    "agence": "Nîmes · 73",
    "src": "Nimes · 73",
    "region": "Arc Méditerranée",
@@ -1223,7 +1260,7 @@
    "actif": false
   },
   {
-   "rang": 82,
+   "rang": 84,
    "agence": "Caen · 508",
    "src": "Caen · 508",
    "region": "Normandie",
@@ -1236,7 +1273,7 @@
    "actif": false
   },
   {
-   "rang": 83,
+   "rang": 85,
    "agence": "Gardanne · 157",
    "src": "Gardanne · 157",
    "region": "Arc Méditerranée",
@@ -1249,7 +1286,7 @@
    "actif": false
   },
   {
-   "rang": 84,
+   "rang": 86,
    "agence": "Narbonne · 150",
    "src": "Narbonne · 150",
    "region": "Arc Méditerranée",
@@ -1262,7 +1299,7 @@
    "actif": false
   },
   {
-   "rang": 85,
+   "rang": 87,
    "agence": "Nice · 270",
    "src": "Nice · 270",
    "region": "Arc Méditerranée",
@@ -1275,7 +1312,7 @@
    "actif": false
   },
   {
-   "rang": 86,
+   "rang": 88,
    "agence": "Alès · 566",
    "src": "Ales · 566",
    "region": "Arc Méditerranée",
@@ -1288,7 +1325,7 @@
    "actif": false
   },
   {
-   "rang": 87,
+   "rang": 89,
    "agence": "Vitrolles · 54",
    "src": "Vitrolles · 54",
    "region": "Arc Méditerranée",
@@ -1301,7 +1338,7 @@
    "actif": false
   },
   {
-   "rang": 88,
+   "rang": 90,
    "agence": "Vitrolles · 710",
    "src": "Vitrolles · 710",
    "region": "Arc Méditerranée",
@@ -1314,7 +1351,7 @@
    "actif": false
   },
   {
-   "rang": 89,
+   "rang": 91,
    "agence": "Fos-sur-Mer · 60",
    "src": "Fossurmer · 60",
    "region": "Arc Méditerranée",
@@ -1327,7 +1364,7 @@
    "actif": false
   },
   {
-   "rang": 90,
+   "rang": 92,
    "agence": "Vitré · 394",
    "src": "Vitre · 394",
    "region": "BPDL",
@@ -1340,7 +1377,7 @@
    "actif": false
   },
   {
-   "rang": 91,
+   "rang": 93,
    "agence": "Rennes · 07",
    "src": "Rennes · 07",
    "region": "BPDL",
@@ -1353,7 +1390,7 @@
    "actif": false
   },
   {
-   "rang": 92,
+   "rang": 94,
    "agence": "Rennes · 392",
    "src": "Rennes · 392",
    "region": "BPDL",
@@ -1366,7 +1403,7 @@
    "actif": false
   },
   {
-   "rang": 93,
+   "rang": 95,
    "agence": "Sablé-sur-Sarthe · 269",
    "src": "Sablesursarthe · 269",
    "region": "BPDL",
@@ -1379,7 +1416,7 @@
    "actif": false
   },
   {
-   "rang": 94,
+   "rang": 96,
    "agence": "Les Herbiers · 579",
    "src": "Lesherbiers · 579",
    "region": "BPDL",
@@ -1392,7 +1429,7 @@
    "actif": false
   },
   {
-   "rang": 95,
+   "rang": 97,
    "agence": "Croix · 495",
    "src": "Croix · 495",
    "region": "Nord",
@@ -1405,7 +1442,7 @@
    "actif": false
   },
   {
-   "rang": 96,
+   "rang": 98,
    "agence": "Paris · 77",
    "src": "Paris · 77",
    "region": "Île-de-France",
@@ -1418,7 +1455,7 @@
    "actif": false
   },
   {
-   "rang": 97,
+   "rang": 99,
    "agence": "Mantes · 412",
    "src": "Mantes · 412",
    "region": "Île-de-France",
@@ -1431,7 +1468,7 @@
    "actif": false
   },
   {
-   "rang": 98,
+   "rang": 100,
    "agence": "Boulogne · 161",
    "src": "Boulogne · 161",
    "region": "Île-de-France",
@@ -1444,7 +1481,7 @@
    "actif": false
   },
   {
-   "rang": 99,
+   "rang": 101,
    "agence": "Colombes · 518",
    "src": "Colombes · 518",
    "region": "Île-de-France",
@@ -1457,7 +1494,7 @@
    "actif": false
   },
   {
-   "rang": 100,
+   "rang": 102,
    "agence": "Courbevoie · 417",
    "src": "Courbevoie · 417",
    "region": "Île-de-France",
@@ -1470,7 +1507,7 @@
    "actif": false
   },
   {
-   "rang": 101,
+   "rang": 103,
    "agence": "Fontainebleau · 30",
    "src": "Fontainebleau · 30",
    "region": "Île-de-France",
@@ -1483,7 +1520,7 @@
    "actif": false
   },
   {
-   "rang": 102,
+   "rang": 104,
    "agence": "Fosses · 114",
    "src": "Fosses · 114",
    "region": "Île-de-France",
@@ -1496,7 +1533,7 @@
    "actif": false
   },
   {
-   "rang": 103,
+   "rang": 105,
    "agence": "Franconville · 268",
    "src": "Franconville · 268",
    "region": "Île-de-France",
@@ -1509,7 +1546,7 @@
    "actif": false
   },
   {
-   "rang": 104,
+   "rang": 106,
    "agence": "La Défense · 144",
    "src": "Ladefense · 144",
    "region": "Île-de-France",
@@ -1522,7 +1559,7 @@
    "actif": false
   },
   {
-   "rang": 105,
+   "rang": 107,
    "agence": "Le Plessis · 178",
    "src": "Leplessis · 178",
    "region": "Île-de-France",
@@ -1535,7 +1572,7 @@
    "actif": false
   },
   {
-   "rang": 106,
+   "rang": 108,
    "agence": "Massy · 252",
    "src": "Massy · 252",
    "region": "Île-de-France",
@@ -1548,7 +1585,7 @@
    "actif": false
   },
   {
-   "rang": 107,
+   "rang": 109,
    "agence": "Meaux · 27",
    "src": "Meaux · 27",
    "region": "Île-de-France",
@@ -1561,7 +1598,7 @@
    "actif": false
   },
   {
-   "rang": 108,
+   "rang": 110,
    "agence": "Meaux · 359",
    "src": "Meaux · 359",
    "region": "Île-de-France",
@@ -1574,7 +1611,7 @@
    "actif": false
   },
   {
-   "rang": 109,
+   "rang": 111,
    "agence": "Mitry-Mory · 19",
    "src": "Mitrymory · 19",
    "region": "Île-de-France",
@@ -1587,7 +1624,7 @@
    "actif": false
   },
   {
-   "rang": 110,
+   "rang": 112,
    "agence": "Montigny · 91",
    "src": "Montigny · 91",
    "region": "Île-de-France",
@@ -1600,7 +1637,7 @@
    "actif": false
   },
   {
-   "rang": 111,
+   "rang": 113,
    "agence": "Noisy · 418",
    "src": "Noisy · 418",
    "region": "Île-de-France",
@@ -1613,7 +1650,7 @@
    "actif": false
   },
   {
-   "rang": 112,
+   "rang": 114,
    "agence": "Paris · 372",
    "src": "Paris · 372",
    "region": "Île-de-France",
@@ -1626,7 +1663,7 @@
    "actif": false
   },
   {
-   "rang": 113,
+   "rang": 115,
    "agence": "Paris · 420",
    "src": "Paris · 420",
    "region": "Île-de-France",
@@ -1639,7 +1676,7 @@
    "actif": false
   },
   {
-   "rang": 114,
+   "rang": 116,
    "agence": "Paris · 421",
    "src": "Paris · 421",
    "region": "Île-de-France",
@@ -1652,7 +1689,7 @@
    "actif": false
   },
   {
-   "rang": 115,
+   "rang": 117,
    "agence": "Paris · 597",
    "src": "Paris · 597",
    "region": "Île-de-France",
@@ -1665,7 +1702,7 @@
    "actif": false
   },
   {
-   "rang": 116,
+   "rang": 118,
    "agence": "Paris · 689",
    "src": "Paris · 689",
    "region": "Île-de-France",
@@ -1678,7 +1715,7 @@
    "actif": false
   },
   {
-   "rang": 117,
+   "rang": 119,
    "agence": "Poissy · 413",
    "src": "Poissy · 413",
    "region": "Île-de-France",
@@ -1691,7 +1728,7 @@
    "actif": false
   },
   {
-   "rang": 118,
+   "rang": 120,
    "agence": "Rosny · 173",
    "src": "Rosny · 173",
    "region": "Île-de-France",
@@ -1704,7 +1741,7 @@
    "actif": false
   },
   {
-   "rang": 119,
+   "rang": 121,
    "agence": "Rungis · 63",
    "src": "Rungis · 63",
    "region": "Île-de-France",
@@ -1717,7 +1754,7 @@
    "actif": false
   },
   {
-   "rang": 120,
+   "rang": 122,
    "agence": "Villemomble · 362",
    "src": "Villemomble · 362",
    "region": "Île-de-France",
@@ -1730,7 +1767,7 @@
    "actif": false
   },
   {
-   "rang": 121,
+   "rang": 123,
    "agence": "Saint-Denis · 11",
    "src": "Saintdenis · 11",
    "region": "Île-de-France",
@@ -1743,7 +1780,7 @@
    "actif": false
   },
   {
-   "rang": 122,
+   "rang": 124,
    "agence": "Boulogne-sur-Mer · 607",
    "src": "Boulognesurmer · 607",
    "region": "Nord",
@@ -1756,7 +1793,7 @@
    "actif": false
   },
   {
-   "rang": 123,
+   "rang": 125,
    "agence": "Lille · 492",
    "src": "Lille · 492",
    "region": "Nord",
@@ -1769,7 +1806,7 @@
    "actif": false
   },
   {
-   "rang": 124,
+   "rang": 126,
    "agence": "Saint-Quentin · 487",
    "src": "Saintquentin · 487",
    "region": "Nord",
@@ -1782,7 +1819,7 @@
    "actif": false
   },
   {
-   "rang": 125,
+   "rang": 127,
    "agence": "Tourcoing · 496",
    "src": "Tourcoing · 496",
    "region": "Nord",
@@ -1795,7 +1832,7 @@
    "actif": false
   },
   {
-   "rang": 126,
+   "rang": 128,
    "agence": "Vernon · 385",
    "src": "Vernon · 385",
    "region": "Normandie",
@@ -1808,7 +1845,7 @@
    "actif": false
   },
   {
-   "rang": 127,
+   "rang": 129,
    "agence": "Evreux · 383",
    "src": "Evreux · 383",
    "region": "Normandie",
@@ -1821,7 +1858,7 @@
    "actif": false
   },
   {
-   "rang": 128,
+   "rang": 130,
    "agence": "Pont-Audemer · 130",
    "src": "Pontaudemer · 130",
    "region": "Normandie",
@@ -1834,7 +1871,7 @@
    "actif": false
   },
   {
-   "rang": 129,
+   "rang": 131,
    "agence": "Sotteville · 408",
    "src": "Sotteville · 408",
    "region": "Normandie",
@@ -1847,7 +1884,7 @@
    "actif": false
   },
   {
-   "rang": 130,
+   "rang": 132,
    "agence": "Cherbourg · 68",
    "src": "Cherbourg · 68",
    "region": "Normandie",
@@ -1860,7 +1897,7 @@
    "actif": false
   },
   {
-   "rang": 131,
+   "rang": 133,
    "agence": "Tancarville · 409",
    "src": "Tancarville · 409",
    "region": "Normandie",
@@ -1873,7 +1910,7 @@
    "actif": false
   },
   {
-   "rang": 132,
+   "rang": 134,
    "agence": "Le Havre · 512",
    "src": "Lehavre · 512",
    "region": "Normandie",
@@ -1886,7 +1923,7 @@
    "actif": false
   },
   {
-   "rang": 133,
+   "rang": 135,
    "agence": "Dieppe · 511",
    "src": "Dieppe · 511",
    "region": "Normandie",
@@ -1899,7 +1936,7 @@
    "actif": false
   },
   {
-   "rang": 134,
+   "rang": 136,
    "agence": "Verneuil · 366",
    "src": "Verneuil · 366",
    "region": "Normandie",
@@ -1912,7 +1949,7 @@
    "actif": false
   },
   {
-   "rang": 135,
+   "rang": 137,
    "agence": "Le Havre · 284",
    "src": "Lehavre · 284",
    "region": "Normandie",
@@ -1925,7 +1962,7 @@
    "actif": false
   },
   {
-   "rang": 136,
+   "rang": 138,
    "agence": "Argentan · 209",
    "src": "Argentan · 209",
    "region": "Normandie",
@@ -1938,7 +1975,7 @@
    "actif": false
   },
   {
-   "rang": 137,
+   "rang": 139,
    "agence": "Avranches · 577",
    "src": "Avranches · 577",
    "region": "Normandie",
@@ -1951,7 +1988,7 @@
    "actif": false
   },
   {
-   "rang": 138,
+   "rang": 140,
    "agence": "Barentin · 143",
    "src": "Barentin · 143",
    "region": "Normandie",
@@ -1964,7 +2001,7 @@
    "actif": false
   },
   {
-   "rang": 139,
+   "rang": 141,
    "agence": "Bayeux · 624",
    "src": "Bayeux · 624",
    "region": "Normandie",
@@ -1977,7 +2014,7 @@
    "actif": false
   },
   {
-   "rang": 140,
+   "rang": 142,
    "agence": "Caen · 376",
    "src": "Caen · 376",
    "region": "Normandie",
@@ -1990,7 +2027,7 @@
    "actif": false
   },
   {
-   "rang": 141,
+   "rang": 143,
    "agence": "Coutances · 603",
    "src": "Coutances · 603",
    "region": "Normandie",
@@ -2003,7 +2040,7 @@
    "actif": false
   },
   {
-   "rang": 142,
+   "rang": 144,
    "agence": "Fécamp · 616",
    "src": "Fecamp · 616",
    "region": "Normandie",
@@ -2016,7 +2053,7 @@
    "actif": false
   },
   {
-   "rang": 143,
+   "rang": 145,
    "agence": "Harfleur · 22",
    "src": "Harfleur · 22",
    "region": "Normandie",
@@ -2029,7 +2066,7 @@
    "actif": false
   },
   {
-   "rang": 144,
+   "rang": 146,
    "agence": "Le Havre · 410",
    "src": "Lehavre · 410",
    "region": "Normandie",
@@ -2042,7 +2079,7 @@
    "actif": false
   },
   {
-   "rang": 145,
+   "rang": 147,
    "agence": "Dieppe · 171",
    "src": "Dieppe · 171",
    "region": "Normandie",
@@ -2055,7 +2092,7 @@
    "actif": false
   },
   {
-   "rang": 146,
+   "rang": 148,
    "agence": "Notre-Dame-de-Gravenchon · 44",
    "src": "Ndgravenchon · 44",
    "region": "Normandie",
@@ -2068,7 +2105,7 @@
    "actif": false
   },
   {
-   "rang": 147,
+   "rang": 149,
    "agence": "Rouen · 407",
    "src": "Rouen · 407",
    "region": "Normandie",
@@ -2081,7 +2118,7 @@
    "actif": false
   },
   {
-   "rang": 148,
+   "rang": 150,
    "agence": "Rouen · 552",
    "src": "Rouen · 552",
    "region": "Normandie",
@@ -2094,7 +2131,7 @@
    "actif": false
   },
   {
-   "rang": 149,
+   "rang": 151,
    "agence": "Limoges · 415",
    "src": "Limoges · 415",
    "region": "Sud-Ouest",
@@ -2107,7 +2144,7 @@
    "actif": false
   },
   {
-   "rang": 150,
+   "rang": 152,
    "agence": "Limoges · 46",
    "src": "Limoges · 46",
    "region": "Sud-Ouest",
@@ -2120,7 +2157,7 @@
    "actif": false
   },
   {
-   "rang": 151,
+   "rang": 153,
    "agence": "Châteaubriant · 185",
    "src": "Chateaubriant · 185",
    "region": "BPDL",
@@ -2133,7 +2170,7 @@
    "actif": false
   },
   {
-   "rang": 152,
+   "rang": 154,
    "agence": "Nantes · 396",
    "src": "Nantes · 396",
    "region": "BPDL",
@@ -2146,7 +2183,7 @@
    "actif": false
   },
   {
-   "rang": 153,
+   "rang": 155,
    "agence": "Saint-Agathon · 662",
    "src": "Saintagathon · 662",
    "region": "BPDL",
@@ -2159,7 +2196,7 @@
    "actif": false
   },
   {
-   "rang": 154,
+   "rang": 156,
    "agence": "Saint-Brieuc · 379",
    "src": "Saintbrieuc · 379",
    "region": "BPDL",
@@ -2172,7 +2209,7 @@
    "actif": false
   },
   {
-   "rang": 155,
+   "rang": 157,
    "agence": "Saint-Malo · 393",
    "src": "Saintmalo · 393",
    "region": "BPDL",
@@ -2185,7 +2222,7 @@
    "actif": false
   },
   {
-   "rang": 156,
+   "rang": 158,
    "agence": "Saint-Nazaire · 135",
    "src": "Saintnazaire · 135",
    "region": "BPDL",
@@ -2198,7 +2235,7 @@
    "actif": false
   },
   {
-   "rang": 157,
+   "rang": 159,
    "agence": "La Rochelle · 378",
    "src": "Larochelle · 378",
    "region": "Sud-Ouest",
@@ -2211,7 +2248,7 @@
    "actif": false
   },
   {
-   "rang": 158,
+   "rang": 160,
    "agence": "La Rochelle · 170",
    "src": "Larochelle · 170",
    "region": "Sud-Ouest",
@@ -2224,7 +2261,7 @@
    "actif": false
   },
   {
-   "rang": 159,
+   "rang": 161,
    "agence": "Libourne · 136",
    "src": "Libourne · 136",
    "region": "Sud-Ouest",
@@ -2237,7 +2274,7 @@
    "actif": false
   },
   {
-   "rang": 160,
+   "rang": 162,
    "agence": "Niort · 321",
    "src": "Niort · 321",
    "region": "Sud-Ouest",
@@ -2250,7 +2287,7 @@
    "actif": false
   },
   {
-   "rang": 161,
+   "rang": 163,
    "agence": "Angoulême · 03",
    "src": "Angouleme · 03",
    "region": "Sud-Ouest",
@@ -2263,7 +2300,7 @@
    "actif": false
   },
   {
-   "rang": 162,
+   "rang": 164,
    "agence": "Bressuire · 611",
    "src": "Bressuire · 611",
    "region": "Sud-Ouest",
@@ -2276,7 +2313,7 @@
    "actif": false
   },
   {
-   "rang": 163,
+   "rang": 165,
    "agence": "Paris · 419",
    "src": "Paris · 419",
    "region": "Île-de-France",
@@ -2289,7 +2326,7 @@
    "actif": false
   },
   {
-   "rang": 164,
+   "rang": 166,
    "agence": "05Cedb4Cb966Ea68",
    "src": "05Cedb4Cb966Ea68",
    "region": "Île-de-France",
@@ -2302,7 +2339,7 @@
    "actif": false
   },
   {
-   "rang": 165,
+   "rang": 167,
    "agence": "Mâcon · 479",
    "src": "Macon · 479",
    "region": "Centre-Est",
@@ -2315,7 +2352,7 @@
    "actif": false
   },
   {
-   "rang": 166,
+   "rang": 168,
    "agence": "Lens · 504",
    "src": "Lens · 504",
    "region": "Nord",
@@ -2328,7 +2365,7 @@
    "actif": false
   },
   {
-   "rang": 167,
+   "rang": 169,
    "agence": "Bourges · 546",
    "src": "Bourges · 546",
    "region": "Centre-Val de Loire",
@@ -2341,7 +2378,7 @@
    "actif": false
   },
   {
-   "rang": 168,
+   "rang": 170,
    "agence": "Dreux · 367",
    "src": "Dreux · 367",
    "region": "Centre-Val de Loire",
@@ -2354,7 +2391,7 @@
    "actif": false
   },
   {
-   "rang": 169,
+   "rang": 171,
    "agence": "Gien · 117",
    "src": "Gien · 117",
    "region": "Centre-Val de Loire",
@@ -2367,7 +2404,7 @@
    "actif": false
   },
   {
-   "rang": 170,
+   "rang": 172,
    "agence": "Orléans · 570",
    "src": "Orleans · 570",
    "region": "Centre-Val de Loire",
@@ -2380,7 +2417,7 @@
    "actif": false
   },
   {
-   "rang": 171,
+   "rang": 173,
    "agence": "Pithiviers · 593",
    "src": "Pithiviers · 593",
    "region": "Centre-Val de Loire",
@@ -2393,7 +2430,7 @@
    "actif": false
   },
   {
-   "rang": 172,
+   "rang": 174,
    "agence": "Isigny · 951",
    "src": "Isigny · 951",
    "region": "Normandie",
@@ -2406,7 +2443,7 @@
    "actif": false
   },
   {
-   "rang": 173,
+   "rang": 175,
    "agence": "Castelnaudary · 203",
    "src": "Castelnaudary · 203",
    "region": "Arc Méditerranée",
@@ -2419,7 +2456,7 @@
    "actif": false
   },
   {
-   "rang": 174,
+   "rang": 176,
    "agence": "Béziers · 111",
    "src": "Beziers · 111",
    "region": "Arc Méditerranée",
@@ -2432,7 +2469,7 @@
    "actif": false
   },
   {
-   "rang": 175,
+   "rang": 177,
    "agence": "Les Arcs-sur-Argens · 177",
    "src": "Lesarcssurargens · 177",
    "region": "Arc Méditerranée",
@@ -2445,7 +2482,7 @@
    "actif": false
   },
   {
-   "rang": 176,
+   "rang": 178,
    "agence": "Plan-d’Orgon · 250",
    "src": "Plandorgon · 250",
    "region": "Arc Méditerranée",
@@ -2458,7 +2495,7 @@
    "actif": false
   },
   {
-   "rang": 177,
+   "rang": 179,
    "agence": "Cannes · 76",
    "src": "Cannes · 76",
    "region": "Arc Méditerranée",
@@ -2471,7 +2508,7 @@
    "actif": false
   },
   {
-   "rang": 178,
+   "rang": 180,
    "agence": "Pierrelatte · 174",
    "src": "Pierrelatte · 174",
    "region": "Arc Méditerranée",
@@ -2484,7 +2521,7 @@
    "actif": false
   },
   {
-   "rang": 179,
+   "rang": 181,
    "agence": "Marseille · 53",
    "src": "Marseille · 53",
    "region": "Arc Méditerranée",
@@ -2497,7 +2534,7 @@
    "actif": false
   },
   {
-   "rang": 180,
+   "rang": 182,
    "agence": "Haguenau · 429",
    "src": "Haguenau · 429",
    "region": "Est",
@@ -2510,7 +2547,7 @@
    "actif": false
   },
   {
-   "rang": 181,
+   "rang": 183,
    "agence": "Romans · 686",
    "src": "Romans · 686",
    "region": "AURA",
@@ -2523,7 +2560,7 @@
    "actif": false
   },
   {
-   "rang": 182,
+   "rang": 184,
    "agence": "Dijon · 523",
    "src": "Dijon · 523",
    "region": "Centre-Est",
@@ -2536,7 +2573,7 @@
    "actif": false
   },
   {
-   "rang": 183,
+   "rang": 185,
    "agence": "Changé · 347",
    "src": "Change · 347",
    "region": "BPDL",
@@ -2549,7 +2586,7 @@
    "actif": false
   },
   {
-   "rang": 184,
+   "rang": 186,
    "agence": "Monistrol · 568",
    "src": "Monistrol · 568",
    "region": "AURA",
@@ -2562,7 +2599,20 @@
    "actif": false
   },
   {
-   "rang": 185,
+   "rang": 187,
+   "agence": "La Défense · 687",
+   "src": "Ladefense · 687",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -1,
+   "score_ref": 1,
+   "actif": false
+  },
+  {
+   "rang": 188,
    "agence": "Cholet · 578",
    "src": "Cholet · 578",
    "region": "BPDL",
@@ -2575,7 +2625,7 @@
    "actif": false
   },
   {
-   "rang": 186,
+   "rang": 189,
    "agence": "Montoir · 194",
    "src": "Montoir · 194",
    "region": "BPDL",
@@ -2588,7 +2638,7 @@
    "actif": false
   },
   {
-   "rang": 187,
+   "rang": 190,
    "agence": "Charleville-Mézières · 606",
    "src": "Charleville · 606",
    "region": "Nord",
@@ -2601,7 +2651,7 @@
    "actif": true
   },
   {
-   "rang": 188,
+   "rang": 191,
    "agence": "Carcassonne · 547",
    "src": "Carcassonne · 547",
    "region": "Arc Méditerranée",
@@ -2614,7 +2664,7 @@
    "actif": false
   },
   {
-   "rang": 189,
+   "rang": 192,
    "agence": "Lisieux · 06",
    "src": "Lisieux · 06",
    "region": "Normandie",
@@ -2627,7 +2677,7 @@
    "actif": false
   },
   {
-   "rang": 190,
+   "rang": 193,
    "agence": "Beaugency · 648",
    "src": "Beaugency · 648",
    "region": "Centre-Val de Loire",
@@ -2640,7 +2690,7 @@
    "actif": false
   },
   {
-   "rang": 191,
+   "rang": 194,
    "agence": "Montluçon · 349",
    "src": "Montlucon · 349",
    "region": "AURA",
@@ -2653,7 +2703,7 @@
    "actif": false
   },
   {
-   "rang": 192,
+   "rang": 195,
    "agence": "Fréjus · 560",
    "src": "Frejus · 560",
    "region": "Arc Méditerranée",
@@ -2666,7 +2716,7 @@
    "actif": false
   },
   {
-   "rang": 193,
+   "rang": 196,
    "agence": "Chalon-sur-Saône · 480",
    "src": "Chalonsursaone · 480",
    "region": "Centre-Est",
@@ -2679,7 +2729,7 @@
    "actif": false
   },
   {
-   "rang": 194,
+   "rang": 197,
    "agence": "Thiers · 248",
    "src": "Thiers · 248",
    "region": "AURA",
@@ -2692,7 +2742,7 @@
    "actif": true
   },
   {
-   "rang": 195,
+   "rang": 198,
    "agence": "Sarreguemines · 451",
    "src": "Sarreguemines · 451",
    "region": "Est",
@@ -2705,7 +2755,7 @@
    "actif": true
   },
   {
-   "rang": 196,
+   "rang": 199,
    "agence": "Dunkerque · 158",
    "src": "Dunkerque · 158",
    "region": "Nord",
@@ -2718,7 +2768,7 @@
    "actif": false
   },
   {
-   "rang": 197,
+   "rang": 200,
    "agence": "Saint-Amand · 519",
    "src": "Stamand · 519",
    "region": "Centre-Val de Loire",
@@ -2731,7 +2781,7 @@
    "actif": false
   },
   {
-   "rang": 198,
+   "rang": 201,
    "agence": "Tours · 604",
    "src": "Tours · 604",
    "region": "Centre-Val de Loire",
@@ -2744,7 +2794,7 @@
    "actif": false
   },
   {
-   "rang": 199,
+   "rang": 202,
    "agence": "Languedoc-Roussillon · 1",
    "src": "Languedocroussillon · 1",
    "region": "Arc Méditerranée",
@@ -2757,7 +2807,7 @@
    "actif": false
   },
   {
-   "rang": 200,
+   "rang": 203,
    "agence": "Meroux · 457",
    "src": "Meroux · 457",
    "region": "Centre-Est",
@@ -2770,7 +2820,7 @@
    "actif": false
   },
   {
-   "rang": 201,
+   "rang": 204,
    "agence": "Roanne · 348",
    "src": "Roanne · 348",
    "region": "AURA",
@@ -2783,7 +2833,7 @@
    "actif": false
   },
   {
-   "rang": 202,
+   "rang": 205,
    "agence": "Langres · 554",
    "src": "Langres · 554",
    "region": "Centre-Est",
@@ -2796,7 +2846,7 @@
    "actif": false
   },
   {
-   "rang": 203,
+   "rang": 206,
    "agence": "Brest · 342",
    "src": "Brest · 342",
    "region": "BPDL",
@@ -2809,7 +2859,7 @@
    "actif": false
   },
   {
-   "rang": 204,
+   "rang": 207,
    "agence": "Poitiers · 133",
    "src": "Poitiers · 133",
    "region": "Centre-Val de Loire",
@@ -2822,7 +2872,7 @@
    "actif": false
   },
   {
-   "rang": 205,
+   "rang": 208,
    "agence": "Reims · 567",
    "src": "Reims · 567",
    "region": "Nord",
@@ -2835,7 +2885,7 @@
    "actif": false
   },
   {
-   "rang": 206,
+   "rang": 209,
    "agence": "Béthune · 505",
    "src": "Bethune · 505",
    "region": "Nord",
@@ -2848,7 +2898,20 @@
    "actif": false
   },
   {
-   "rang": 207,
+   "rang": 210,
+   "agence": "Saint-Herblain · 748",
+   "src": "Saintherblain · 748",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -22,
+   "score_ref": 22,
+   "actif": false
+  },
+  {
+   "rang": 211,
    "agence": "Calais · 352",
    "src": "Calais · 352",
    "region": "Nord",
@@ -2861,7 +2924,7 @@
    "actif": true
   },
   {
-   "rang": 208,
+   "rang": 212,
    "agence": "Le Péage-de-Roussillon · 617",
    "src": "Peageroussillon · 617",
    "region": "AURA",
@@ -2874,7 +2937,7 @@
    "actif": false
   },
   {
-   "rang": 209,
+   "rang": 213,
    "agence": "Chartres · 34",
    "src": "Chartres · 34",
    "region": "Centre-Val de Loire",
@@ -2887,7 +2950,7 @@
    "actif": false
   },
   {
-   "rang": 210,
+   "rang": 214,
    "agence": "Armentières · 320",
    "src": "Armentieres · 320",
    "region": "Nord",
@@ -2900,7 +2963,7 @@
    "actif": false
   },
   {
-   "rang": 211,
+   "rang": 215,
    "agence": "Hazebrouck · 596",
    "src": "Hazebrouck · 596",
    "region": "Nord",
@@ -2913,7 +2976,7 @@
    "actif": false
   },
   {
-   "rang": 212,
+   "rang": 216,
    "agence": "Clermont-Ferrand · 529",
    "src": "Clermontferrand · 529",
    "region": "AURA",
@@ -2926,7 +2989,7 @@
    "actif": false
   },
   {
-   "rang": 213,
+   "rang": 217,
    "agence": "Montargis · 82",
    "src": "Montargis · 82",
    "region": "Centre-Val de Loire",
@@ -2939,7 +3002,7 @@
    "actif": false
   },
   {
-   "rang": 214,
+   "rang": 218,
    "agence": "Le Puy-en-Velay · 681",
    "src": "Lepuy · 681",
    "region": "AURA",
@@ -2952,7 +3015,7 @@
    "actif": false
   },
   {
-   "rang": 215,
+   "rang": 219,
    "agence": "Smdc · 981",
    "src": "Smdc · 981",
    "region": "Normandie",
@@ -2965,7 +3028,7 @@
    "actif": false
   },
   {
-   "rang": 216,
+   "rang": 220,
    "agence": "Le Mans · 18",
    "src": "Lemans · 18",
    "region": "Centre-Val de Loire",
@@ -2978,7 +3041,7 @@
    "actif": false
   },
   {
-   "rang": 217,
+   "rang": 221,
    "agence": "Recrutement · 368",
    "src": "Recrutement · 368",
    "region": "Normandie",
@@ -2991,7 +3054,7 @@
    "actif": false
   },
   {
-   "rang": 218,
+   "rang": 222,
    "agence": "Provence · 1",
    "src": "Provence · 1",
    "region": "Arc Méditerranée",
@@ -3004,7 +3067,7 @@
    "actif": false
   },
   {
-   "rang": 219,
+   "rang": 223,
    "agence": "Montpellier · 121",
    "src": "Montpellier · 121",
    "region": "Arc Méditerranée",
@@ -3017,7 +3080,7 @@
    "actif": false
   },
   {
-   "rang": 220,
+   "rang": 224,
    "agence": "Lens · 636",
    "src": "Lens · 636",
    "region": "Nord",
@@ -3030,7 +3093,7 @@
    "actif": false
   },
   {
-   "rang": 221,
+   "rang": 225,
    "agence": "Dijon · 673",
    "src": "Dijon · 673",
    "region": "Centre-Est",
@@ -3043,7 +3106,7 @@
    "actif": false
   },
   {
-   "rang": 222,
+   "rang": 226,
    "agence": "Muret · 575",
    "src": "Muret · 575",
    "region": "Sud-Ouest",
@@ -3056,7 +3119,7 @@
    "actif": false
   },
   {
-   "rang": 223,
+   "rang": 227,
    "agence": "Sainte-Marie-aux-Chênes · 625",
    "src": "Stmarieauxchenes · 625",
    "region": "Est",
@@ -3069,7 +3132,7 @@
    "actif": false
   },
   {
-   "rang": 224,
+   "rang": 228,
    "agence": "Issoire · 569",
    "src": "Issoire · 569",
    "region": "AURA",
@@ -3082,7 +3145,7 @@
    "actif": false
   },
   {
-   "rang": 225,
+   "rang": 229,
    "agence": "Landivisiau · 167",
    "src": "Landivisiau · 167",
    "region": "BPDL",
@@ -3095,7 +3158,7 @@
    "actif": false
   },
   {
-   "rang": 226,
+   "rang": 230,
    "agence": "Côte d’Azur · 1",
    "src": "Cotedazur · 1",
    "region": "Arc Méditerranée",
@@ -3108,7 +3171,7 @@
    "actif": false
   },
   {
-   "rang": 227,
+   "rang": 231,
    "agence": "Seclin · 255",
    "src": "Seclin · 255",
    "region": "Nord",
@@ -3121,7 +3184,7 @@
    "actif": true
   },
   {
-   "rang": 228,
+   "rang": 232,
    "agence": "Rouen · 692",
    "src": "Rouen · 692",
    "region": "Normandie",
@@ -3134,7 +3197,7 @@
    "actif": false
   },
   {
-   "rang": 229,
+   "rang": 233,
    "agence": "Cesson-Sévigné · 764",
    "src": "Cessonsevigne · 764",
    "region": "BPDL",
@@ -3147,7 +3210,7 @@
    "actif": false
   },
   {
-   "rang": 230,
+   "rang": 234,
    "agence": "Strasbourg · 422",
    "src": "Strasbourg · 422",
    "region": "Est",
@@ -4862,6 +4925,266 @@
    "score": 0,
    "delta": -38,
    "score_ref": 38,
+   "actif": false
+  },
+  {
+   "rang": 1,
+   "nom": "Strasbourg · 425",
+   "src": "Strasbourg · 425",
+   "region": "E&C",
+   "cv": 50,
+   "contacts": 9,
+   "reponses": 4,
+   "score": 97,
+   "delta": 87,
+   "score_ref": 10,
+   "actif": true
+  },
+  {
+   "rang": 2,
+   "nom": "Gallargues-le-Montueux · 541",
+   "src": "Gallargues · 541",
+   "region": "E&C",
+   "cv": 39,
+   "contacts": 4,
+   "reponses": 0,
+   "score": 51,
+   "delta": 42,
+   "score_ref": 9,
+   "actif": true
+  },
+  {
+   "rang": 3,
+   "nom": "Lina Nekkaa",
+   "src": "Lina Nekkaa",
+   "region": "E&C",
+   "cv": 20,
+   "contacts": 3,
+   "reponses": 1,
+   "score": 34,
+   "delta": 34,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 4,
+   "nom": "Willy",
+   "src": "Willy",
+   "region": "E&C",
+   "cv": 5,
+   "contacts": 3,
+   "reponses": 1,
+   "score": 19,
+   "delta": 13,
+   "score_ref": 6,
+   "actif": true
+  },
+  {
+   "rang": 5,
+   "nom": "Catherine Hardy",
+   "src": "Catherine Hardy",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": 0,
+   "score_ref": 0,
+   "actif": false
+  },
+  {
+   "rang": 6,
+   "nom": "Julia",
+   "src": "Julia",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": 0,
+   "score_ref": 0,
+   "actif": false
+  },
+  {
+   "rang": 7,
+   "nom": "Samira",
+   "src": "Samira",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": 0,
+   "score_ref": 0,
+   "actif": false
+  },
+  {
+   "rang": 8,
+   "nom": "Elodie Bromet",
+   "src": "Elodie Bromet",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": 0,
+   "score_ref": 0,
+   "actif": false
+  },
+  {
+   "rang": 9,
+   "nom": "La Défense · 687",
+   "src": "Ladefense · 687",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -1,
+   "score_ref": 1,
+   "actif": false
+  },
+  {
+   "rang": 10,
+   "nom": "Corneil",
+   "src": "CORNEIL",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -2,
+   "score_ref": 2,
+   "actif": false
+  },
+  {
+   "rang": 11,
+   "nom": "Joachim Maindron",
+   "src": "Joachim Maindron",
+   "region": "E&C",
+   "cv": 1,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 1,
+   "delta": -4,
+   "score_ref": 5,
+   "actif": true
+  },
+  {
+   "rang": 12,
+   "nom": "Experts-Cadres Mulhouse",
+   "src": "Experts-Cadres Mulhouse",
+   "region": "E&C",
+   "cv": 3,
+   "contacts": 1,
+   "reponses": 0,
+   "score": 6,
+   "delta": -19,
+   "score_ref": 25,
+   "actif": true
+  },
+  {
+   "rang": 13,
+   "nom": "Saint-Herblain · 748",
+   "src": "Saintherblain · 748",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -22,
+   "score_ref": 22,
+   "actif": false
+  },
+  {
+   "rang": 14,
+   "nom": "Aurore Pasco",
+   "src": "Aurore Pasco",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -22,
+   "score_ref": 22,
+   "actif": false
+  },
+  {
+   "rang": 15,
+   "nom": "Aline Wogell",
+   "src": "Aline Wogell",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -25,
+   "score_ref": 25,
+   "actif": false
+  },
+  {
+   "rang": 16,
+   "nom": "Prisca",
+   "src": "Prisca",
+   "region": "E&C",
+   "cv": 3,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 3,
+   "delta": -27,
+   "score_ref": 30,
+   "actif": true
+  },
+  {
+   "rang": 17,
+   "nom": "Maeva",
+   "src": "Maeva",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -38,
+   "score_ref": 38,
+   "actif": false
+  },
+  {
+   "rang": 18,
+   "nom": "Experts-Cadres Toulouse",
+   "src": "Experts-Cadres Toulouse",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -38,
+   "score_ref": 38,
+   "actif": false
+  },
+  {
+   "rang": 19,
+   "nom": "Experts-Cadres Normandie",
+   "src": "Experts-Cadres Normandie",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -88,
+   "score_ref": 88,
+   "actif": false
+  },
+  {
+   "rang": 20,
+   "nom": "Caroline Ledet",
+   "src": "Caroline Ledet",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -107,
+   "score_ref": 107,
    "actif": false
   },
   {
