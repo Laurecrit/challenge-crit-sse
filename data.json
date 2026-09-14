@@ -2,33 +2,33 @@
  "meta": {
   "titre": "Challenge Smart Sourcing",
   "sous_titre": "Indeed × crit. — CVthèque / Smart Sourcing",
-  "semaine": 1,
-  "periode": "31/08 → 04/09/2026",
+  "semaine": 2,
+  "periode": "01/09 → 11/09/2026",
   "saison": "Rentrée 2026 · 8 semaines",
   "reference": "Référence : juin 2026",
-  "maj": "05/09/2026",
-  "source": "Semaine 1 · données Indeed au 04/09",
+  "maj": "14/09/2026",
+  "source": "Semaine 2 · données Indeed au 11/09 (cumul S1-S2)",
   "perimetre": "Réseau France, Expert & Cadres inclus",
   "ponderation": "Score = CV×1 + Contacts×3 + Réponses positives×5 · classement sur la progression (Δ vs juin)",
   "kpis": [
    {
-    "valeur": "53",
+    "valeur": "81",
     "libelle": "Agences classées"
    },
    {
-    "valeur": "74",
+    "valeur": "108",
     "libelle": "Recruteurs actifs"
    },
    {
-    "valeur": "969",
+    "valeur": "1 796",
     "libelle": "Contacts envoyés"
    },
    {
-    "valeur": "+9 056",
+    "valeur": "+18 708",
     "libelle": "Progression cumulée"
    }
   ],
-  "kpis_note": "Source : onglet Synthèse du fichier de suivi Indeed (version corrigée du 05/09, région E&C incluse). Progression cumulée = somme des progressions positives (onglet Individuel). 251 comptes sur 325 n’ont encore rien consommé cette semaine.",
+  "kpis_note": "Source : onglet Synthèse du fichier de suivi Indeed (cumul S1-S2, 01→11/09). Progression cumulée = somme des progressions positives (onglet Individuel). Total comptes attribués : 326, dont 218 encore à 0 cette semaine.",
   "quotas_note": "Statut = engagement de la semaine (crédits consommés ÷ solde de départ) : 🔴 < 2 % · 🟠 2-5 % · 🟢 ≥ 5 %.",
   "recompenses": [
    {
@@ -51,9 +51,9 @@
    "alloues": 2024,
    "conso_avant": 533,
    "restant_depart": 1491,
-   "conso_challenge": 13,
-   "restant": 1478,
-   "taux": 0.87,
+   "conso_challenge": 29,
+   "restant": 1462,
+   "taux": 1.95,
    "statut": "🔴 À réveiller",
    "total": false
   },
@@ -62,9 +62,9 @@
    "alloues": 2215,
    "conso_avant": 667,
    "restant_depart": 1548,
-   "conso_challenge": 141,
-   "restant": 1407,
-   "taux": 9.11,
+   "conso_challenge": 230,
+   "restant": 1318,
+   "taux": 14.86,
    "statut": "🟢 Bien engagé",
    "total": false
   },
@@ -73,9 +73,9 @@
    "alloues": 4404,
    "conso_avant": 1728,
    "restant_depart": 2676,
-   "conso_challenge": 237,
-   "restant": 2439,
-   "taux": 8.86,
+   "conso_challenge": 359,
+   "restant": 2317,
+   "taux": 13.42,
    "statut": "🟢 Bien engagé",
    "total": false
   },
@@ -84,10 +84,10 @@
    "alloues": 2933,
    "conso_avant": 474,
    "restant_depart": 2459,
-   "conso_challenge": 46,
-   "restant": 2413,
-   "taux": 1.87,
-   "statut": "🔴 À réveiller",
+   "conso_challenge": 170,
+   "restant": 2289,
+   "taux": 6.91,
+   "statut": "🟢 Bien engagé",
    "total": false
   },
   {
@@ -95,9 +95,9 @@
    "alloues": 2335,
    "conso_avant": 358,
    "restant_depart": 1977,
-   "conso_challenge": 60,
-   "restant": 1917,
-   "taux": 3.03,
+   "conso_challenge": 70,
+   "restant": 1907,
+   "taux": 3.54,
    "statut": "🟠 En marche",
    "total": false
   },
@@ -106,10 +106,10 @@
    "alloues": 2489,
    "conso_avant": 628,
    "restant_depart": 1861,
-   "conso_challenge": 20,
-   "restant": 1841,
-   "taux": 1.07,
-   "statut": "🔴 À réveiller",
+   "conso_challenge": 65,
+   "restant": 1796,
+   "taux": 3.49,
+   "statut": "🟠 En marche",
    "total": false
   },
   {
@@ -117,10 +117,10 @@
    "alloues": 1970,
    "conso_avant": 648,
    "restant_depart": 1322,
-   "conso_challenge": 53,
-   "restant": 1269,
-   "taux": 4.01,
-   "statut": "🟠 En marche",
+   "conso_challenge": 135,
+   "restant": 1187,
+   "taux": 10.21,
+   "statut": "🟢 Bien engagé",
    "total": false
   },
   {
@@ -130,7 +130,7 @@
    "restant_depart": 2259,
    "conso_challenge": 0,
    "restant": 2259,
-   "taux": 0.0,
+   "taux": 0,
    "statut": "🔴 À réveiller",
    "total": false
   },
@@ -139,10 +139,10 @@
    "alloues": 3677,
    "conso_avant": 334,
    "restant_depart": 3343,
-   "conso_challenge": 120,
-   "restant": 3223,
-   "taux": 3.59,
-   "statut": "🟠 En marche",
+   "conso_challenge": 204,
+   "restant": 3139,
+   "taux": 6.1,
+   "statut": "🟢 Bien engagé",
    "total": false
   },
   {
@@ -150,10 +150,10 @@
    "alloues": 5859,
    "conso_avant": 645,
    "restant_depart": 5214,
-   "conso_challenge": 163,
-   "restant": 5051,
-   "taux": 3.13,
-   "statut": "🟠 En marche",
+   "conso_challenge": 390,
+   "restant": 4824,
+   "taux": 7.48,
+   "statut": "🟢 Bien engagé",
    "total": false
   },
   {
@@ -161,9 +161,9 @@
    "alloues": 4175,
    "conso_avant": 861,
    "restant_depart": 3314,
-   "conso_challenge": 116,
-   "restant": 3198,
-   "taux": 3.5,
+   "conso_challenge": 144,
+   "restant": 3170,
+   "taux": 4.35,
    "statut": "🟠 En marche",
    "total": false
   },
@@ -172,337 +172,337 @@
    "alloues": 34349,
    "conso_avant": 6885,
    "restant_depart": 27464,
-   "conso_challenge": 969,
-   "restant": 26495,
-   "taux": 3.53,
-   "statut": "🟠 En marche",
+   "conso_challenge": 1796,
+   "restant": 25668,
+   "taux": 6.54,
+   "statut": "🟢 Bien engagé",
    "total": true
   }
  ],
  "agences": [
   {
    "rang": 1,
-   "agence": "Clermont-Ferrand · 640",
-   "src": "Clermontferrand · 640",
-   "region": "AURA",
-   "cv": 418,
-   "contacts": 90,
-   "reponses": 23,
-   "score": 803,
-   "delta": 803,
+   "agence": "Douai · 515",
+   "src": "Douai · 515",
+   "region": "Nord",
+   "cv": 1013,
+   "contacts": 80,
+   "reponses": 26,
+   "score": 1383,
+   "delta": 1383,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 2,
-   "agence": "Les Pieux · 663",
-   "src": "Lespieux · 663",
-   "region": "Normandie",
-   "cv": 351,
-   "contacts": 91,
-   "reponses": 28,
-   "score": 764,
-   "delta": 729,
-   "score_ref": 35,
+   "agence": "Clermont-Ferrand · 640",
+   "src": "Clermontferrand · 640",
+   "region": "AURA",
+   "cv": 638,
+   "contacts": 101,
+   "reponses": 34,
+   "score": 1111,
+   "delta": 1111,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 3,
-   "agence": "Andrézieux · 576",
-   "src": "Andrezieux · 576",
-   "region": "AURA",
-   "cv": 638,
-   "contacts": 12,
-   "reponses": 5,
-   "score": 699,
-   "delta": 699,
-   "score_ref": 0,
+   "agence": "Saint-Lô · 159",
+   "src": "Saintlo · 159",
+   "region": "Normandie",
+   "cv": 795,
+   "contacts": 61,
+   "reponses": 26,
+   "score": 1108,
+   "delta": 1097,
+   "score_ref": 11,
    "actif": true
   },
   {
    "rang": 4,
-   "agence": "Rochefort · 340",
-   "src": "Rochefort · 340",
-   "region": "Sud-Ouest",
-   "cv": 253,
-   "contacts": 49,
-   "reponses": 21,
-   "score": 505,
-   "delta": 505,
-   "score_ref": 0,
+   "agence": "Compiègne · 164",
+   "src": "Compiegne · 164",
+   "region": "Nord",
+   "cv": 384,
+   "contacts": 78,
+   "reponses": 27,
+   "score": 753,
+   "delta": 739,
+   "score_ref": 14,
    "actif": true
   },
   {
    "rang": 5,
-   "agence": "Épinal · 484",
-   "src": "Epinal · 484",
-   "region": "Est",
-   "cv": 409,
-   "contacts": 22,
-   "reponses": 6,
-   "score": 505,
-   "delta": 505,
-   "score_ref": 0,
+   "agence": "Les Pieux · 663",
+   "src": "Lespieux · 663",
+   "region": "Normandie",
+   "cv": 359,
+   "contacts": 85,
+   "reponses": 37,
+   "score": 799,
+   "delta": 736,
+   "score_ref": 63,
    "actif": true
   },
   {
    "rang": 6,
-   "agence": "Douai · 515",
-   "src": "Douai · 515",
-   "region": "Nord",
-   "cv": 283,
-   "contacts": 42,
-   "reponses": 8,
-   "score": 449,
-   "delta": 449,
+   "agence": "Épinal · 484",
+   "src": "Epinal · 484",
+   "region": "Est",
+   "cv": 473,
+   "contacts": 27,
+   "reponses": 9,
+   "score": 599,
+   "delta": 599,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 7,
-   "agence": "Saint-Lô · 159",
-   "src": "Saintlo · 159",
-   "region": "Normandie",
-   "cv": 313,
-   "contacts": 28,
-   "reponses": 8,
-   "score": 437,
-   "delta": 431,
-   "score_ref": 6,
+   "agence": "Rochefort · 340",
+   "src": "Rochefort · 340",
+   "region": "Sud-Ouest",
+   "cv": 262,
+   "contacts": 56,
+   "reponses": 28,
+   "score": 570,
+   "delta": 570,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 8,
-   "agence": "Brive · 80",
-   "src": "Brive · 80",
-   "region": "Sud-Ouest",
-   "cv": 186,
-   "contacts": 40,
-   "reponses": 4,
-   "score": 326,
-   "delta": 326,
+   "agence": "Valenciennes · 497",
+   "src": "Valenciennes · 497",
+   "region": "Nord",
+   "cv": 392,
+   "contacts": 35,
+   "reponses": 12,
+   "score": 557,
+   "delta": 557,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 9,
-   "agence": "Rezé · 544",
-   "src": "Reze · 544",
-   "region": "BPDL",
-   "cv": 136,
-   "contacts": 60,
-   "reponses": 27,
-   "score": 451,
-   "delta": 320,
-   "score_ref": 131,
+   "agence": "Calais · 352",
+   "src": "Calais · 352",
+   "region": "Nord",
+   "cv": 601,
+   "contacts": 25,
+   "reponses": 14,
+   "score": 746,
+   "delta": 484,
+   "score_ref": 262,
    "actif": true
   },
   {
    "rang": 10,
-   "agence": "Compiègne · 164",
-   "src": "Compiegne · 164",
+   "agence": "Nesle · 256",
+   "src": "Nesle · 256",
    "region": "Nord",
-   "cv": 111,
-   "contacts": 35,
-   "reponses": 6,
-   "score": 246,
-   "delta": 238,
-   "score_ref": 8,
+   "cv": 353,
+   "contacts": 17,
+   "reponses": 3,
+   "score": 419,
+   "delta": 419,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 11,
-   "agence": "Nancy · 521",
-   "src": "Nancy · 521",
-   "region": "Est",
-   "cv": 212,
-   "contacts": 5,
-   "reponses": 1,
+   "agence": "Andrézieux · 576",
+   "src": "Andrezieux · 576",
+   "region": "AURA",
+   "cv": 349,
+   "contacts": 8,
+   "reponses": 5,
+   "score": 398,
+   "delta": 398,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 12,
+   "agence": "Lille · 59",
+   "src": "Lille · 59",
+   "region": "Nord",
+   "cv": 176,
+   "contacts": 46,
+   "reponses": 14,
+   "score": 384,
+   "delta": 384,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 13,
+   "agence": "Saint-Omer · 506",
+   "src": "Saintomer · 506",
+   "region": "Nord",
+   "cv": 258,
+   "contacts": 15,
+   "reponses": 11,
+   "score": 358,
+   "delta": 358,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 14,
+   "agence": "Roanne · 348",
+   "src": "Roanne · 348",
+   "region": "AURA",
+   "cv": 232,
+   "contacts": 29,
+   "reponses": 8,
+   "score": 359,
+   "delta": 329,
+   "score_ref": 30,
+   "actif": true
+  },
+  {
+   "rang": 15,
+   "agence": "Pont-Audemer · 130",
+   "src": "Pontaudemer · 130",
+   "region": "Normandie",
+   "cv": 186,
+   "contacts": 29,
+   "reponses": 8,
+   "score": 313,
+   "delta": 313,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 16,
+   "agence": "Dinan · 380",
+   "src": "Dinan · 380",
+   "region": "BPDL",
+   "cv": 114,
+   "contacts": 46,
+   "reponses": 10,
+   "score": 302,
+   "delta": 302,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 17,
+   "agence": "Montoir · 194",
+   "src": "Montoir · 194",
+   "region": "BPDL",
+   "cv": 154,
+   "contacts": 30,
+   "reponses": 9,
+   "score": 289,
+   "delta": 285,
+   "score_ref": 4,
+   "actif": true
+  },
+  {
+   "rang": 18,
+   "agence": "Alençon · 536",
+   "src": "Alencon · 536",
+   "region": "Normandie",
+   "cv": 243,
+   "contacts": 7,
+   "reponses": 2,
+   "score": 274,
+   "delta": 274,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 19,
+   "agence": "Beauvais · 510",
+   "src": "Beauvais · 510",
+   "region": "Nord",
+   "cv": 70,
+   "contacts": 37,
+   "reponses": 16,
+   "score": 261,
+   "delta": 261,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 20,
+   "agence": "Vernon · 385",
+   "src": "Vernon · 385",
+   "region": "Normandie",
+   "cv": 242,
+   "contacts": 3,
+   "reponses": 2,
+   "score": 261,
+   "delta": 261,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 21,
+   "agence": "Mayenne · 469",
+   "src": "Mayenne · 469",
+   "region": "BPDL",
+   "cv": 74,
+   "contacts": 41,
+   "reponses": 12,
+   "score": 257,
+   "delta": 257,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 22,
+   "agence": "Pontivy · 401",
+   "src": "Pontivy · 401",
+   "region": "BPDL",
+   "cv": 42,
+   "contacts": 30,
+   "reponses": 20,
    "score": 232,
    "delta": 232,
    "score_ref": 0,
    "actif": true
   },
   {
-   "rang": 12,
-   "agence": "Valenciennes · 497",
-   "src": "Valenciennes · 497",
-   "region": "Nord",
-   "cv": 171,
-   "contacts": 11,
-   "reponses": 3,
-   "score": 219,
-   "delta": 219,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 13,
-   "agence": "Pontivy · 401",
-   "src": "Pontivy · 401",
-   "region": "BPDL",
-   "cv": 42,
-   "contacts": 30,
-   "reponses": 16,
-   "score": 212,
-   "delta": 212,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 14,
-   "agence": "Arc-lès-Gray · 476",
-   "src": "Arclesgray · 476",
-   "region": "Centre-Est",
-   "cv": 120,
-   "contacts": 24,
-   "reponses": 7,
-   "score": 227,
-   "delta": 204,
-   "score_ref": 23,
-   "actif": true
-  },
-  {
-   "rang": 15,
-   "agence": "Mayenne · 469",
-   "src": "Mayenne · 469",
-   "region": "BPDL",
-   "cv": 48,
-   "contacts": 31,
-   "reponses": 7,
-   "score": 176,
-   "delta": 176,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 16,
-   "agence": "Lille · 59",
-   "src": "Lille · 59",
-   "region": "Nord",
-   "cv": 72,
-   "contacts": 13,
-   "reponses": 5,
-   "score": 136,
-   "delta": 136,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 17,
-   "agence": "Beauvais · 510",
-   "src": "Beauvais · 510",
-   "region": "Nord",
-   "cv": 29,
-   "contacts": 14,
-   "reponses": 6,
-   "score": 101,
-   "delta": 101,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 18,
-   "agence": "Saint-Vulbas · 191",
-   "src": "Stvulbas · 191",
-   "region": "AURA",
-   "cv": 29,
-   "contacts": 13,
-   "reponses": 4,
-   "score": 88,
-   "delta": 88,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 19,
-   "agence": "Strasbourg · 425",
-   "src": "Strasbourg · 425",
-   "region": "E&C",
-   "cv": 50,
-   "contacts": 9,
-   "reponses": 4,
-   "score": 97,
-   "delta": 87,
-   "score_ref": 10,
-   "actif": true
-  },
-  {
-   "rang": 20,
-   "agence": "Vannes · 399",
-   "src": "Vannes · 399",
-   "region": "BPDL",
-   "cv": 81,
-   "contacts": 70,
-   "reponses": 5,
-   "score": 316,
-   "delta": 78,
-   "score_ref": 238,
-   "actif": true
-  },
-  {
-   "rang": 21,
-   "agence": "Châteauroux · 45",
-   "src": "Chateauroux · 45",
-   "region": "Centre-Val de Loire",
-   "cv": 27,
-   "contacts": 10,
-   "reponses": 6,
-   "score": 87,
-   "delta": 66,
-   "score_ref": 21,
-   "actif": true
-  },
-  {
-   "rang": 22,
-   "agence": "Saint-Omer · 506",
-   "src": "Saintomer · 506",
-   "region": "Nord",
-   "cv": 48,
-   "contacts": 4,
-   "reponses": 1,
-   "score": 65,
-   "delta": 65,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
    "rang": 23,
-   "agence": "Grenoble · 509",
-   "src": "Grenoble · 509",
-   "region": "AURA",
-   "cv": 19,
-   "contacts": 6,
-   "reponses": 5,
-   "score": 62,
-   "delta": 62,
+   "agence": "Nancy · 521",
+   "src": "Nancy · 521",
+   "region": "Est",
+   "cv": 166,
+   "contacts": 13,
+   "reponses": 4,
+   "score": 225,
+   "delta": 225,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 24,
-   "agence": "Chaumont · 473",
-   "src": "Chaumont · 473",
+   "agence": "Arc-lès-Gray · 476",
+   "src": "Arclesgray · 476",
    "region": "Centre-Est",
-   "cv": 68,
-   "contacts": 9,
-   "reponses": 1,
-   "score": 100,
-   "delta": 56,
-   "score_ref": 44,
+   "cv": 143,
+   "contacts": 25,
+   "reponses": 9,
+   "score": 263,
+   "delta": 222,
+   "score_ref": 41,
    "actif": true
   },
   {
    "rang": 25,
-   "agence": "Givet · 160",
-   "src": "Givet · 160",
-   "region": "Nord",
-   "cv": 68,
-   "contacts": 10,
-   "reponses": 1,
-   "score": 103,
-   "delta": 54,
-   "score_ref": 49,
+   "agence": "Dijon · 462",
+   "src": "Dijon · 462",
+   "region": "Centre-Est",
+   "cv": 116,
+   "contacts": 22,
+   "reponses": 8,
+   "score": 222,
+   "delta": 222,
+   "score_ref": 0,
    "actif": true
   },
   {
@@ -510,237 +510,562 @@
    "agence": "Haguenau · 430",
    "src": "Haguenau · 430",
    "region": "Est",
-   "cv": 132,
-   "contacts": 12,
-   "reponses": 4,
-   "score": 188,
-   "delta": 52,
-   "score_ref": 136,
+   "cv": 325,
+   "contacts": 26,
+   "reponses": 11,
+   "score": 458,
+   "delta": 213,
+   "score_ref": 245,
    "actif": true
   },
   {
    "rang": 27,
-   "agence": "Clermont-Ferrand · 278",
-   "src": "Clermontferrand · 278",
-   "region": "AURA",
-   "cv": 33,
-   "contacts": 5,
-   "reponses": 0,
-   "score": 48,
-   "delta": 48,
-   "score_ref": 0,
+   "agence": "Charleville-Mézières · 606",
+   "src": "Charleville · 606",
+   "region": "Nord",
+   "cv": 195,
+   "contacts": 22,
+   "reponses": 5,
+   "score": 286,
+   "delta": 212,
+   "score_ref": 74,
    "actif": true
   },
   {
    "rang": 28,
-   "agence": "Vichy · 339",
-   "src": "Vichy · 339",
-   "region": "AURA",
-   "cv": 7,
-   "contacts": 7,
-   "reponses": 4,
-   "score": 48,
-   "delta": 48,
-   "score_ref": 0,
+   "agence": "Vannes · 399",
+   "src": "Vannes · 399",
+   "region": "BPDL",
+   "cv": 203,
+   "contacts": 95,
+   "reponses": 30,
+   "score": 638,
+   "delta": 210,
+   "score_ref": 428,
    "actif": true
   },
   {
    "rang": 29,
-   "agence": "Dinan · 380",
-   "src": "Dinan · 380",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 11,
-   "reponses": 3,
-   "score": 48,
-   "delta": 48,
+   "agence": "Clermont-Ferrand · 237",
+   "src": "Clermontferrand · 237",
+   "region": "AURA",
+   "cv": 104,
+   "contacts": 20,
+   "reponses": 7,
+   "score": 199,
+   "delta": 199,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 30,
-   "agence": "Gallargues-le-Montueux · 541",
-   "src": "Gallargues · 541",
-   "region": "E&C",
-   "cv": 39,
-   "contacts": 4,
-   "reponses": 0,
-   "score": 51,
-   "delta": 42,
-   "score_ref": 9,
+   "agence": "Givet · 160",
+   "src": "Givet · 160",
+   "region": "Nord",
+   "cv": 204,
+   "contacts": 15,
+   "reponses": 3,
+   "score": 264,
+   "delta": 175,
+   "score_ref": 89,
    "actif": true
   },
   {
    "rang": 31,
-   "agence": "Saint-Évarzec · 138",
-   "src": "Stevarzec · 138",
-   "region": "BPDL",
-   "cv": 20,
-   "contacts": 6,
-   "reponses": 0,
-   "score": 38,
-   "delta": 38,
+   "agence": "Mâcon · 479",
+   "src": "Macon · 479",
+   "region": "Centre-Est",
+   "cv": 2,
+   "contacts": 37,
+   "reponses": 8,
+   "score": 153,
+   "delta": 153,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 32,
-   "agence": "Troyes · 562",
-   "src": "Troyes · 562",
-   "region": "Centre-Est",
-   "cv": 26,
-   "contacts": 2,
-   "reponses": 1,
-   "score": 37,
-   "delta": 37,
+   "agence": "Saint-Agathon · 662",
+   "src": "Saintagathon · 662",
+   "region": "BPDL",
+   "cv": 30,
+   "contacts": 30,
+   "reponses": 6,
+   "score": 150,
+   "delta": 150,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 33,
-   "agence": "Vienne · 573",
-   "src": "Vienne · 573",
-   "region": "AURA",
-   "cv": 8,
-   "contacts": 6,
-   "reponses": 2,
-   "score": 36,
-   "delta": 36,
-   "score_ref": 0,
+   "agence": "Auxerre · 104",
+   "src": "Auxerre · 104",
+   "region": "Centre-Est",
+   "cv": 107,
+   "contacts": 22,
+   "reponses": 10,
+   "score": 223,
+   "delta": 116,
+   "score_ref": 107,
    "actif": true
   },
   {
    "rang": 34,
-   "agence": "Nesle · 256",
-   "src": "Nesle · 256",
-   "region": "Nord",
-   "cv": 10,
-   "contacts": 7,
-   "reponses": 1,
-   "score": 36,
-   "delta": 36,
+   "agence": "Changé · 347",
+   "src": "Change · 347",
+   "region": "BPDL",
+   "cv": 29,
+   "contacts": 22,
+   "reponses": 4,
+   "score": 115,
+   "delta": 115,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 35,
-   "agence": "Toulouse · 535",
-   "src": "Toulouse · 535",
-   "region": "Sud-Ouest",
-   "cv": 22,
-   "contacts": 3,
-   "reponses": 2,
-   "score": 41,
-   "delta": 24,
-   "score_ref": 17,
+   "agence": "Saint-Vulbas · 191",
+   "src": "Stvulbas · 191",
+   "region": "AURA",
+   "cv": 35,
+   "contacts": 16,
+   "reponses": 6,
+   "score": 113,
+   "delta": 113,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 36,
-   "agence": "Châteaubourg · 196",
-   "src": "Chateaubourg · 196",
-   "region": "BPDL",
-   "cv": 4,
-   "contacts": 4,
-   "reponses": 1,
-   "score": 21,
-   "delta": 21,
+   "agence": "Troyes · 562",
+   "src": "Troyes · 562",
+   "region": "Centre-Est",
+   "cv": 57,
+   "contacts": 12,
+   "reponses": 4,
+   "score": 113,
+   "delta": 113,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 37,
-   "agence": "Tours · 40",
-   "src": "Tours · 40",
-   "region": "Centre-Val de Loire",
-   "cv": 15,
-   "contacts": 0,
+   "agence": "Brest · 70",
+   "src": "Brest · 70",
+   "region": "BPDL",
+   "cv": 84,
+   "contacts": 10,
    "reponses": 0,
-   "score": 15,
-   "delta": 15,
-   "score_ref": 0,
+   "score": 114,
+   "delta": 112,
+   "score_ref": 2,
    "actif": true
   },
   {
    "rang": 38,
-   "agence": "Brest · 70",
-   "src": "Brest · 70",
-   "region": "BPDL",
-   "cv": 11,
-   "contacts": 1,
-   "reponses": 0,
-   "score": 14,
-   "delta": 13,
-   "score_ref": 1,
+   "agence": "Riom · 717",
+   "src": "Riom · 717",
+   "region": "AURA",
+   "cv": 51,
+   "contacts": 12,
+   "reponses": 4,
+   "score": 107,
+   "delta": 107,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 39,
-   "agence": "Lorient · 142",
-   "src": "Lorient · 142",
-   "region": "BPDL",
-   "cv": 1,
-   "contacts": 4,
-   "reponses": 0,
-   "score": 13,
-   "delta": 13,
+   "agence": "Monswiller · 474",
+   "src": "Monswiller · 474",
+   "region": "Est",
+   "cv": 65,
+   "contacts": 8,
+   "reponses": 2,
+   "score": 99,
+   "delta": 99,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 40,
-   "agence": "Auxerre · 104",
-   "src": "Auxerre · 104",
-   "region": "Centre-Est",
-   "cv": 39,
-   "contacts": 6,
-   "reponses": 2,
-   "score": 67,
-   "delta": 7,
-   "score_ref": 60,
-   "actif": true
-  },
-  {
-   "rang": 41,
-   "agence": "Blois · 184",
-   "src": "Blois · 184",
-   "region": "Centre-Val de Loire",
-   "cv": 10,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 10,
-   "delta": 7,
-   "score_ref": 3,
-   "actif": true
-  },
-  {
-   "rang": 42,
-   "agence": "Dijon · 462",
-   "src": "Dijon · 462",
-   "region": "Centre-Est",
-   "cv": 1,
-   "contacts": 1,
-   "reponses": 0,
-   "score": 4,
-   "delta": 4,
+   "agence": "Montélimar · 545",
+   "src": "Montelimar · 545",
+   "region": "AURA",
+   "cv": 43,
+   "contacts": 10,
+   "reponses": 5,
+   "score": 98,
+   "delta": 98,
    "score_ref": 0,
    "actif": true
   },
   {
-   "rang": 43,
-   "agence": "Alençon · 536",
-   "src": "Alencon · 536",
+   "rang": 41,
+   "agence": "Harfleur · 22",
+   "src": "Harfleur · 22",
    "region": "Normandie",
-   "cv": 3,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 3,
-   "delta": 3,
+   "cv": 61,
+   "contacts": 5,
+   "reponses": 3,
+   "score": 91,
+   "delta": 91,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 42,
+   "agence": "Strasbourg · 425",
+   "src": "Strasbourg · 425",
+   "region": "E&C",
+   "cv": 51,
+   "contacts": 9,
+   "reponses": 5,
+   "score": 103,
+   "delta": 85,
+   "score_ref": 18,
+   "actif": true
+  },
+  {
+   "rang": 43,
+   "agence": "Grenoble · 509",
+   "src": "Grenoble · 509",
+   "region": "AURA",
+   "cv": 38,
+   "contacts": 5,
+   "reponses": 5,
+   "score": 78,
+   "delta": 78,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 44,
+   "agence": "Chaumont · 473",
+   "src": "Chaumont · 473",
+   "region": "Centre-Est",
+   "cv": 100,
+   "contacts": 10,
+   "reponses": 3,
+   "score": 145,
+   "delta": 66,
+   "score_ref": 79,
+   "actif": true
+  },
+  {
+   "rang": 45,
+   "agence": "Gallargues-le-Montueux · 541",
+   "src": "Gallargues · 541",
+   "region": "E&C",
+   "cv": 56,
+   "contacts": 5,
+   "reponses": 2,
+   "score": 81,
+   "delta": 64,
+   "score_ref": 17,
+   "actif": true
+  },
+  {
+   "rang": 46,
+   "agence": "Haguenau · 429",
+   "src": "Haguenau · 429",
+   "region": "Est",
+   "cv": 35,
+   "contacts": 8,
+   "reponses": 1,
+   "score": 64,
+   "delta": 64,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 47,
+   "agence": "Clermont-Ferrand · 278",
+   "src": "Clermontferrand · 278",
+   "region": "AURA",
+   "cv": 33,
+   "contacts": 5,
+   "reponses": 2,
+   "score": 58,
+   "delta": 58,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 48,
+   "agence": "Caen · 508",
+   "src": "Caen · 508",
+   "region": "Normandie",
+   "cv": 2,
+   "contacts": 12,
+   "reponses": 3,
+   "score": 53,
+   "delta": 53,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 49,
+   "agence": "Châteauroux · 45",
+   "src": "Chateauroux · 45",
+   "region": "Centre-Val de Loire",
+   "cv": 27,
+   "contacts": 10,
+   "reponses": 6,
+   "score": 87,
+   "delta": 49,
+   "score_ref": 38,
+   "actif": true
+  },
+  {
+   "rang": 50,
+   "agence": "Saint-Évarzec · 138",
+   "src": "Stevarzec · 138",
+   "region": "BPDL",
+   "cv": 31,
+   "contacts": 6,
+   "reponses": 0,
+   "score": 49,
+   "delta": 49,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 51,
+   "agence": "Vienne · 573",
+   "src": "Vienne · 573",
+   "region": "AURA",
+   "cv": 8,
+   "contacts": 6,
+   "reponses": 4,
+   "score": 46,
+   "delta": 46,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 52,
+   "agence": "Grenoble · 524",
+   "src": "Grenoble · 524",
+   "region": "AURA",
+   "cv": 18,
+   "contacts": 4,
+   "reponses": 3,
+   "score": 45,
+   "delta": 45,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 53,
+   "agence": "Langres · 554",
+   "src": "Langres · 554",
+   "region": "Centre-Est",
+   "cv": 19,
+   "contacts": 8,
+   "reponses": 6,
+   "score": 73,
+   "delta": 43,
+   "score_ref": 30,
+   "actif": true
+  },
+  {
+   "rang": 54,
+   "agence": "Brest · 342",
+   "src": "Brest · 342",
+   "region": "BPDL",
+   "cv": 31,
+   "contacts": 9,
+   "reponses": 2,
+   "score": 68,
+   "delta": 35,
+   "score_ref": 33,
+   "actif": true
+  },
+  {
+   "rang": 55,
+   "agence": "Tours · 40",
+   "src": "Tours · 40",
+   "region": "Centre-Val de Loire",
+   "cv": 22,
+   "contacts": 4,
+   "reponses": 0,
+   "score": 34,
+   "delta": 34,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 56,
+   "agence": "Blois · 184",
+   "src": "Blois · 184",
+   "region": "Centre-Val de Loire",
+   "cv": 34,
+   "contacts": 1,
+   "reponses": 0,
+   "score": 37,
+   "delta": 31,
+   "score_ref": 6,
+   "actif": true
+  },
+  {
+   "rang": 57,
+   "agence": "Dijon · 523",
+   "src": "Dijon · 523",
+   "region": "Centre-Est",
+   "cv": 17,
+   "contacts": 2,
+   "reponses": 1,
+   "score": 28,
+   "delta": 28,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 58,
+   "agence": "Vichy · 339",
+   "src": "Vichy · 339",
+   "region": "AURA",
+   "cv": 5,
+   "contacts": 4,
+   "reponses": 2,
+   "score": 27,
+   "delta": 27,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 59,
+   "agence": "Châteaubourg · 196",
+   "src": "Chateaubourg · 196",
+   "region": "BPDL",
+   "cv": 4,
+   "contacts": 4,
+   "reponses": 2,
+   "score": 26,
+   "delta": 26,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 60,
+   "agence": "Toulouse · 535",
+   "src": "Toulouse · 535",
+   "region": "Sud-Ouest",
+   "cv": 34,
+   "contacts": 4,
+   "reponses": 2,
+   "score": 56,
+   "delta": 25,
+   "score_ref": 31,
+   "actif": true
+  },
+  {
+   "rang": 61,
+   "agence": "Lorient · 142",
+   "src": "Lorient · 142",
+   "region": "BPDL",
+   "cv": 1,
+   "contacts": 4,
+   "reponses": 1,
+   "score": 18,
+   "delta": 18,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 62,
+   "agence": "Sarreguemines · 451",
+   "src": "Sarreguemines · 451",
+   "region": "Est",
+   "cv": 2,
+   "contacts": 8,
+   "reponses": 1,
+   "score": 31,
+   "delta": 15,
+   "score_ref": 16,
+   "actif": true
+  },
+  {
+   "rang": 63,
+   "agence": "Monistrol · 568",
+   "src": "Monistrol · 568",
+   "region": "AURA",
+   "cv": 11,
+   "contacts": 2,
+   "reponses": 0,
+   "score": 17,
+   "delta": 15,
+   "score_ref": 2,
+   "actif": true
+  },
+  {
+   "rang": 64,
+   "agence": "Saint-Louis · 444",
+   "src": "Saintlouis · 444",
+   "region": "Est",
+   "cv": 35,
+   "contacts": 2,
+   "reponses": 0,
+   "score": 41,
+   "delta": 14,
+   "score_ref": 27,
+   "actif": true
+  },
+  {
+   "rang": 65,
+   "agence": "Thiers · 248",
+   "src": "Thiers · 248",
+   "region": "AURA",
+   "cv": 23,
+   "contacts": 7,
+   "reponses": 3,
+   "score": 59,
+   "delta": 12,
+   "score_ref": 47,
+   "actif": true
+  },
+  {
+   "rang": 66,
+   "agence": "Fougères · 119",
+   "src": "Fougeres · 119",
+   "region": "BPDL",
+   "cv": 7,
+   "contacts": 1,
+   "reponses": 0,
+   "score": 10,
+   "delta": 10,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 67,
+   "agence": "Saint-Brieuc · 379",
+   "src": "Saintbrieuc · 379",
+   "region": "BPDL",
+   "cv": 7,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 7,
+   "delta": 7,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 68,
+   "agence": "Brive · 80",
+   "src": "Brive · 80",
+   "region": "Sud-Ouest",
+   "cv": 7,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 7,
+   "delta": 7,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 69,
    "agence": "Val-de-Reuil · 384",
    "src": "Valdereuil · 384",
    "region": "Normandie",
@@ -753,9 +1078,9 @@
    "actif": true
   },
   {
-   "rang": 45,
-   "agence": "Fougères · 119",
-   "src": "Fougeres · 119",
+   "rang": 70,
+   "agence": "Saint-Malo · 393",
+   "src": "Saintmalo · 393",
    "region": "BPDL",
    "cv": 2,
    "contacts": 0,
@@ -766,46 +1091,7 @@
    "actif": true
   },
   {
-   "rang": 46,
-   "agence": "Saint-Louis · 444",
-   "src": "Saintlouis · 444",
-   "region": "Est",
-   "cv": 10,
-   "contacts": 2,
-   "reponses": 0,
-   "score": 16,
-   "delta": 1,
-   "score_ref": 15,
-   "actif": true
-  },
-  {
-   "rang": 47,
-   "agence": "Clermont-Ferrand · 237",
-   "src": "Clermontferrand · 237",
-   "region": "AURA",
-   "cv": 1,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 1,
-   "delta": 1,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 48,
-   "agence": "Lieusaint · 411",
-   "src": "Lieusaint · 411",
-   "region": "Île-de-France",
-   "cv": 1,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 1,
-   "delta": 1,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 49,
+   "rang": 71,
    "agence": "Recrutement Centre-Est",
    "src": "Recrutement Centreest",
    "region": "Centre-Est",
@@ -818,7 +1104,7 @@
    "actif": false
   },
   {
-   "rang": 50,
+   "rang": 72,
    "agence": "Saintes · 309",
    "src": "Saintes · 309",
    "region": "Sud-Ouest",
@@ -831,10 +1117,10 @@
    "actif": false
   },
   {
-   "rang": 51,
-   "agence": "Monswiller · 474",
-   "src": "Monswiller · 474",
-   "region": "Est",
+   "rang": 73,
+   "agence": "Lens · 51",
+   "src": "Lens · 51",
+   "region": "Nord",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
@@ -844,7 +1130,7 @@
    "actif": false
   },
   {
-   "rang": 52,
+   "rang": 74,
    "agence": "Annecy · 61",
    "src": "Annecy · 61",
    "region": "AURA",
@@ -857,7 +1143,7 @@
    "actif": false
   },
   {
-   "rang": 53,
+   "rang": 75,
    "agence": "Bourg-en-Bresse · 540",
    "src": "Bourgenbresse · 540",
    "region": "AURA",
@@ -870,7 +1156,7 @@
    "actif": false
   },
   {
-   "rang": 54,
+   "rang": 76,
    "agence": "Bourgoin-Jallieu · 614",
    "src": "Bourgoinjallieu · 614",
    "region": "AURA",
@@ -883,7 +1169,7 @@
    "actif": false
   },
   {
-   "rang": 55,
+   "rang": 77,
    "agence": "Brignais · 123",
    "src": "Brignais · 123",
    "region": "AURA",
@@ -896,7 +1182,7 @@
    "actif": false
   },
   {
-   "rang": 56,
+   "rang": 78,
    "agence": "Chambéry · 527",
    "src": "Chambery · 527",
    "region": "AURA",
@@ -909,7 +1195,7 @@
    "actif": false
   },
   {
-   "rang": 57,
+   "rang": 79,
    "agence": "Clermont-Ferrand · 280",
    "src": "Clermontferrand · 280",
    "region": "AURA",
@@ -922,7 +1208,7 @@
    "actif": false
   },
   {
-   "rang": 58,
+   "rang": 80,
    "agence": "Décines · 120",
    "src": "Decines · 120",
    "region": "AURA",
@@ -935,20 +1221,7 @@
    "actif": false
   },
   {
-   "rang": 59,
-   "agence": "Grenoble · 524",
-   "src": "Grenoble · 524",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 60,
+   "rang": 81,
    "agence": "L’Arbresle · 128",
    "src": "Larbresle · 128",
    "region": "AURA",
@@ -961,7 +1234,7 @@
    "actif": false
   },
   {
-   "rang": 61,
+   "rang": 82,
    "agence": "Limas · 314",
    "src": "Limas · 314",
    "region": "AURA",
@@ -974,7 +1247,7 @@
    "actif": false
   },
   {
-   "rang": 62,
+   "rang": 83,
    "agence": "Lyon · 235",
    "src": "Lyon · 235",
    "region": "AURA",
@@ -987,7 +1260,7 @@
    "actif": false
   },
   {
-   "rang": 63,
+   "rang": 84,
    "agence": "Lyon · 247",
    "src": "Lyon · 247",
    "region": "AURA",
@@ -1000,7 +1273,7 @@
    "actif": false
   },
   {
-   "rang": 64,
+   "rang": 85,
    "agence": "Lyon · 266",
    "src": "Lyon · 266",
    "region": "AURA",
@@ -1013,7 +1286,7 @@
    "actif": false
   },
   {
-   "rang": 65,
+   "rang": 86,
    "agence": "Lyon · 332",
    "src": "Lyon · 332",
    "region": "AURA",
@@ -1026,7 +1299,7 @@
    "actif": false
   },
   {
-   "rang": 66,
+   "rang": 87,
    "agence": "Lyon · 402",
    "src": "Lyon · 402",
    "region": "AURA",
@@ -1039,33 +1312,7 @@
    "actif": false
   },
   {
-   "rang": 67,
-   "agence": "Montélimar · 545",
-   "src": "Montelimar · 545",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 68,
-   "agence": "Riom · 717",
-   "src": "Riom · 717",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 69,
+   "rang": 88,
    "agence": "Saint-Quentin · 127",
    "src": "Saintquentin · 127",
    "region": "AURA",
@@ -1078,7 +1325,7 @@
    "actif": false
   },
   {
-   "rang": 70,
+   "rang": 89,
    "agence": "Valence · 67",
    "src": "Valence · 67",
    "region": "AURA",
@@ -1091,7 +1338,7 @@
    "actif": false
   },
   {
-   "rang": 71,
+   "rang": 90,
    "agence": "Voiron · 591",
    "src": "Voiron · 591",
    "region": "AURA",
@@ -1104,7 +1351,7 @@
    "actif": false
   },
   {
-   "rang": 72,
+   "rang": 91,
    "agence": "Sète · 140",
    "src": "Sete · 140",
    "region": "Arc Méditerranée",
@@ -1117,7 +1364,7 @@
    "actif": false
   },
   {
-   "rang": 73,
+   "rang": 92,
    "agence": "Aubagne · 56",
    "src": "Aubagne · 56",
    "region": "Arc Méditerranée",
@@ -1130,7 +1377,7 @@
    "actif": false
   },
   {
-   "rang": 74,
+   "rang": 93,
    "agence": "Avignon · 193",
    "src": "Avignon · 193",
    "region": "Arc Méditerranée",
@@ -1143,7 +1390,7 @@
    "actif": false
   },
   {
-   "rang": 75,
+   "rang": 94,
    "agence": "Bagnols · 153",
    "src": "Bagnols · 153",
    "region": "Arc Méditerranée",
@@ -1156,7 +1403,7 @@
    "actif": false
   },
   {
-   "rang": 76,
+   "rang": 95,
    "agence": "Lunel · 189",
    "src": "Lunel · 189",
    "region": "Arc Méditerranée",
@@ -1169,7 +1416,7 @@
    "actif": false
   },
   {
-   "rang": 77,
+   "rang": 96,
    "agence": "Toulon · 26",
    "src": "Toulon · 26",
    "region": "Arc Méditerranée",
@@ -1182,7 +1429,7 @@
    "actif": false
   },
   {
-   "rang": 78,
+   "rang": 97,
    "agence": "Brignoles · 315",
    "src": "Brignoles · 315",
    "region": "Arc Méditerranée",
@@ -1195,7 +1442,7 @@
    "actif": false
   },
   {
-   "rang": 79,
+   "rang": 98,
    "agence": "Aix-en-Provence · 461",
    "src": "Aixenprovence · 461",
    "region": "Arc Méditerranée",
@@ -1208,7 +1455,7 @@
    "actif": false
   },
   {
-   "rang": 80,
+   "rang": 99,
    "agence": "Antony · 361",
    "src": "Antony · 361",
    "region": "Île-de-France",
@@ -1221,7 +1468,7 @@
    "actif": false
   },
   {
-   "rang": 81,
+   "rang": 100,
    "agence": "Arras · 503",
    "src": "Arras · 503",
    "region": "Nord",
@@ -1234,7 +1481,7 @@
    "actif": false
   },
   {
-   "rang": 82,
+   "rang": 101,
    "agence": "Marseille · 522",
    "src": "Marseille · 522",
    "region": "Arc Méditerranée",
@@ -1247,7 +1494,7 @@
    "actif": false
   },
   {
-   "rang": 83,
+   "rang": 102,
    "agence": "Nîmes · 73",
    "src": "Nimes · 73",
    "region": "Arc Méditerranée",
@@ -1260,20 +1507,7 @@
    "actif": false
   },
   {
-   "rang": 84,
-   "agence": "Caen · 508",
-   "src": "Caen · 508",
-   "region": "Normandie",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 85,
+   "rang": 103,
    "agence": "Gardanne · 157",
    "src": "Gardanne · 157",
    "region": "Arc Méditerranée",
@@ -1286,7 +1520,7 @@
    "actif": false
   },
   {
-   "rang": 86,
+   "rang": 104,
    "agence": "Narbonne · 150",
    "src": "Narbonne · 150",
    "region": "Arc Méditerranée",
@@ -1299,7 +1533,7 @@
    "actif": false
   },
   {
-   "rang": 87,
+   "rang": 105,
    "agence": "Nice · 270",
    "src": "Nice · 270",
    "region": "Arc Méditerranée",
@@ -1312,7 +1546,7 @@
    "actif": false
   },
   {
-   "rang": 88,
+   "rang": 106,
    "agence": "Alès · 566",
    "src": "Ales · 566",
    "region": "Arc Méditerranée",
@@ -1325,7 +1559,7 @@
    "actif": false
   },
   {
-   "rang": 89,
+   "rang": 107,
    "agence": "Vitrolles · 54",
    "src": "Vitrolles · 54",
    "region": "Arc Méditerranée",
@@ -1338,7 +1572,7 @@
    "actif": false
   },
   {
-   "rang": 90,
+   "rang": 108,
    "agence": "Vitrolles · 710",
    "src": "Vitrolles · 710",
    "region": "Arc Méditerranée",
@@ -1351,7 +1585,7 @@
    "actif": false
   },
   {
-   "rang": 91,
+   "rang": 109,
    "agence": "Fos-sur-Mer · 60",
    "src": "Fossurmer · 60",
    "region": "Arc Méditerranée",
@@ -1364,7 +1598,7 @@
    "actif": false
   },
   {
-   "rang": 92,
+   "rang": 110,
    "agence": "Vitré · 394",
    "src": "Vitre · 394",
    "region": "BPDL",
@@ -1377,7 +1611,7 @@
    "actif": false
   },
   {
-   "rang": 93,
+   "rang": 111,
    "agence": "Rennes · 07",
    "src": "Rennes · 07",
    "region": "BPDL",
@@ -1390,7 +1624,7 @@
    "actif": false
   },
   {
-   "rang": 94,
+   "rang": 112,
    "agence": "Rennes · 392",
    "src": "Rennes · 392",
    "region": "BPDL",
@@ -1403,7 +1637,7 @@
    "actif": false
   },
   {
-   "rang": 95,
+   "rang": 113,
    "agence": "Sablé-sur-Sarthe · 269",
    "src": "Sablesursarthe · 269",
    "region": "BPDL",
@@ -1416,7 +1650,7 @@
    "actif": false
   },
   {
-   "rang": 96,
+   "rang": 114,
    "agence": "Les Herbiers · 579",
    "src": "Lesherbiers · 579",
    "region": "BPDL",
@@ -1429,7 +1663,7 @@
    "actif": false
   },
   {
-   "rang": 97,
+   "rang": 115,
    "agence": "Croix · 495",
    "src": "Croix · 495",
    "region": "Nord",
@@ -1442,7 +1676,7 @@
    "actif": false
   },
   {
-   "rang": 98,
+   "rang": 116,
    "agence": "Paris · 77",
    "src": "Paris · 77",
    "region": "Île-de-France",
@@ -1455,7 +1689,7 @@
    "actif": false
   },
   {
-   "rang": 99,
+   "rang": 117,
    "agence": "Mantes · 412",
    "src": "Mantes · 412",
    "region": "Île-de-France",
@@ -1468,7 +1702,7 @@
    "actif": false
   },
   {
-   "rang": 100,
+   "rang": 118,
    "agence": "Boulogne · 161",
    "src": "Boulogne · 161",
    "region": "Île-de-France",
@@ -1481,7 +1715,7 @@
    "actif": false
   },
   {
-   "rang": 101,
+   "rang": 119,
    "agence": "Colombes · 518",
    "src": "Colombes · 518",
    "region": "Île-de-France",
@@ -1494,7 +1728,7 @@
    "actif": false
   },
   {
-   "rang": 102,
+   "rang": 120,
    "agence": "Courbevoie · 417",
    "src": "Courbevoie · 417",
    "region": "Île-de-France",
@@ -1507,7 +1741,7 @@
    "actif": false
   },
   {
-   "rang": 103,
+   "rang": 121,
    "agence": "Fontainebleau · 30",
    "src": "Fontainebleau · 30",
    "region": "Île-de-France",
@@ -1520,7 +1754,7 @@
    "actif": false
   },
   {
-   "rang": 104,
+   "rang": 122,
    "agence": "Fosses · 114",
    "src": "Fosses · 114",
    "region": "Île-de-France",
@@ -1533,7 +1767,7 @@
    "actif": false
   },
   {
-   "rang": 105,
+   "rang": 123,
    "agence": "Franconville · 268",
    "src": "Franconville · 268",
    "region": "Île-de-France",
@@ -1546,7 +1780,7 @@
    "actif": false
   },
   {
-   "rang": 106,
+   "rang": 124,
    "agence": "La Défense · 144",
    "src": "Ladefense · 144",
    "region": "Île-de-France",
@@ -1559,7 +1793,7 @@
    "actif": false
   },
   {
-   "rang": 107,
+   "rang": 125,
    "agence": "Le Plessis · 178",
    "src": "Leplessis · 178",
    "region": "Île-de-France",
@@ -1572,7 +1806,7 @@
    "actif": false
   },
   {
-   "rang": 108,
+   "rang": 126,
    "agence": "Massy · 252",
    "src": "Massy · 252",
    "region": "Île-de-France",
@@ -1585,7 +1819,7 @@
    "actif": false
   },
   {
-   "rang": 109,
+   "rang": 127,
    "agence": "Meaux · 27",
    "src": "Meaux · 27",
    "region": "Île-de-France",
@@ -1598,7 +1832,7 @@
    "actif": false
   },
   {
-   "rang": 110,
+   "rang": 128,
    "agence": "Meaux · 359",
    "src": "Meaux · 359",
    "region": "Île-de-France",
@@ -1611,7 +1845,7 @@
    "actif": false
   },
   {
-   "rang": 111,
+   "rang": 129,
    "agence": "Mitry-Mory · 19",
    "src": "Mitrymory · 19",
    "region": "Île-de-France",
@@ -1624,7 +1858,7 @@
    "actif": false
   },
   {
-   "rang": 112,
+   "rang": 130,
    "agence": "Montigny · 91",
    "src": "Montigny · 91",
    "region": "Île-de-France",
@@ -1637,7 +1871,7 @@
    "actif": false
   },
   {
-   "rang": 113,
+   "rang": 131,
    "agence": "Noisy · 418",
    "src": "Noisy · 418",
    "region": "Île-de-France",
@@ -1650,7 +1884,7 @@
    "actif": false
   },
   {
-   "rang": 114,
+   "rang": 132,
    "agence": "Paris · 372",
    "src": "Paris · 372",
    "region": "Île-de-France",
@@ -1663,7 +1897,7 @@
    "actif": false
   },
   {
-   "rang": 115,
+   "rang": 133,
    "agence": "Paris · 420",
    "src": "Paris · 420",
    "region": "Île-de-France",
@@ -1676,7 +1910,7 @@
    "actif": false
   },
   {
-   "rang": 116,
+   "rang": 134,
    "agence": "Paris · 421",
    "src": "Paris · 421",
    "region": "Île-de-France",
@@ -1689,7 +1923,7 @@
    "actif": false
   },
   {
-   "rang": 117,
+   "rang": 135,
    "agence": "Paris · 597",
    "src": "Paris · 597",
    "region": "Île-de-France",
@@ -1702,7 +1936,7 @@
    "actif": false
   },
   {
-   "rang": 118,
+   "rang": 136,
    "agence": "Paris · 689",
    "src": "Paris · 689",
    "region": "Île-de-France",
@@ -1715,7 +1949,7 @@
    "actif": false
   },
   {
-   "rang": 119,
+   "rang": 137,
    "agence": "Poissy · 413",
    "src": "Poissy · 413",
    "region": "Île-de-France",
@@ -1728,7 +1962,7 @@
    "actif": false
   },
   {
-   "rang": 120,
+   "rang": 138,
    "agence": "Rosny · 173",
    "src": "Rosny · 173",
    "region": "Île-de-France",
@@ -1741,7 +1975,7 @@
    "actif": false
   },
   {
-   "rang": 121,
+   "rang": 139,
    "agence": "Rungis · 63",
    "src": "Rungis · 63",
    "region": "Île-de-France",
@@ -1754,7 +1988,7 @@
    "actif": false
   },
   {
-   "rang": 122,
+   "rang": 140,
    "agence": "Villemomble · 362",
    "src": "Villemomble · 362",
    "region": "Île-de-France",
@@ -1767,7 +2001,7 @@
    "actif": false
   },
   {
-   "rang": 123,
+   "rang": 141,
    "agence": "Saint-Denis · 11",
    "src": "Saintdenis · 11",
    "region": "Île-de-France",
@@ -1780,7 +2014,7 @@
    "actif": false
   },
   {
-   "rang": 124,
+   "rang": 142,
    "agence": "Boulogne-sur-Mer · 607",
    "src": "Boulognesurmer · 607",
    "region": "Nord",
@@ -1793,7 +2027,7 @@
    "actif": false
   },
   {
-   "rang": 125,
+   "rang": 143,
    "agence": "Lille · 492",
    "src": "Lille · 492",
    "region": "Nord",
@@ -1806,7 +2040,7 @@
    "actif": false
   },
   {
-   "rang": 126,
+   "rang": 144,
    "agence": "Saint-Quentin · 487",
    "src": "Saintquentin · 487",
    "region": "Nord",
@@ -1819,7 +2053,7 @@
    "actif": false
   },
   {
-   "rang": 127,
+   "rang": 145,
    "agence": "Tourcoing · 496",
    "src": "Tourcoing · 496",
    "region": "Nord",
@@ -1832,20 +2066,7 @@
    "actif": false
   },
   {
-   "rang": 128,
-   "agence": "Vernon · 385",
-   "src": "Vernon · 385",
-   "region": "Normandie",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 129,
+   "rang": 146,
    "agence": "Evreux · 383",
    "src": "Evreux · 383",
    "region": "Normandie",
@@ -1858,20 +2079,7 @@
    "actif": false
   },
   {
-   "rang": 130,
-   "agence": "Pont-Audemer · 130",
-   "src": "Pontaudemer · 130",
-   "region": "Normandie",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 131,
+   "rang": 147,
    "agence": "Sotteville · 408",
    "src": "Sotteville · 408",
    "region": "Normandie",
@@ -1884,7 +2092,7 @@
    "actif": false
   },
   {
-   "rang": 132,
+   "rang": 148,
    "agence": "Cherbourg · 68",
    "src": "Cherbourg · 68",
    "region": "Normandie",
@@ -1897,7 +2105,7 @@
    "actif": false
   },
   {
-   "rang": 133,
+   "rang": 149,
    "agence": "Tancarville · 409",
    "src": "Tancarville · 409",
    "region": "Normandie",
@@ -1910,7 +2118,7 @@
    "actif": false
   },
   {
-   "rang": 134,
+   "rang": 150,
    "agence": "Le Havre · 512",
    "src": "Lehavre · 512",
    "region": "Normandie",
@@ -1923,7 +2131,7 @@
    "actif": false
   },
   {
-   "rang": 135,
+   "rang": 151,
    "agence": "Dieppe · 511",
    "src": "Dieppe · 511",
    "region": "Normandie",
@@ -1936,7 +2144,7 @@
    "actif": false
   },
   {
-   "rang": 136,
+   "rang": 152,
    "agence": "Verneuil · 366",
    "src": "Verneuil · 366",
    "region": "Normandie",
@@ -1949,7 +2157,7 @@
    "actif": false
   },
   {
-   "rang": 137,
+   "rang": 153,
    "agence": "Le Havre · 284",
    "src": "Lehavre · 284",
    "region": "Normandie",
@@ -1962,7 +2170,7 @@
    "actif": false
   },
   {
-   "rang": 138,
+   "rang": 154,
    "agence": "Argentan · 209",
    "src": "Argentan · 209",
    "region": "Normandie",
@@ -1975,7 +2183,7 @@
    "actif": false
   },
   {
-   "rang": 139,
+   "rang": 155,
    "agence": "Avranches · 577",
    "src": "Avranches · 577",
    "region": "Normandie",
@@ -1988,7 +2196,7 @@
    "actif": false
   },
   {
-   "rang": 140,
+   "rang": 156,
    "agence": "Barentin · 143",
    "src": "Barentin · 143",
    "region": "Normandie",
@@ -2001,7 +2209,7 @@
    "actif": false
   },
   {
-   "rang": 141,
+   "rang": 157,
    "agence": "Bayeux · 624",
    "src": "Bayeux · 624",
    "region": "Normandie",
@@ -2014,7 +2222,7 @@
    "actif": false
   },
   {
-   "rang": 142,
+   "rang": 158,
    "agence": "Caen · 376",
    "src": "Caen · 376",
    "region": "Normandie",
@@ -2027,7 +2235,7 @@
    "actif": false
   },
   {
-   "rang": 143,
+   "rang": 159,
    "agence": "Coutances · 603",
    "src": "Coutances · 603",
    "region": "Normandie",
@@ -2040,7 +2248,7 @@
    "actif": false
   },
   {
-   "rang": 144,
+   "rang": 160,
    "agence": "Fécamp · 616",
    "src": "Fecamp · 616",
    "region": "Normandie",
@@ -2053,20 +2261,7 @@
    "actif": false
   },
   {
-   "rang": 145,
-   "agence": "Harfleur · 22",
-   "src": "Harfleur · 22",
-   "region": "Normandie",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 146,
+   "rang": 161,
    "agence": "Le Havre · 410",
    "src": "Lehavre · 410",
    "region": "Normandie",
@@ -2079,7 +2274,7 @@
    "actif": false
   },
   {
-   "rang": 147,
+   "rang": 162,
    "agence": "Dieppe · 171",
    "src": "Dieppe · 171",
    "region": "Normandie",
@@ -2092,7 +2287,7 @@
    "actif": false
   },
   {
-   "rang": 148,
+   "rang": 163,
    "agence": "Notre-Dame-de-Gravenchon · 44",
    "src": "Ndgravenchon · 44",
    "region": "Normandie",
@@ -2105,7 +2300,7 @@
    "actif": false
   },
   {
-   "rang": 149,
+   "rang": 164,
    "agence": "Rouen · 407",
    "src": "Rouen · 407",
    "region": "Normandie",
@@ -2118,7 +2313,7 @@
    "actif": false
   },
   {
-   "rang": 150,
+   "rang": 165,
    "agence": "Rouen · 552",
    "src": "Rouen · 552",
    "region": "Normandie",
@@ -2131,7 +2326,7 @@
    "actif": false
   },
   {
-   "rang": 151,
+   "rang": 166,
    "agence": "Limoges · 415",
    "src": "Limoges · 415",
    "region": "Sud-Ouest",
@@ -2144,7 +2339,7 @@
    "actif": false
   },
   {
-   "rang": 152,
+   "rang": 167,
    "agence": "Limoges · 46",
    "src": "Limoges · 46",
    "region": "Sud-Ouest",
@@ -2157,7 +2352,7 @@
    "actif": false
   },
   {
-   "rang": 153,
+   "rang": 168,
    "agence": "Châteaubriant · 185",
    "src": "Chateaubriant · 185",
    "region": "BPDL",
@@ -2170,7 +2365,7 @@
    "actif": false
   },
   {
-   "rang": 154,
+   "rang": 169,
    "agence": "Nantes · 396",
    "src": "Nantes · 396",
    "region": "BPDL",
@@ -2183,46 +2378,7 @@
    "actif": false
   },
   {
-   "rang": 155,
-   "agence": "Saint-Agathon · 662",
-   "src": "Saintagathon · 662",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 156,
-   "agence": "Saint-Brieuc · 379",
-   "src": "Saintbrieuc · 379",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 157,
-   "agence": "Saint-Malo · 393",
-   "src": "Saintmalo · 393",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 158,
+   "rang": 170,
    "agence": "Saint-Nazaire · 135",
    "src": "Saintnazaire · 135",
    "region": "BPDL",
@@ -2235,7 +2391,7 @@
    "actif": false
   },
   {
-   "rang": 159,
+   "rang": 171,
    "agence": "La Rochelle · 378",
    "src": "Larochelle · 378",
    "region": "Sud-Ouest",
@@ -2248,7 +2404,7 @@
    "actif": false
   },
   {
-   "rang": 160,
+   "rang": 172,
    "agence": "La Rochelle · 170",
    "src": "Larochelle · 170",
    "region": "Sud-Ouest",
@@ -2261,7 +2417,7 @@
    "actif": false
   },
   {
-   "rang": 161,
+   "rang": 173,
    "agence": "Libourne · 136",
    "src": "Libourne · 136",
    "region": "Sud-Ouest",
@@ -2274,7 +2430,7 @@
    "actif": false
   },
   {
-   "rang": 162,
+   "rang": 174,
    "agence": "Niort · 321",
    "src": "Niort · 321",
    "region": "Sud-Ouest",
@@ -2287,7 +2443,7 @@
    "actif": false
   },
   {
-   "rang": 163,
+   "rang": 175,
    "agence": "Angoulême · 03",
    "src": "Angouleme · 03",
    "region": "Sud-Ouest",
@@ -2300,7 +2456,7 @@
    "actif": false
   },
   {
-   "rang": 164,
+   "rang": 176,
    "agence": "Bressuire · 611",
    "src": "Bressuire · 611",
    "region": "Sud-Ouest",
@@ -2313,7 +2469,7 @@
    "actif": false
   },
   {
-   "rang": 165,
+   "rang": 177,
    "agence": "Paris · 419",
    "src": "Paris · 419",
    "region": "Île-de-France",
@@ -2326,7 +2482,7 @@
    "actif": false
   },
   {
-   "rang": 166,
+   "rang": 178,
    "agence": "05Cedb4Cb966Ea68",
    "src": "05Cedb4Cb966Ea68",
    "region": "Île-de-France",
@@ -2339,20 +2495,7 @@
    "actif": false
   },
   {
-   "rang": 167,
-   "agence": "Mâcon · 479",
-   "src": "Macon · 479",
-   "region": "Centre-Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 168,
+   "rang": 179,
    "agence": "Lens · 504",
    "src": "Lens · 504",
    "region": "Nord",
@@ -2365,7 +2508,7 @@
    "actif": false
   },
   {
-   "rang": 169,
+   "rang": 180,
    "agence": "Bourges · 546",
    "src": "Bourges · 546",
    "region": "Centre-Val de Loire",
@@ -2378,7 +2521,7 @@
    "actif": false
   },
   {
-   "rang": 170,
+   "rang": 181,
    "agence": "Dreux · 367",
    "src": "Dreux · 367",
    "region": "Centre-Val de Loire",
@@ -2391,7 +2534,7 @@
    "actif": false
   },
   {
-   "rang": 171,
+   "rang": 182,
    "agence": "Gien · 117",
    "src": "Gien · 117",
    "region": "Centre-Val de Loire",
@@ -2404,7 +2547,7 @@
    "actif": false
   },
   {
-   "rang": 172,
+   "rang": 183,
    "agence": "Orléans · 570",
    "src": "Orleans · 570",
    "region": "Centre-Val de Loire",
@@ -2417,7 +2560,7 @@
    "actif": false
   },
   {
-   "rang": 173,
+   "rang": 184,
    "agence": "Pithiviers · 593",
    "src": "Pithiviers · 593",
    "region": "Centre-Val de Loire",
@@ -2430,7 +2573,7 @@
    "actif": false
   },
   {
-   "rang": 174,
+   "rang": 185,
    "agence": "Isigny · 951",
    "src": "Isigny · 951",
    "region": "Normandie",
@@ -2443,7 +2586,7 @@
    "actif": false
   },
   {
-   "rang": 175,
+   "rang": 186,
    "agence": "Castelnaudary · 203",
    "src": "Castelnaudary · 203",
    "region": "Arc Méditerranée",
@@ -2456,7 +2599,7 @@
    "actif": false
   },
   {
-   "rang": 176,
+   "rang": 187,
    "agence": "Béziers · 111",
    "src": "Beziers · 111",
    "region": "Arc Méditerranée",
@@ -2469,7 +2612,7 @@
    "actif": false
   },
   {
-   "rang": 177,
+   "rang": 188,
    "agence": "Les Arcs-sur-Argens · 177",
    "src": "Lesarcssurargens · 177",
    "region": "Arc Méditerranée",
@@ -2482,7 +2625,7 @@
    "actif": false
   },
   {
-   "rang": 178,
+   "rang": 189,
    "agence": "Plan-d’Orgon · 250",
    "src": "Plandorgon · 250",
    "region": "Arc Méditerranée",
@@ -2495,7 +2638,7 @@
    "actif": false
   },
   {
-   "rang": 179,
+   "rang": 190,
    "agence": "Cannes · 76",
    "src": "Cannes · 76",
    "region": "Arc Méditerranée",
@@ -2508,7 +2651,7 @@
    "actif": false
   },
   {
-   "rang": 180,
+   "rang": 191,
    "agence": "Pierrelatte · 174",
    "src": "Pierrelatte · 174",
    "region": "Arc Méditerranée",
@@ -2521,7 +2664,7 @@
    "actif": false
   },
   {
-   "rang": 181,
+   "rang": 192,
    "agence": "Marseille · 53",
    "src": "Marseille · 53",
    "region": "Arc Méditerranée",
@@ -2534,20 +2677,7 @@
    "actif": false
   },
   {
-   "rang": 182,
-   "agence": "Haguenau · 429",
-   "src": "Haguenau · 429",
-   "region": "Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 183,
+   "rang": 193,
    "agence": "Romans · 686",
    "src": "Romans · 686",
    "region": "AURA",
@@ -2560,36 +2690,10 @@
    "actif": false
   },
   {
-   "rang": 184,
-   "agence": "Dijon · 523",
-   "src": "Dijon · 523",
-   "region": "Centre-Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 185,
-   "agence": "Changé · 347",
-   "src": "Change · 347",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 186,
-   "agence": "Monistrol · 568",
-   "src": "Monistrol · 568",
-   "region": "AURA",
+   "rang": 194,
+   "agence": "Lieusaint · 411",
+   "src": "Lieusaint · 411",
+   "region": "Île-de-France",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
@@ -2599,7 +2703,20 @@
    "actif": false
   },
   {
-   "rang": 187,
+   "rang": 195,
+   "agence": "Lisieux · 06",
+   "src": "Lisieux · 06",
+   "region": "Normandie",
+   "cv": 0,
+   "contacts": 1,
+   "reponses": 0,
+   "score": 3,
+   "delta": -2,
+   "score_ref": 5,
+   "actif": true
+  },
+  {
+   "rang": 196,
    "agence": "La Défense · 687",
    "src": "Ladefense · 687",
    "region": "E&C",
@@ -2607,12 +2724,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -1,
-   "score_ref": 1,
+   "delta": -2,
+   "score_ref": 2,
    "actif": false
   },
   {
-   "rang": 188,
+   "rang": 197,
    "agence": "Cholet · 578",
    "src": "Cholet · 578",
    "region": "BPDL",
@@ -2620,38 +2737,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -2,
-   "score_ref": 2,
+   "delta": -3,
+   "score_ref": 3,
    "actif": false
   },
   {
-   "rang": 189,
-   "agence": "Montoir · 194",
-   "src": "Montoir · 194",
-   "region": "BPDL",
-   "cv": 0,
+   "rang": 198,
+   "agence": "Montluçon · 349",
+   "src": "Montlucon · 349",
+   "region": "AURA",
+   "cv": 2,
    "contacts": 0,
    "reponses": 0,
-   "score": 0,
-   "delta": -2,
-   "score_ref": 2,
-   "actif": false
-  },
-  {
-   "rang": 190,
-   "agence": "Charleville-Mézières · 606",
-   "src": "Charleville · 606",
-   "region": "Nord",
-   "cv": 20,
-   "contacts": 6,
-   "reponses": 0,
-   "score": 38,
-   "delta": -3,
-   "score_ref": 41,
+   "score": 2,
+   "delta": -6,
+   "score_ref": 8,
    "actif": true
   },
   {
-   "rang": 191,
+   "rang": 199,
    "agence": "Carcassonne · 547",
    "src": "Carcassonne · 547",
    "region": "Arc Méditerranée",
@@ -2659,25 +2763,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -3,
-   "score_ref": 3,
+   "delta": -6,
+   "score_ref": 6,
    "actif": false
   },
   {
-   "rang": 192,
-   "agence": "Lisieux · 06",
-   "src": "Lisieux · 06",
-   "region": "Normandie",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -3,
-   "score_ref": 3,
-   "actif": false
-  },
-  {
-   "rang": 193,
+   "rang": 200,
    "agence": "Beaugency · 648",
    "src": "Beaugency · 648",
    "region": "Centre-Val de Loire",
@@ -2685,80 +2776,15 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -3,
-   "score_ref": 3,
+   "delta": -6,
+   "score_ref": 6,
    "actif": false
   },
   {
-   "rang": 194,
-   "agence": "Montluçon · 349",
-   "src": "Montlucon · 349",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -5,
-   "score_ref": 5,
-   "actif": false
-  },
-  {
-   "rang": 195,
-   "agence": "Fréjus · 560",
-   "src": "Frejus · 560",
-   "region": "Arc Méditerranée",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -5,
-   "score_ref": 5,
-   "actif": false
-  },
-  {
-   "rang": 196,
+   "rang": 201,
    "agence": "Chalon-sur-Saône · 480",
    "src": "Chalonsursaone · 480",
    "region": "Centre-Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -5,
-   "score_ref": 5,
-   "actif": false
-  },
-  {
-   "rang": 197,
-   "agence": "Thiers · 248",
-   "src": "Thiers · 248",
-   "region": "AURA",
-   "cv": 8,
-   "contacts": 2,
-   "reponses": 1,
-   "score": 19,
-   "delta": -7,
-   "score_ref": 26,
-   "actif": true
-  },
-  {
-   "rang": 198,
-   "agence": "Sarreguemines · 451",
-   "src": "Sarreguemines · 451",
-   "region": "Est",
-   "cv": 1,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 1,
-   "delta": -8,
-   "score_ref": 9,
-   "actif": true
-  },
-  {
-   "rang": 199,
-   "agence": "Dunkerque · 158",
-   "src": "Dunkerque · 158",
-   "region": "Nord",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
@@ -2768,10 +2794,10 @@
    "actif": false
   },
   {
-   "rang": 200,
-   "agence": "Saint-Amand · 519",
-   "src": "Stamand · 519",
-   "region": "Centre-Val de Loire",
+   "rang": 202,
+   "agence": "Fréjus · 560",
+   "src": "Frejus · 560",
+   "region": "Arc Méditerranée",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
@@ -2781,87 +2807,22 @@
    "actif": false
   },
   {
-   "rang": 201,
-   "agence": "Tours · 604",
-   "src": "Tours · 604",
-   "region": "Centre-Val de Loire",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -11,
-   "score_ref": 11,
-   "actif": false
-  },
-  {
-   "rang": 202,
-   "agence": "Languedoc-Roussillon · 1",
-   "src": "Languedocroussillon · 1",
-   "region": "Arc Méditerranée",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -12,
-   "score_ref": 12,
-   "actif": false
-  },
-  {
    "rang": 203,
-   "agence": "Meroux · 457",
-   "src": "Meroux · 457",
-   "region": "Centre-Est",
+   "agence": "Dunkerque · 158",
+   "src": "Dunkerque · 158",
+   "region": "Nord",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -15,
-   "score_ref": 15,
+   "delta": -17,
+   "score_ref": 17,
    "actif": false
   },
   {
    "rang": 204,
-   "agence": "Roanne · 348",
-   "src": "Roanne · 348",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -17,
-   "score_ref": 17,
-   "actif": false
-  },
-  {
-   "rang": 205,
-   "agence": "Langres · 554",
-   "src": "Langres · 554",
-   "region": "Centre-Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -17,
-   "score_ref": 17,
-   "actif": false
-  },
-  {
-   "rang": 206,
-   "agence": "Brest · 342",
-   "src": "Brest · 342",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -18,
-   "score_ref": 18,
-   "actif": false
-  },
-  {
-   "rang": 207,
-   "agence": "Poitiers · 133",
-   "src": "Poitiers · 133",
+   "agence": "Saint-Amand · 519",
+   "src": "Stamand · 519",
    "region": "Centre-Val de Loire",
    "cv": 0,
    "contacts": 0,
@@ -2872,23 +2833,10 @@
    "actif": false
   },
   {
-   "rang": 208,
-   "agence": "Reims · 567",
-   "src": "Reims · 567",
-   "region": "Nord",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -19,
-   "score_ref": 19,
-   "actif": false
-  },
-  {
-   "rang": 209,
-   "agence": "Béthune · 505",
-   "src": "Bethune · 505",
-   "region": "Nord",
+   "rang": 205,
+   "agence": "Tours · 604",
+   "src": "Tours · 604",
+   "region": "Centre-Val de Loire",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
@@ -2898,7 +2846,85 @@
    "actif": false
   },
   {
+   "rang": 206,
+   "agence": "Montpellier · 121",
+   "src": "Montpellier · 121",
+   "region": "Arc Méditerranée",
+   "cv": 49,
+   "contacts": 2,
+   "reponses": 1,
+   "score": 60,
+   "delta": -21,
+   "score_ref": 81,
+   "actif": true
+  },
+  {
+   "rang": 207,
+   "agence": "Languedoc-Roussillon · 1",
+   "src": "Languedocroussillon · 1",
+   "region": "Arc Méditerranée",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -21,
+   "score_ref": 21,
+   "actif": false
+  },
+  {
+   "rang": 208,
+   "agence": "Meroux · 457",
+   "src": "Meroux · 457",
+   "region": "Centre-Est",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -27,
+   "score_ref": 27,
+   "actif": false
+  },
+  {
+   "rang": 209,
+   "agence": "Béthune · 505",
+   "src": "Bethune · 505",
+   "region": "Nord",
+   "cv": 3,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 3,
+   "delta": -32,
+   "score_ref": 35,
+   "actif": true
+  },
+  {
    "rang": 210,
+   "agence": "Poitiers · 133",
+   "src": "Poitiers · 133",
+   "region": "Centre-Val de Loire",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -33,
+   "score_ref": 33,
+   "actif": false
+  },
+  {
+   "rang": 211,
+   "agence": "Reims · 567",
+   "src": "Reims · 567",
+   "region": "Nord",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -34,
+   "score_ref": 34,
+   "actif": false
+  },
+  {
+   "rang": 212,
    "agence": "Saint-Herblain · 748",
    "src": "Saintherblain · 748",
    "region": "E&C",
@@ -2906,25 +2932,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -22,
-   "score_ref": 22,
+   "delta": -40,
+   "score_ref": 40,
    "actif": false
   },
   {
-   "rang": 211,
-   "agence": "Calais · 352",
-   "src": "Calais · 352",
-   "region": "Nord",
-   "cv": 93,
-   "contacts": 8,
-   "reponses": 1,
-   "score": 122,
-   "delta": -23,
-   "score_ref": 145,
+   "rang": 213,
+   "agence": "Montargis · 82",
+   "src": "Montargis · 82",
+   "region": "Centre-Val de Loire",
+   "cv": 16,
+   "contacts": 1,
+   "reponses": 0,
+   "score": 19,
+   "delta": -46,
+   "score_ref": 65,
    "actif": true
   },
   {
-   "rang": 212,
+   "rang": 214,
    "agence": "Le Péage-de-Roussillon · 617",
    "src": "Peageroussillon · 617",
    "region": "AURA",
@@ -2932,12 +2958,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -26,
-   "score_ref": 26,
+   "delta": -46,
+   "score_ref": 46,
    "actif": false
   },
   {
-   "rang": 213,
+   "rang": 215,
+   "agence": "Clermont-Ferrand · 529",
+   "src": "Clermontferrand · 529",
+   "region": "AURA",
+   "cv": 8,
+   "contacts": 1,
+   "reponses": 1,
+   "score": 16,
+   "delta": -48,
+   "score_ref": 64,
+   "actif": true
+  },
+  {
+   "rang": 216,
    "agence": "Chartres · 34",
    "src": "Chartres · 34",
    "region": "Centre-Val de Loire",
@@ -2945,12 +2984,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -28,
-   "score_ref": 28,
+   "delta": -51,
+   "score_ref": 51,
    "actif": false
   },
   {
-   "rang": 214,
+   "rang": 217,
    "agence": "Armentières · 320",
    "src": "Armentieres · 320",
    "region": "Nord",
@@ -2958,12 +2997,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -28,
-   "score_ref": 28,
+   "delta": -51,
+   "score_ref": 51,
    "actif": false
   },
   {
-   "rang": 215,
+   "rang": 218,
    "agence": "Hazebrouck · 596",
    "src": "Hazebrouck · 596",
    "region": "Nord",
@@ -2971,51 +3010,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -29,
-   "score_ref": 29,
-   "actif": false
-  },
-  {
-   "rang": 216,
-   "agence": "Clermont-Ferrand · 529",
-   "src": "Clermontferrand · 529",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -36,
-   "score_ref": 36,
-   "actif": false
-  },
-  {
-   "rang": 217,
-   "agence": "Montargis · 82",
-   "src": "Montargis · 82",
-   "region": "Centre-Val de Loire",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -36,
-   "score_ref": 36,
-   "actif": false
-  },
-  {
-   "rang": 218,
-   "agence": "Le Puy-en-Velay · 681",
-   "src": "Lepuy · 681",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -37,
-   "score_ref": 37,
+   "delta": -52,
+   "score_ref": 52,
    "actif": false
   },
   {
    "rang": 219,
+   "agence": "Le Puy-en-Velay · 681",
+   "src": "Lepuy · 681",
+   "region": "AURA",
+   "cv": 4,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 4,
+   "delta": -63,
+   "score_ref": 67,
+   "actif": true
+  },
+  {
+   "rang": 220,
    "agence": "Smdc · 981",
    "src": "Smdc · 981",
    "region": "Normandie",
@@ -3023,12 +3036,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -37,
-   "score_ref": 37,
+   "delta": -67,
+   "score_ref": 67,
    "actif": false
   },
   {
-   "rang": 220,
+   "rang": 221,
    "agence": "Le Mans · 18",
    "src": "Lemans · 18",
    "region": "Centre-Val de Loire",
@@ -3036,12 +3049,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -38,
-   "score_ref": 38,
+   "delta": -69,
+   "score_ref": 69,
    "actif": false
   },
   {
-   "rang": 221,
+   "rang": 222,
    "agence": "Recrutement · 368",
    "src": "Recrutement · 368",
    "region": "Normandie",
@@ -3049,12 +3062,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -39,
-   "score_ref": 39,
+   "delta": -70,
+   "score_ref": 70,
    "actif": false
   },
   {
-   "rang": 222,
+   "rang": 223,
    "agence": "Provence · 1",
    "src": "Provence · 1",
    "region": "Arc Méditerranée",
@@ -3062,21 +3075,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -43,
-   "score_ref": 43,
-   "actif": false
-  },
-  {
-   "rang": 223,
-   "agence": "Montpellier · 121",
-   "src": "Montpellier · 121",
-   "region": "Arc Méditerranée",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -45,
-   "score_ref": 45,
+   "delta": -77,
+   "score_ref": 77,
    "actif": false
   },
   {
@@ -3088,8 +3088,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -52,
-   "score_ref": 52,
+   "delta": -93,
+   "score_ref": 93,
    "actif": false
   },
   {
@@ -3101,12 +3101,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -54,
-   "score_ref": 54,
+   "delta": -98,
+   "score_ref": 98,
    "actif": false
   },
   {
    "rang": 226,
+   "agence": "Côte d’Azur · 1",
+   "src": "Cotedazur · 1",
+   "region": "Arc Méditerranée",
+   "cv": 47,
+   "contacts": 2,
+   "reponses": 1,
+   "score": 58,
+   "delta": -106,
+   "score_ref": 164,
+   "actif": true
+  },
+  {
+   "rang": 227,
    "agence": "Muret · 575",
    "src": "Muret · 575",
    "region": "Sud-Ouest",
@@ -3114,12 +3127,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -59,
-   "score_ref": 59,
+   "delta": -106,
+   "score_ref": 106,
    "actif": false
   },
   {
-   "rang": 227,
+   "rang": 228,
    "agence": "Sainte-Marie-aux-Chênes · 625",
    "src": "Stmarieauxchenes · 625",
    "region": "Est",
@@ -3127,12 +3140,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -64,
-   "score_ref": 64,
+   "delta": -115,
+   "score_ref": 115,
    "actif": false
   },
   {
-   "rang": 228,
+   "rang": 229,
    "agence": "Issoire · 569",
    "src": "Issoire · 569",
    "region": "AURA",
@@ -3140,12 +3153,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -70,
-   "score_ref": 70,
+   "delta": -126,
+   "score_ref": 126,
    "actif": false
   },
   {
-   "rang": 229,
+   "rang": 230,
    "agence": "Landivisiau · 167",
    "src": "Landivisiau · 167",
    "region": "BPDL",
@@ -3153,34 +3166,21 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -74,
-   "score_ref": 74,
-   "actif": false
-  },
-  {
-   "rang": 230,
-   "agence": "Côte d’Azur · 1",
-   "src": "Cotedazur · 1",
-   "region": "Arc Méditerranée",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -91,
-   "score_ref": 91,
+   "delta": -133,
+   "score_ref": 133,
    "actif": false
   },
   {
    "rang": 231,
-   "agence": "Seclin · 255",
-   "src": "Seclin · 255",
-   "region": "Nord",
-   "cv": 44,
-   "contacts": 13,
-   "reponses": 0,
-   "score": 83,
-   "delta": -100,
-   "score_ref": 183,
+   "agence": "Cesson-Sévigné · 764",
+   "src": "Cessonsevigne · 764",
+   "region": "BPDL",
+   "cv": 45,
+   "contacts": 9,
+   "reponses": 2,
+   "score": 82,
+   "delta": -148,
+   "score_ref": 230,
    "actif": true
   },
   {
@@ -3192,35 +3192,48 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -116,
-   "score_ref": 116,
+   "delta": -209,
+   "score_ref": 209,
    "actif": false
   },
   {
    "rang": 233,
-   "agence": "Cesson-Sévigné · 764",
-   "src": "Cessonsevigne · 764",
+   "agence": "Rezé · 544",
+   "src": "Reze · 544",
    "region": "BPDL",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -128,
-   "score_ref": 128,
+   "delta": -235,
+   "score_ref": 235,
    "actif": false
   },
   {
    "rang": 234,
+   "agence": "Seclin · 255",
+   "src": "Seclin · 255",
+   "region": "Nord",
+   "cv": 44,
+   "contacts": 13,
+   "reponses": 0,
+   "score": 83,
+   "delta": -246,
+   "score_ref": 329,
+   "actif": true
+  },
+  {
+   "rang": 235,
    "agence": "Strasbourg · 422",
    "src": "Strasbourg · 422",
    "region": "Est",
-   "cv": 0,
+   "cv": 35,
    "contacts": 0,
    "reponses": 0,
-   "score": 0,
-   "delta": -173,
-   "score_ref": 173,
-   "actif": false
+   "score": 35,
+   "delta": -276,
+   "score_ref": 311,
+   "actif": true
   }
  ],
  "individuel": [
@@ -3229,12 +3242,12 @@
    "nom": "Emma",
    "src": "Emma",
    "region": "Arc Méditerranée",
-   "cv": 364,
-   "contacts": 13,
-   "reponses": 3,
-   "score": 418,
-   "delta": 346,
-   "score_ref": 72,
+   "cv": 516,
+   "contacts": 25,
+   "reponses": 14,
+   "score": 661,
+   "delta": 531,
+   "score_ref": 130,
    "actif": true
   },
   {
@@ -3571,8 +3584,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -3,
-   "score_ref": 3,
+   "delta": -6,
+   "score_ref": 6,
    "actif": false
   },
   {
@@ -3584,12 +3597,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -5,
-   "score_ref": 5,
+   "delta": -10,
+   "score_ref": 10,
    "actif": false
   },
   {
    "rang": 29,
+   "nom": "Montpellier · 121",
+   "src": "Montpellier · 121",
+   "region": "Arc Méditerranée",
+   "cv": 49,
+   "contacts": 2,
+   "reponses": 1,
+   "score": 60,
+   "delta": -21,
+   "score_ref": 81,
+   "actif": true
+  },
+  {
+   "rang": 30,
    "nom": "Languedoc-Roussillon · 1",
    "src": "Languedocroussillon · 1",
    "region": "Arc Méditerranée",
@@ -3597,12 +3623,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -12,
-   "score_ref": 12,
+   "delta": -21,
+   "score_ref": 21,
    "actif": false
   },
   {
-   "rang": 30,
+   "rang": 31,
    "nom": "Provence · 1",
    "src": "Provence · 1",
    "region": "Arc Méditerranée",
@@ -3610,21 +3636,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -43,
-   "score_ref": 43,
-   "actif": false
-  },
-  {
-   "rang": 31,
-   "nom": "Montpellier · 121",
-   "src": "Montpellier · 121",
-   "region": "Arc Méditerranée",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -45,
-   "score_ref": 45,
+   "delta": -77,
+   "score_ref": 77,
    "actif": false
   },
   {
@@ -3632,24 +3645,24 @@
    "nom": "Côte d’Azur · 1",
    "src": "Cotedazur · 1",
    "region": "Arc Méditerranée",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -91,
-   "score_ref": 91,
-   "actif": false
+   "cv": 47,
+   "contacts": 2,
+   "reponses": 1,
+   "score": 58,
+   "delta": -106,
+   "score_ref": 164,
+   "actif": true
   },
   {
    "rang": 1,
    "nom": "Clermont-Ferrand · 640",
    "src": "Clermontferrand · 640",
    "region": "AURA",
-   "cv": 418,
-   "contacts": 90,
-   "reponses": 23,
-   "score": 803,
-   "delta": 803,
+   "cv": 638,
+   "contacts": 101,
+   "reponses": 34,
+   "score": 1111,
+   "delta": 1111,
    "score_ref": 0,
    "actif": true
   },
@@ -3658,94 +3671,172 @@
    "nom": "Andrézieux · 576",
    "src": "Andrezieux · 576",
    "region": "AURA",
-   "cv": 638,
-   "contacts": 12,
+   "cv": 349,
+   "contacts": 8,
    "reponses": 5,
-   "score": 699,
-   "delta": 699,
+   "score": 398,
+   "delta": 398,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 3,
-   "nom": "Saint-Vulbas · 191",
-   "src": "Stvulbas · 191",
+   "nom": "Roanne · 348",
+   "src": "Roanne · 348",
    "region": "AURA",
-   "cv": 29,
-   "contacts": 13,
-   "reponses": 4,
-   "score": 88,
-   "delta": 88,
-   "score_ref": 0,
+   "cv": 232,
+   "contacts": 29,
+   "reponses": 8,
+   "score": 359,
+   "delta": 329,
+   "score_ref": 30,
    "actif": true
   },
   {
    "rang": 4,
-   "nom": "Grenoble · 509",
-   "src": "Grenoble · 509",
+   "nom": "Clermont-Ferrand · 237",
+   "src": "Clermontferrand · 237",
    "region": "AURA",
-   "cv": 19,
-   "contacts": 6,
-   "reponses": 5,
-   "score": 62,
-   "delta": 62,
+   "cv": 104,
+   "contacts": 20,
+   "reponses": 7,
+   "score": 199,
+   "delta": 199,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 5,
-   "nom": "Clermont-Ferrand · 278",
-   "src": "Clermontferrand · 278",
+   "nom": "Saint-Vulbas · 191",
+   "src": "Stvulbas · 191",
    "region": "AURA",
-   "cv": 33,
-   "contacts": 5,
-   "reponses": 0,
-   "score": 48,
-   "delta": 48,
+   "cv": 35,
+   "contacts": 16,
+   "reponses": 6,
+   "score": 113,
+   "delta": 113,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 6,
-   "nom": "Vichy · 339",
-   "src": "Vichy · 339",
+   "nom": "Riom · 717",
+   "src": "Riom · 717",
    "region": "AURA",
-   "cv": 7,
-   "contacts": 7,
+   "cv": 51,
+   "contacts": 12,
    "reponses": 4,
-   "score": 48,
-   "delta": 48,
+   "score": 107,
+   "delta": 107,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 7,
-   "nom": "Vienne · 573",
-   "src": "Vienne · 573",
+   "nom": "Montélimar · 545",
+   "src": "Montelimar · 545",
    "region": "AURA",
-   "cv": 8,
-   "contacts": 6,
-   "reponses": 2,
-   "score": 36,
-   "delta": 36,
+   "cv": 43,
+   "contacts": 10,
+   "reponses": 5,
+   "score": 98,
+   "delta": 98,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 8,
-   "nom": "Clermont-Ferrand · 237",
-   "src": "Clermontferrand · 237",
+   "nom": "Grenoble · 509",
+   "src": "Grenoble · 509",
    "region": "AURA",
-   "cv": 1,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 1,
-   "delta": 1,
+   "cv": 38,
+   "contacts": 5,
+   "reponses": 5,
+   "score": 78,
+   "delta": 78,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 9,
+   "nom": "Clermont-Ferrand · 278",
+   "src": "Clermontferrand · 278",
+   "region": "AURA",
+   "cv": 33,
+   "contacts": 5,
+   "reponses": 2,
+   "score": 58,
+   "delta": 58,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 10,
+   "nom": "Vienne · 573",
+   "src": "Vienne · 573",
+   "region": "AURA",
+   "cv": 8,
+   "contacts": 6,
+   "reponses": 4,
+   "score": 46,
+   "delta": 46,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 11,
+   "nom": "Grenoble · 524",
+   "src": "Grenoble · 524",
+   "region": "AURA",
+   "cv": 18,
+   "contacts": 4,
+   "reponses": 3,
+   "score": 45,
+   "delta": 45,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 12,
+   "nom": "Vichy · 339",
+   "src": "Vichy · 339",
+   "region": "AURA",
+   "cv": 5,
+   "contacts": 4,
+   "reponses": 2,
+   "score": 27,
+   "delta": 27,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 13,
+   "nom": "Monistrol · 568",
+   "src": "Monistrol · 568",
+   "region": "AURA",
+   "cv": 11,
+   "contacts": 2,
+   "reponses": 0,
+   "score": 17,
+   "delta": 15,
+   "score_ref": 2,
+   "actif": true
+  },
+  {
+   "rang": 14,
+   "nom": "Thiers · 248",
+   "src": "Thiers · 248",
+   "region": "AURA",
+   "cv": 23,
+   "contacts": 7,
+   "reponses": 3,
+   "score": 59,
+   "delta": 12,
+   "score_ref": 47,
+   "actif": true
+  },
+  {
+   "rang": 15,
    "nom": "Cecile Mandonnet",
    "src": "Cecile Mandonnet",
    "region": "AURA",
@@ -3758,7 +3849,7 @@
    "actif": false
   },
   {
-   "rang": 10,
+   "rang": 16,
    "nom": "Annecy · 61",
    "src": "Annecy · 61",
    "region": "AURA",
@@ -3771,7 +3862,7 @@
    "actif": false
   },
   {
-   "rang": 11,
+   "rang": 17,
    "nom": "Bourg-en-Bresse · 540",
    "src": "Bourgenbresse · 540",
    "region": "AURA",
@@ -3784,7 +3875,7 @@
    "actif": false
   },
   {
-   "rang": 12,
+   "rang": 18,
    "nom": "Bourgoin-Jallieu · 614",
    "src": "Bourgoinjallieu · 614",
    "region": "AURA",
@@ -3797,7 +3888,7 @@
    "actif": false
   },
   {
-   "rang": 13,
+   "rang": 19,
    "nom": "Brignais · 123",
    "src": "Brignais · 123",
    "region": "AURA",
@@ -3810,7 +3901,7 @@
    "actif": false
   },
   {
-   "rang": 14,
+   "rang": 20,
    "nom": "Chambéry · 527",
    "src": "Chambery · 527",
    "region": "AURA",
@@ -3823,7 +3914,7 @@
    "actif": false
   },
   {
-   "rang": 15,
+   "rang": 21,
    "nom": "Clermont-Ferrand · 280",
    "src": "Clermontferrand · 280",
    "region": "AURA",
@@ -3836,7 +3927,7 @@
    "actif": false
   },
   {
-   "rang": 16,
+   "rang": 22,
    "nom": "Décines · 120",
    "src": "Decines · 120",
    "region": "AURA",
@@ -3849,20 +3940,7 @@
    "actif": false
   },
   {
-   "rang": 17,
-   "nom": "Grenoble · 524",
-   "src": "Grenoble · 524",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 18,
+   "rang": 23,
    "nom": "L’Arbresle · 128",
    "src": "Larbresle · 128",
    "region": "AURA",
@@ -3875,7 +3953,7 @@
    "actif": false
   },
   {
-   "rang": 19,
+   "rang": 24,
    "nom": "Limas · 314",
    "src": "Limas · 314",
    "region": "AURA",
@@ -3888,7 +3966,7 @@
    "actif": false
   },
   {
-   "rang": 20,
+   "rang": 25,
    "nom": "Lyon · 235",
    "src": "Lyon · 235",
    "region": "AURA",
@@ -3901,7 +3979,7 @@
    "actif": false
   },
   {
-   "rang": 21,
+   "rang": 26,
    "nom": "Lyon · 247",
    "src": "Lyon · 247",
    "region": "AURA",
@@ -3914,7 +3992,7 @@
    "actif": false
   },
   {
-   "rang": 22,
+   "rang": 27,
    "nom": "Lyon · 266",
    "src": "Lyon · 266",
    "region": "AURA",
@@ -3927,7 +4005,7 @@
    "actif": false
   },
   {
-   "rang": 23,
+   "rang": 28,
    "nom": "Lyon · 332",
    "src": "Lyon · 332",
    "region": "AURA",
@@ -3940,7 +4018,7 @@
    "actif": false
   },
   {
-   "rang": 24,
+   "rang": 29,
    "nom": "Lyon · 402",
    "src": "Lyon · 402",
    "region": "AURA",
@@ -3953,33 +4031,7 @@
    "actif": false
   },
   {
-   "rang": 25,
-   "nom": "Montélimar · 545",
-   "src": "Montelimar · 545",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 26,
-   "nom": "Riom · 717",
-   "src": "Riom · 717",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 27,
+   "rang": 30,
    "nom": "Saint-Quentin · 127",
    "src": "Saintquentin · 127",
    "region": "AURA",
@@ -3992,7 +4044,7 @@
    "actif": false
   },
   {
-   "rang": 28,
+   "rang": 31,
    "nom": "Valence · 67",
    "src": "Valence · 67",
    "region": "AURA",
@@ -4005,7 +4057,7 @@
    "actif": false
   },
   {
-   "rang": 29,
+   "rang": 32,
    "nom": "Voiron · 591",
    "src": "Voiron · 591",
    "region": "AURA",
@@ -4018,7 +4070,7 @@
    "actif": false
   },
   {
-   "rang": 30,
+   "rang": 33,
    "nom": "Romans · 686",
    "src": "Romans · 686",
    "region": "AURA",
@@ -4031,56 +4083,17 @@
    "actif": false
   },
   {
-   "rang": 31,
-   "nom": "Monistrol · 568",
-   "src": "Monistrol · 568",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -1,
-   "score_ref": 1,
-   "actif": false
-  },
-  {
-   "rang": 32,
+   "rang": 34,
    "nom": "Montluçon · 349",
    "src": "Montlucon · 349",
    "region": "AURA",
-   "cv": 0,
+   "cv": 2,
    "contacts": 0,
    "reponses": 0,
-   "score": 0,
-   "delta": -5,
-   "score_ref": 5,
-   "actif": false
-  },
-  {
-   "rang": 33,
-   "nom": "Thiers · 248",
-   "src": "Thiers · 248",
-   "region": "AURA",
-   "cv": 8,
-   "contacts": 2,
-   "reponses": 1,
-   "score": 19,
-   "delta": -7,
-   "score_ref": 26,
+   "score": 2,
+   "delta": -6,
+   "score_ref": 8,
    "actif": true
-  },
-  {
-   "rang": 34,
-   "nom": "Roanne · 348",
-   "src": "Roanne · 348",
-   "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -17,
-   "score_ref": 17,
-   "actif": false
   },
   {
    "rang": 35,
@@ -4091,8 +4104,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -26,
-   "score_ref": 26,
+   "delta": -46,
+   "score_ref": 46,
    "actif": false
   },
   {
@@ -4100,26 +4113,26 @@
    "nom": "Clermont-Ferrand · 529",
    "src": "Clermontferrand · 529",
    "region": "AURA",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -36,
-   "score_ref": 36,
-   "actif": false
+   "cv": 8,
+   "contacts": 1,
+   "reponses": 1,
+   "score": 16,
+   "delta": -48,
+   "score_ref": 64,
+   "actif": true
   },
   {
    "rang": 37,
    "nom": "Le Puy-en-Velay · 681",
    "src": "Lepuy · 681",
    "region": "AURA",
-   "cv": 0,
+   "cv": 4,
    "contacts": 0,
    "reponses": 0,
-   "score": 0,
-   "delta": -37,
-   "score_ref": 37,
-   "actif": false
+   "score": 4,
+   "delta": -63,
+   "score_ref": 67,
+   "actif": true
   },
   {
    "rang": 38,
@@ -4130,59 +4143,59 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -70,
-   "score_ref": 70,
+   "delta": -126,
+   "score_ref": 126,
    "actif": false
   },
   {
    "rang": 1,
-   "nom": "Rezé · 544",
-   "src": "Reze · 544",
+   "nom": "Dinan · 380",
+   "src": "Dinan · 380",
    "region": "BPDL",
-   "cv": 136,
-   "contacts": 60,
-   "reponses": 27,
-   "score": 451,
-   "delta": 320,
-   "score_ref": 131,
+   "cv": 114,
+   "contacts": 46,
+   "reponses": 10,
+   "score": 302,
+   "delta": 302,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 2,
+   "nom": "Montoir · 194",
+   "src": "Montoir · 194",
+   "region": "BPDL",
+   "cv": 154,
+   "contacts": 30,
+   "reponses": 9,
+   "score": 289,
+   "delta": 285,
+   "score_ref": 4,
+   "actif": true
+  },
+  {
+   "rang": 3,
+   "nom": "Mayenne · 469",
+   "src": "Mayenne · 469",
+   "region": "BPDL",
+   "cv": 74,
+   "contacts": 41,
+   "reponses": 12,
+   "score": 257,
+   "delta": 257,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 4,
    "nom": "Pontivy · 401",
    "src": "Pontivy · 401",
    "region": "BPDL",
    "cv": 42,
    "contacts": 30,
-   "reponses": 16,
-   "score": 212,
-   "delta": 212,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 3,
-   "nom": "Catherine Chauvigny",
-   "src": "Catherine Chauvigny",
-   "region": "BPDL",
-   "cv": 365,
-   "contacts": 20,
-   "reponses": 3,
-   "score": 440,
-   "delta": 200,
-   "score_ref": 240,
-   "actif": true
-  },
-  {
-   "rang": 4,
-   "nom": "Mayenne · 469",
-   "src": "Mayenne · 469",
-   "region": "BPDL",
-   "cv": 48,
-   "contacts": 31,
-   "reponses": 7,
-   "score": 176,
-   "delta": 176,
+   "reponses": 20,
+   "score": 232,
+   "delta": 232,
    "score_ref": 0,
    "actif": true
   },
@@ -4191,96 +4204,135 @@
    "nom": "Vannes · 399",
    "src": "Vannes · 399",
    "region": "BPDL",
-   "cv": 81,
-   "contacts": 70,
-   "reponses": 5,
-   "score": 316,
-   "delta": 78,
-   "score_ref": 238,
+   "cv": 203,
+   "contacts": 95,
+   "reponses": 30,
+   "score": 638,
+   "delta": 210,
+   "score_ref": 428,
    "actif": true
   },
   {
    "rang": 6,
-   "nom": "Dinan · 380",
-   "src": "Dinan · 380",
+   "nom": "Saint-Agathon · 662",
+   "src": "Saintagathon · 662",
    "region": "BPDL",
-   "cv": 0,
-   "contacts": 11,
-   "reponses": 3,
-   "score": 48,
-   "delta": 48,
+   "cv": 30,
+   "contacts": 30,
+   "reponses": 6,
+   "score": 150,
+   "delta": 150,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 7,
-   "nom": "Saint-Évarzec · 138",
-   "src": "Stevarzec · 138",
+   "nom": "Changé · 347",
+   "src": "Change · 347",
    "region": "BPDL",
-   "cv": 20,
-   "contacts": 6,
-   "reponses": 0,
-   "score": 38,
-   "delta": 38,
+   "cv": 29,
+   "contacts": 22,
+   "reponses": 4,
+   "score": 115,
+   "delta": 115,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 8,
+   "nom": "Brest · 70",
+   "src": "Brest · 70",
+   "region": "BPDL",
+   "cv": 84,
+   "contacts": 10,
+   "reponses": 0,
+   "score": 114,
+   "delta": 112,
+   "score_ref": 2,
+   "actif": true
+  },
+  {
+   "rang": 9,
+   "nom": "Saint-Évarzec · 138",
+   "src": "Stevarzec · 138",
+   "region": "BPDL",
+   "cv": 31,
+   "contacts": 6,
+   "reponses": 0,
+   "score": 49,
+   "delta": 49,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 10,
+   "nom": "Brest · 342",
+   "src": "Brest · 342",
+   "region": "BPDL",
+   "cv": 31,
+   "contacts": 9,
+   "reponses": 2,
+   "score": 68,
+   "delta": 35,
+   "score_ref": 33,
+   "actif": true
+  },
+  {
+   "rang": 11,
    "nom": "Châteaubourg · 196",
    "src": "Chateaubourg · 196",
    "region": "BPDL",
    "cv": 4,
    "contacts": 4,
-   "reponses": 1,
-   "score": 21,
-   "delta": 21,
+   "reponses": 2,
+   "score": 26,
+   "delta": 26,
    "score_ref": 0,
    "actif": true
   },
   {
-   "rang": 9,
-   "nom": "Brest · 70",
-   "src": "Brest · 70",
-   "region": "BPDL",
-   "cv": 11,
-   "contacts": 1,
-   "reponses": 0,
-   "score": 14,
-   "delta": 13,
-   "score_ref": 1,
-   "actif": true
-  },
-  {
-   "rang": 10,
+   "rang": 12,
    "nom": "Lorient · 142",
    "src": "Lorient · 142",
    "region": "BPDL",
    "cv": 1,
    "contacts": 4,
-   "reponses": 0,
-   "score": 13,
-   "delta": 13,
+   "reponses": 1,
+   "score": 18,
+   "delta": 18,
    "score_ref": 0,
    "actif": true
   },
   {
-   "rang": 11,
-   "nom": "Maelys Bignon",
-   "src": "Maelys Bignon",
+   "rang": 13,
+   "nom": "Fougères · 119",
+   "src": "Fougeres · 119",
    "region": "BPDL",
-   "cv": 15,
-   "contacts": 0,
+   "cv": 7,
+   "contacts": 1,
    "reponses": 0,
-   "score": 15,
-   "delta": 7,
-   "score_ref": 8,
+   "score": 10,
+   "delta": 10,
+   "score_ref": 0,
    "actif": true
   },
   {
-   "rang": 12,
-   "nom": "Fougères · 119",
-   "src": "Fougeres · 119",
+   "rang": 14,
+   "nom": "Saint-Brieuc · 379",
+   "src": "Saintbrieuc · 379",
+   "region": "BPDL",
+   "cv": 7,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 7,
+   "delta": 7,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 15,
+   "nom": "Saint-Malo · 393",
+   "src": "Saintmalo · 393",
    "region": "BPDL",
    "cv": 2,
    "contacts": 0,
@@ -4291,7 +4343,7 @@
    "actif": true
   },
   {
-   "rang": 13,
+   "rang": 16,
    "nom": "Vitré · 394",
    "src": "Vitre · 394",
    "region": "BPDL",
@@ -4304,7 +4356,7 @@
    "actif": false
   },
   {
-   "rang": 14,
+   "rang": 17,
    "nom": "Rennes · 07",
    "src": "Rennes · 07",
    "region": "BPDL",
@@ -4317,7 +4369,7 @@
    "actif": false
   },
   {
-   "rang": 15,
+   "rang": 18,
    "nom": "Rennes · 392",
    "src": "Rennes · 392",
    "region": "BPDL",
@@ -4330,7 +4382,7 @@
    "actif": false
   },
   {
-   "rang": 16,
+   "rang": 19,
    "nom": "Sablé-sur-Sarthe · 269",
    "src": "Sablesursarthe · 269",
    "region": "BPDL",
@@ -4343,7 +4395,7 @@
    "actif": false
   },
   {
-   "rang": 17,
+   "rang": 20,
    "nom": "Les Herbiers · 579",
    "src": "Lesherbiers · 579",
    "region": "BPDL",
@@ -4356,7 +4408,7 @@
    "actif": false
   },
   {
-   "rang": 18,
+   "rang": 21,
    "nom": "Châteaubriant · 185",
    "src": "Chateaubriant · 185",
    "region": "BPDL",
@@ -4369,48 +4421,9 @@
    "actif": false
   },
   {
-   "rang": 19,
+   "rang": 22,
    "nom": "Nantes · 396",
    "src": "Nantes · 396",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 20,
-   "nom": "Saint-Agathon · 662",
-   "src": "Saintagathon · 662",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 21,
-   "nom": "Saint-Brieuc · 379",
-   "src": "Saintbrieuc · 379",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 22,
-   "nom": "Saint-Malo · 393",
-   "src": "Saintmalo · 393",
    "region": "BPDL",
    "cv": 0,
    "contacts": 0,
@@ -4435,19 +4448,6 @@
   },
   {
    "rang": 24,
-   "nom": "Changé · 347",
-   "src": "Change · 347",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 25,
    "nom": "Romain Duval",
    "src": "Romain Duval",
    "region": "BPDL",
@@ -4460,6 +4460,19 @@
    "actif": false
   },
   {
+   "rang": 25,
+   "nom": "Maelys Bignon",
+   "src": "Maelys Bignon",
+   "region": "BPDL",
+   "cv": 11,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 11,
+   "delta": -3,
+   "score_ref": 14,
+   "actif": true
+  },
+  {
    "rang": 26,
    "nom": "Cholet · 578",
    "src": "Cholet · 578",
@@ -4468,38 +4481,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -2,
-   "score_ref": 2,
+   "delta": -3,
+   "score_ref": 3,
    "actif": false
   },
   {
    "rang": 27,
-   "nom": "Montoir · 194",
-   "src": "Montoir · 194",
+   "nom": "Catherine Chauvigny",
+   "src": "Catherine Chauvigny",
    "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -2,
-   "score_ref": 2,
-   "actif": false
+   "cv": 281,
+   "contacts": 22,
+   "reponses": 8,
+   "score": 387,
+   "delta": -46,
+   "score_ref": 433,
+   "actif": true
   },
   {
    "rang": 28,
-   "nom": "Brest · 342",
-   "src": "Brest · 342",
-   "region": "BPDL",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -18,
-   "score_ref": 18,
-   "actif": false
-  },
-  {
-   "rang": 29,
    "nom": "Landivisiau · 167",
    "src": "Landivisiau · 167",
    "region": "BPDL",
@@ -4507,72 +4507,85 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -74,
-   "score_ref": 74,
+   "delta": -133,
+   "score_ref": 133,
    "actif": false
   },
   {
-   "rang": 30,
+   "rang": 29,
    "nom": "Cesson-Sévigné · 764",
    "src": "Cessonsevigne · 764",
+   "region": "BPDL",
+   "cv": 45,
+   "contacts": 9,
+   "reponses": 2,
+   "score": 82,
+   "delta": -148,
+   "score_ref": 230,
+   "actif": true
+  },
+  {
+   "rang": 30,
+   "nom": "Rezé · 544",
+   "src": "Reze · 544",
    "region": "BPDL",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -128,
-   "score_ref": 128,
+   "delta": -235,
+   "score_ref": 235,
    "actif": false
   },
   {
    "rang": 1,
-   "nom": "Arc-lès-Gray · 476",
-   "src": "Arclesgray · 476",
+   "nom": "Margaux",
+   "src": "MARGAUX",
    "region": "Centre-Est",
-   "cv": 120,
-   "contacts": 24,
-   "reponses": 7,
-   "score": 227,
-   "delta": 204,
-   "score_ref": 23,
+   "cv": 366,
+   "contacts": 32,
+   "reponses": 10,
+   "score": 512,
+   "delta": 283,
+   "score_ref": 229,
    "actif": true
   },
   {
    "rang": 2,
-   "nom": "Margaux",
-   "src": "MARGAUX",
+   "nom": "Arc-lès-Gray · 476",
+   "src": "Arclesgray · 476",
    "region": "Centre-Est",
-   "cv": 227,
-   "contacts": 4,
-   "reponses": 2,
-   "score": 249,
-   "delta": 122,
-   "score_ref": 127,
+   "cv": 143,
+   "contacts": 25,
+   "reponses": 9,
+   "score": 263,
+   "delta": 222,
+   "score_ref": 41,
    "actif": true
   },
   {
    "rang": 3,
-   "nom": "Chaumont · 473",
-   "src": "Chaumont · 473",
+   "nom": "Dijon · 462",
+   "src": "Dijon · 462",
    "region": "Centre-Est",
-   "cv": 68,
-   "contacts": 9,
-   "reponses": 1,
-   "score": 100,
-   "delta": 56,
-   "score_ref": 44,
+   "cv": 116,
+   "contacts": 22,
+   "reponses": 8,
+   "score": 222,
+   "delta": 222,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 4,
-   "nom": "Troyes · 562",
-   "src": "Troyes · 562",
+   "nom": "Mâcon · 479",
+   "src": "Macon · 479",
    "region": "Centre-Est",
-   "cv": 26,
-   "contacts": 2,
-   "reponses": 1,
-   "score": 37,
-   "delta": 37,
+   "cv": 2,
+   "contacts": 37,
+   "reponses": 8,
+   "score": 153,
+   "delta": 153,
    "score_ref": 0,
    "actif": true
   },
@@ -4581,29 +4594,68 @@
    "nom": "Auxerre · 104",
    "src": "Auxerre · 104",
    "region": "Centre-Est",
-   "cv": 39,
-   "contacts": 6,
-   "reponses": 2,
-   "score": 67,
-   "delta": 7,
-   "score_ref": 60,
+   "cv": 107,
+   "contacts": 22,
+   "reponses": 10,
+   "score": 223,
+   "delta": 116,
+   "score_ref": 107,
    "actif": true
   },
   {
    "rang": 6,
-   "nom": "Dijon · 462",
-   "src": "Dijon · 462",
+   "nom": "Troyes · 562",
+   "src": "Troyes · 562",
    "region": "Centre-Est",
-   "cv": 1,
-   "contacts": 1,
-   "reponses": 0,
-   "score": 4,
-   "delta": 4,
+   "cv": 57,
+   "contacts": 12,
+   "reponses": 4,
+   "score": 113,
+   "delta": 113,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 7,
+   "nom": "Chaumont · 473",
+   "src": "Chaumont · 473",
+   "region": "Centre-Est",
+   "cv": 100,
+   "contacts": 10,
+   "reponses": 3,
+   "score": 145,
+   "delta": 66,
+   "score_ref": 79,
+   "actif": true
+  },
+  {
+   "rang": 8,
+   "nom": "Langres · 554",
+   "src": "Langres · 554",
+   "region": "Centre-Est",
+   "cv": 19,
+   "contacts": 8,
+   "reponses": 6,
+   "score": 73,
+   "delta": 43,
+   "score_ref": 30,
+   "actif": true
+  },
+  {
+   "rang": 9,
+   "nom": "Dijon · 523",
+   "src": "Dijon · 523",
+   "region": "Centre-Est",
+   "cv": 17,
+   "contacts": 2,
+   "reponses": 1,
+   "score": 28,
+   "delta": 28,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 10,
    "nom": "Recrutement Centre-Est",
    "src": "Recrutement Centreest",
    "region": "Centre-Est",
@@ -4616,33 +4668,7 @@
    "actif": false
   },
   {
-   "rang": 8,
-   "nom": "Mâcon · 479",
-   "src": "Macon · 479",
-   "region": "Centre-Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 9,
-   "nom": "Dijon · 523",
-   "src": "Dijon · 523",
-   "region": "Centre-Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 10,
+   "rang": 11,
    "nom": "Antoine",
    "src": "Antoine",
    "region": "Centre-Est",
@@ -4650,12 +4676,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -2,
-   "score_ref": 2,
+   "delta": -3,
+   "score_ref": 3,
    "actif": false
   },
   {
-   "rang": 11,
+   "rang": 12,
    "nom": "Chalon-sur-Saône · 480",
    "src": "Chalonsursaone · 480",
    "region": "Centre-Est",
@@ -4663,12 +4689,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -5,
-   "score_ref": 5,
+   "delta": -9,
+   "score_ref": 9,
    "actif": false
   },
   {
-   "rang": 12,
+   "rang": 13,
    "nom": "Meroux · 457",
    "src": "Meroux · 457",
    "region": "Centre-Est",
@@ -4676,21 +4702,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -15,
-   "score_ref": 15,
-   "actif": false
-  },
-  {
-   "rang": 13,
-   "nom": "Langres · 554",
-   "src": "Langres · 554",
-   "region": "Centre-Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -17,
-   "score_ref": 17,
+   "delta": -27,
+   "score_ref": 27,
    "actif": false
   },
   {
@@ -4702,8 +4715,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -54,
-   "score_ref": 54,
+   "delta": -98,
+   "score_ref": 98,
    "actif": false
   },
   {
@@ -4711,11 +4724,11 @@
    "nom": "Laura Charles",
    "src": "Laura Charles",
    "region": "Centre-Val de Loire",
-   "cv": 63,
-   "contacts": 35,
-   "reponses": 11,
-   "score": 223,
-   "delta": 223,
+   "cv": 78,
+   "contacts": 39,
+   "reponses": 18,
+   "score": 285,
+   "delta": 285,
    "score_ref": 0,
    "actif": true
   },
@@ -4728,8 +4741,8 @@
    "contacts": 15,
    "reponses": 8,
    "score": 130,
-   "delta": 130,
-   "score_ref": 0,
+   "delta": 129,
+   "score_ref": 1,
    "actif": true
   },
   {
@@ -4741,8 +4754,8 @@
    "contacts": 10,
    "reponses": 6,
    "score": 87,
-   "delta": 66,
-   "score_ref": 21,
+   "delta": 49,
+   "score_ref": 38,
    "actif": true
   },
   {
@@ -4750,11 +4763,11 @@
    "nom": "Tours · 40",
    "src": "Tours · 40",
    "region": "Centre-Val de Loire",
-   "cv": 15,
-   "contacts": 0,
+   "cv": 22,
+   "contacts": 4,
    "reponses": 0,
-   "score": 15,
-   "delta": 15,
+   "score": 34,
+   "delta": 34,
    "score_ref": 0,
    "actif": true
   },
@@ -4763,12 +4776,12 @@
    "nom": "Blois · 184",
    "src": "Blois · 184",
    "region": "Centre-Val de Loire",
-   "cv": 10,
-   "contacts": 0,
+   "cv": 34,
+   "contacts": 1,
    "reponses": 0,
-   "score": 10,
-   "delta": 7,
-   "score_ref": 3,
+   "score": 37,
+   "delta": 31,
+   "score_ref": 6,
    "actif": true
   },
   {
@@ -4845,8 +4858,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -3,
-   "score_ref": 3,
+   "delta": -6,
+   "score_ref": 6,
    "actif": false
   },
   {
@@ -4858,8 +4871,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -10,
-   "score_ref": 10,
+   "delta": -18,
+   "score_ref": 18,
    "actif": false
   },
   {
@@ -4871,8 +4884,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -11,
-   "score_ref": 11,
+   "delta": -20,
+   "score_ref": 20,
    "actif": false
   },
   {
@@ -4884,12 +4897,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -18,
-   "score_ref": 18,
+   "delta": -33,
+   "score_ref": 33,
    "actif": false
   },
   {
    "rang": 15,
+   "nom": "Montargis · 82",
+   "src": "Montargis · 82",
+   "region": "Centre-Val de Loire",
+   "cv": 16,
+   "contacts": 1,
+   "reponses": 0,
+   "score": 19,
+   "delta": -46,
+   "score_ref": 65,
+   "actif": true
+  },
+  {
+   "rang": 16,
    "nom": "Chartres · 34",
    "src": "Chartres · 34",
    "region": "Centre-Val de Loire",
@@ -4897,21 +4923,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -28,
-   "score_ref": 28,
-   "actif": false
-  },
-  {
-   "rang": 16,
-   "nom": "Montargis · 82",
-   "src": "Montargis · 82",
-   "region": "Centre-Val de Loire",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -36,
-   "score_ref": 36,
+   "delta": -51,
+   "score_ref": 51,
    "actif": false
   },
   {
@@ -4923,8 +4936,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -38,
-   "score_ref": 38,
+   "delta": -69,
+   "score_ref": 69,
    "actif": false
   },
   {
@@ -4932,42 +4945,55 @@
    "nom": "Strasbourg · 425",
    "src": "Strasbourg · 425",
    "region": "E&C",
-   "cv": 50,
+   "cv": 51,
    "contacts": 9,
-   "reponses": 4,
-   "score": 97,
-   "delta": 87,
-   "score_ref": 10,
+   "reponses": 5,
+   "score": 103,
+   "delta": 85,
+   "score_ref": 18,
    "actif": true
   },
   {
    "rang": 2,
-   "nom": "Gallargues-le-Montueux · 541",
-   "src": "Gallargues · 541",
+   "nom": "Experts-Cadres Mulhouse",
+   "src": "Experts-Cadres Mulhouse",
    "region": "E&C",
-   "cv": 39,
-   "contacts": 4,
-   "reponses": 0,
-   "score": 51,
-   "delta": 42,
-   "score_ref": 9,
+   "cv": 85,
+   "contacts": 9,
+   "reponses": 3,
+   "score": 127,
+   "delta": 82,
+   "score_ref": 45,
    "actif": true
   },
   {
    "rang": 3,
-   "nom": "Lina Nekkaa",
-   "src": "Lina Nekkaa",
+   "nom": "Gallargues-le-Montueux · 541",
+   "src": "Gallargues · 541",
    "region": "E&C",
-   "cv": 20,
-   "contacts": 3,
-   "reponses": 1,
-   "score": 34,
-   "delta": 34,
-   "score_ref": 0,
+   "cv": 56,
+   "contacts": 5,
+   "reponses": 2,
+   "score": 81,
+   "delta": 64,
+   "score_ref": 17,
    "actif": true
   },
   {
    "rang": 4,
+   "nom": "Lina Nekkaa",
+   "src": "Lina Nekkaa",
+   "region": "E&C",
+   "cv": 32,
+   "contacts": 7,
+   "reponses": 1,
+   "score": 58,
+   "delta": 58,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 5,
    "nom": "Willy",
    "src": "Willy",
    "region": "E&C",
@@ -4975,12 +5001,12 @@
    "contacts": 3,
    "reponses": 1,
    "score": 19,
-   "delta": 13,
-   "score_ref": 6,
+   "delta": 8,
+   "score_ref": 11,
    "actif": true
   },
   {
-   "rang": 5,
+   "rang": 6,
    "nom": "Catherine Hardy",
    "src": "Catherine Hardy",
    "region": "E&C",
@@ -4993,7 +5019,7 @@
    "actif": false
   },
   {
-   "rang": 6,
+   "rang": 7,
    "nom": "Julia",
    "src": "Julia",
    "region": "E&C",
@@ -5006,7 +5032,7 @@
    "actif": false
   },
   {
-   "rang": 7,
+   "rang": 8,
    "nom": "Samira",
    "src": "Samira",
    "region": "E&C",
@@ -5019,7 +5045,7 @@
    "actif": false
   },
   {
-   "rang": 8,
+   "rang": 9,
    "nom": "Elodie Bromet",
    "src": "Elodie Bromet",
    "region": "E&C",
@@ -5032,22 +5058,9 @@
    "actif": false
   },
   {
-   "rang": 9,
+   "rang": 10,
    "nom": "La Défense · 687",
    "src": "Ladefense · 687",
-   "region": "E&C",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -1,
-   "score_ref": 1,
-   "actif": false
-  },
-  {
-   "rang": 10,
-   "nom": "Corneil",
-   "src": "CORNEIL",
    "region": "E&C",
    "cv": 0,
    "contacts": 0,
@@ -5059,6 +5072,19 @@
   },
   {
    "rang": 11,
+   "nom": "Corneil",
+   "src": "CORNEIL",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -4,
+   "score_ref": 4,
+   "actif": false
+  },
+  {
+   "rang": 12,
    "nom": "Joachim Maindron",
    "src": "Joachim Maindron",
    "region": "E&C",
@@ -5066,35 +5092,22 @@
    "contacts": 0,
    "reponses": 0,
    "score": 1,
-   "delta": -4,
-   "score_ref": 5,
-   "actif": true
-  },
-  {
-   "rang": 12,
-   "nom": "Experts-Cadres Mulhouse",
-   "src": "Experts-Cadres Mulhouse",
-   "region": "E&C",
-   "cv": 3,
-   "contacts": 1,
-   "reponses": 0,
-   "score": 6,
-   "delta": -19,
-   "score_ref": 25,
+   "delta": -7,
+   "score_ref": 8,
    "actif": true
   },
   {
    "rang": 13,
-   "nom": "Saint-Herblain · 748",
-   "src": "Saintherblain · 748",
+   "nom": "Caroline Ledet",
+   "src": "Caroline Ledet",
    "region": "E&C",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -22,
-   "score_ref": 22,
-   "actif": false
+   "cv": 9,
+   "contacts": 32,
+   "reponses": 11,
+   "score": 160,
+   "delta": -33,
+   "score_ref": 193,
+   "actif": true
   },
   {
    "rang": 14,
@@ -5105,12 +5118,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -22,
-   "score_ref": 22,
+   "delta": -39,
+   "score_ref": 39,
    "actif": false
   },
   {
    "rang": 15,
+   "nom": "Saint-Herblain · 748",
+   "src": "Saintherblain · 748",
+   "region": "E&C",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -40,
+   "score_ref": 40,
+   "actif": false
+  },
+  {
+   "rang": 16,
    "nom": "Aline Wogell",
    "src": "Aline Wogell",
    "region": "E&C",
@@ -5118,25 +5144,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -25,
-   "score_ref": 25,
+   "delta": -46,
+   "score_ref": 46,
    "actif": false
   },
   {
-   "rang": 16,
+   "rang": 17,
    "nom": "Prisca",
    "src": "Prisca",
    "region": "E&C",
-   "cv": 3,
+   "cv": 0,
    "contacts": 0,
    "reponses": 0,
-   "score": 3,
-   "delta": -27,
-   "score_ref": 30,
-   "actif": true
+   "score": 0,
+   "delta": -54,
+   "score_ref": 54,
+   "actif": false
   },
   {
-   "rang": 17,
+   "rang": 18,
    "nom": "Maeva",
    "src": "Maeva",
    "region": "E&C",
@@ -5144,12 +5170,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -38,
-   "score_ref": 38,
+   "delta": -68,
+   "score_ref": 68,
    "actif": false
   },
   {
-   "rang": 18,
+   "rang": 19,
    "nom": "Experts-Cadres Toulouse",
    "src": "Experts-Cadres Toulouse",
    "region": "E&C",
@@ -5157,12 +5183,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -38,
-   "score_ref": 38,
+   "delta": -68,
+   "score_ref": 68,
    "actif": false
   },
   {
-   "rang": 19,
+   "rang": 20,
    "nom": "Experts-Cadres Normandie",
    "src": "Experts-Cadres Normandie",
    "region": "E&C",
@@ -5170,21 +5196,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -88,
-   "score_ref": 88,
-   "actif": false
-  },
-  {
-   "rang": 20,
-   "nom": "Caroline Ledet",
-   "src": "Caroline Ledet",
-   "region": "E&C",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -107,
-   "score_ref": 107,
+   "delta": -159,
+   "score_ref": 159,
    "actif": false
   },
   {
@@ -5192,38 +5205,38 @@
    "nom": "Épinal · 484",
    "src": "Epinal · 484",
    "region": "Est",
-   "cv": 409,
-   "contacts": 22,
-   "reponses": 6,
-   "score": 505,
-   "delta": 505,
+   "cv": 473,
+   "contacts": 27,
+   "reponses": 9,
+   "score": 599,
+   "delta": 599,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 2,
-   "nom": "Nancy · 521",
-   "src": "Nancy · 521",
+   "nom": "Sabri Khellous",
+   "src": "Sabri Khellous",
    "region": "Est",
-   "cv": 212,
-   "contacts": 5,
-   "reponses": 1,
-   "score": 232,
-   "delta": 232,
-   "score_ref": 0,
+   "cv": 127,
+   "contacts": 43,
+   "reponses": 17,
+   "score": 341,
+   "delta": 286,
+   "score_ref": 55,
    "actif": true
   },
   {
    "rang": 3,
-   "nom": "Sabri Khellous",
-   "src": "Sabri Khellous",
+   "nom": "Nancy · 521",
+   "src": "Nancy · 521",
    "region": "Est",
-   "cv": 46,
-   "contacts": 12,
-   "reponses": 1,
-   "score": 87,
-   "delta": 56,
-   "score_ref": 31,
+   "cv": 166,
+   "contacts": 13,
+   "reponses": 4,
+   "score": 225,
+   "delta": 225,
+   "score_ref": 0,
    "actif": true
   },
   {
@@ -5231,64 +5244,64 @@
    "nom": "Haguenau · 430",
    "src": "Haguenau · 430",
    "region": "Est",
-   "cv": 132,
-   "contacts": 12,
-   "reponses": 4,
-   "score": 188,
-   "delta": 52,
-   "score_ref": 136,
+   "cv": 325,
+   "contacts": 26,
+   "reponses": 11,
+   "score": 458,
+   "delta": 213,
+   "score_ref": 245,
    "actif": true
   },
   {
    "rang": 5,
-   "nom": "Saint-Louis · 444",
-   "src": "Saintlouis · 444",
+   "nom": "Monswiller · 474",
+   "src": "Monswiller · 474",
    "region": "Est",
-   "cv": 10,
-   "contacts": 2,
-   "reponses": 0,
-   "score": 16,
-   "delta": 1,
-   "score_ref": 15,
+   "cv": 65,
+   "contacts": 8,
+   "reponses": 2,
+   "score": 99,
+   "delta": 99,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 6,
-   "nom": "Monswiller · 474",
-   "src": "Monswiller · 474",
-   "region": "Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 7,
    "nom": "Haguenau · 429",
    "src": "Haguenau · 429",
    "region": "Est",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
+   "cv": 35,
+   "contacts": 8,
+   "reponses": 1,
+   "score": 64,
+   "delta": 64,
    "score_ref": 0,
-   "actif": false
+   "actif": true
   },
   {
-   "rang": 8,
+   "rang": 7,
    "nom": "Sarreguemines · 451",
    "src": "Sarreguemines · 451",
    "region": "Est",
-   "cv": 1,
-   "contacts": 0,
+   "cv": 2,
+   "contacts": 8,
+   "reponses": 1,
+   "score": 31,
+   "delta": 15,
+   "score_ref": 16,
+   "actif": true
+  },
+  {
+   "rang": 8,
+   "nom": "Saint-Louis · 444",
+   "src": "Saintlouis · 444",
+   "region": "Est",
+   "cv": 35,
+   "contacts": 2,
    "reponses": 0,
-   "score": 1,
-   "delta": -8,
-   "score_ref": 9,
+   "score": 41,
+   "delta": 14,
+   "score_ref": 27,
    "actif": true
   },
   {
@@ -5300,8 +5313,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -64,
-   "score_ref": 64,
+   "delta": -115,
+   "score_ref": 115,
    "actif": false
   },
   {
@@ -5309,29 +5322,16 @@
    "nom": "Strasbourg · 422",
    "src": "Strasbourg · 422",
    "region": "Est",
-   "cv": 0,
+   "cv": 35,
    "contacts": 0,
    "reponses": 0,
-   "score": 0,
-   "delta": -173,
-   "score_ref": 173,
-   "actif": false
-  },
-  {
-   "rang": 1,
-   "nom": "Lieusaint · 411",
-   "src": "Lieusaint · 411",
-   "region": "Île-de-France",
-   "cv": 1,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 1,
-   "delta": 1,
-   "score_ref": 0,
+   "score": 35,
+   "delta": -276,
+   "score_ref": 311,
    "actif": true
   },
   {
-   "rang": 2,
+   "rang": 1,
    "nom": "Antony · 361",
    "src": "Antony · 361",
    "region": "Île-de-France",
@@ -5344,7 +5344,7 @@
    "actif": false
   },
   {
-   "rang": 3,
+   "rang": 2,
    "nom": "Paris · 77",
    "src": "Paris · 77",
    "region": "Île-de-France",
@@ -5357,7 +5357,7 @@
    "actif": false
   },
   {
-   "rang": 4,
+   "rang": 3,
    "nom": "Mantes · 412",
    "src": "Mantes · 412",
    "region": "Île-de-France",
@@ -5370,7 +5370,7 @@
    "actif": false
   },
   {
-   "rang": 5,
+   "rang": 4,
    "nom": "Boulogne · 161",
    "src": "Boulogne · 161",
    "region": "Île-de-France",
@@ -5383,7 +5383,7 @@
    "actif": false
   },
   {
-   "rang": 6,
+   "rang": 5,
    "nom": "Colombes · 518",
    "src": "Colombes · 518",
    "region": "Île-de-France",
@@ -5396,7 +5396,7 @@
    "actif": false
   },
   {
-   "rang": 7,
+   "rang": 6,
    "nom": "Courbevoie · 417",
    "src": "Courbevoie · 417",
    "region": "Île-de-France",
@@ -5409,7 +5409,7 @@
    "actif": false
   },
   {
-   "rang": 8,
+   "rang": 7,
    "nom": "Fontainebleau · 30",
    "src": "Fontainebleau · 30",
    "region": "Île-de-France",
@@ -5422,7 +5422,7 @@
    "actif": false
   },
   {
-   "rang": 9,
+   "rang": 8,
    "nom": "Fosses · 114",
    "src": "Fosses · 114",
    "region": "Île-de-France",
@@ -5435,7 +5435,7 @@
    "actif": false
   },
   {
-   "rang": 10,
+   "rang": 9,
    "nom": "Franconville · 268",
    "src": "Franconville · 268",
    "region": "Île-de-France",
@@ -5448,7 +5448,7 @@
    "actif": false
   },
   {
-   "rang": 11,
+   "rang": 10,
    "nom": "La Défense · 144",
    "src": "Ladefense · 144",
    "region": "Île-de-France",
@@ -5461,7 +5461,7 @@
    "actif": false
   },
   {
-   "rang": 12,
+   "rang": 11,
    "nom": "Le Plessis · 178",
    "src": "Leplessis · 178",
    "region": "Île-de-France",
@@ -5474,7 +5474,7 @@
    "actif": false
   },
   {
-   "rang": 13,
+   "rang": 12,
    "nom": "Massy · 252",
    "src": "Massy · 252",
    "region": "Île-de-France",
@@ -5487,7 +5487,7 @@
    "actif": false
   },
   {
-   "rang": 14,
+   "rang": 13,
    "nom": "Meaux · 27",
    "src": "Meaux · 27",
    "region": "Île-de-France",
@@ -5500,7 +5500,7 @@
    "actif": false
   },
   {
-   "rang": 15,
+   "rang": 14,
    "nom": "Meaux · 359",
    "src": "Meaux · 359",
    "region": "Île-de-France",
@@ -5513,7 +5513,7 @@
    "actif": false
   },
   {
-   "rang": 16,
+   "rang": 15,
    "nom": "Mitry-Mory · 19",
    "src": "Mitrymory · 19",
    "region": "Île-de-France",
@@ -5526,7 +5526,7 @@
    "actif": false
   },
   {
-   "rang": 17,
+   "rang": 16,
    "nom": "Montigny · 91",
    "src": "Montigny · 91",
    "region": "Île-de-France",
@@ -5539,7 +5539,7 @@
    "actif": false
   },
   {
-   "rang": 18,
+   "rang": 17,
    "nom": "Noisy · 418",
    "src": "Noisy · 418",
    "region": "Île-de-France",
@@ -5552,7 +5552,7 @@
    "actif": false
   },
   {
-   "rang": 19,
+   "rang": 18,
    "nom": "Paris · 372",
    "src": "Paris · 372",
    "region": "Île-de-France",
@@ -5565,7 +5565,7 @@
    "actif": false
   },
   {
-   "rang": 20,
+   "rang": 19,
    "nom": "Paris · 420",
    "src": "Paris · 420",
    "region": "Île-de-France",
@@ -5578,7 +5578,7 @@
    "actif": false
   },
   {
-   "rang": 21,
+   "rang": 20,
    "nom": "Paris · 421",
    "src": "Paris · 421",
    "region": "Île-de-France",
@@ -5591,7 +5591,7 @@
    "actif": false
   },
   {
-   "rang": 22,
+   "rang": 21,
    "nom": "Paris · 597",
    "src": "Paris · 597",
    "region": "Île-de-France",
@@ -5604,7 +5604,7 @@
    "actif": false
   },
   {
-   "rang": 23,
+   "rang": 22,
    "nom": "Paris · 689",
    "src": "Paris · 689",
    "region": "Île-de-France",
@@ -5617,7 +5617,7 @@
    "actif": false
   },
   {
-   "rang": 24,
+   "rang": 23,
    "nom": "Poissy · 413",
    "src": "Poissy · 413",
    "region": "Île-de-France",
@@ -5630,7 +5630,7 @@
    "actif": false
   },
   {
-   "rang": 25,
+   "rang": 24,
    "nom": "Rosny · 173",
    "src": "Rosny · 173",
    "region": "Île-de-France",
@@ -5643,7 +5643,7 @@
    "actif": false
   },
   {
-   "rang": 26,
+   "rang": 25,
    "nom": "Rungis · 63",
    "src": "Rungis · 63",
    "region": "Île-de-France",
@@ -5656,7 +5656,7 @@
    "actif": false
   },
   {
-   "rang": 27,
+   "rang": 26,
    "nom": "Villemomble · 362",
    "src": "Villemomble · 362",
    "region": "Île-de-France",
@@ -5669,7 +5669,7 @@
    "actif": false
   },
   {
-   "rang": 28,
+   "rang": 27,
    "nom": "Saint-Denis · 11",
    "src": "Saintdenis · 11",
    "region": "Île-de-France",
@@ -5682,7 +5682,7 @@
    "actif": false
   },
   {
-   "rang": 29,
+   "rang": 28,
    "nom": "Paris · 419",
    "src": "Paris · 419",
    "region": "Île-de-France",
@@ -5695,7 +5695,7 @@
    "actif": false
   },
   {
-   "rang": 30,
+   "rang": 29,
    "nom": "05Cedb4Cb966Ea68",
    "src": "05Cedb4Cb966Ea68",
    "region": "Île-de-France",
@@ -5708,7 +5708,7 @@
    "actif": false
   },
   {
-   "rang": 31,
+   "rang": 30,
    "nom": "Emmanuelle Bonavent",
    "src": "Emmanuelle Bonavent",
    "region": "Île-de-France",
@@ -5721,9 +5721,9 @@
    "actif": false
   },
   {
-   "rang": 32,
-   "nom": "Cecile Mercier",
-   "src": "Cecile Mercier",
+   "rang": 31,
+   "nom": "Lieusaint · 411",
+   "src": "Lieusaint · 411",
    "region": "Île-de-France",
    "cv": 0,
    "contacts": 0,
@@ -5734,33 +5734,111 @@
    "actif": false
   },
   {
+   "rang": 32,
+   "nom": "Cecile Mercier",
+   "src": "Cecile Mercier",
+   "region": "Île-de-France",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -2,
+   "score_ref": 2,
+   "actif": false
+  },
+  {
    "rang": 1,
-   "nom": "Les Pieux · 663",
-   "src": "Lespieux · 663",
+   "nom": "Saint-Lô · 159",
+   "src": "Saintlo · 159",
    "region": "Normandie",
-   "cv": 351,
-   "contacts": 91,
-   "reponses": 28,
-   "score": 764,
-   "delta": 729,
-   "score_ref": 35,
+   "cv": 795,
+   "contacts": 61,
+   "reponses": 26,
+   "score": 1108,
+   "delta": 1097,
+   "score_ref": 11,
    "actif": true
   },
   {
    "rang": 2,
-   "nom": "Saint-Lô · 159",
-   "src": "Saintlo · 159",
+   "nom": "Les Pieux · 663",
+   "src": "Lespieux · 663",
    "region": "Normandie",
-   "cv": 313,
-   "contacts": 28,
-   "reponses": 8,
-   "score": 437,
-   "delta": 431,
-   "score_ref": 6,
+   "cv": 359,
+   "contacts": 85,
+   "reponses": 37,
+   "score": 799,
+   "delta": 736,
+   "score_ref": 63,
    "actif": true
   },
   {
    "rang": 3,
+   "nom": "Pont-Audemer · 130",
+   "src": "Pontaudemer · 130",
+   "region": "Normandie",
+   "cv": 186,
+   "contacts": 29,
+   "reponses": 8,
+   "score": 313,
+   "delta": 313,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 4,
+   "nom": "Alençon · 536",
+   "src": "Alencon · 536",
+   "region": "Normandie",
+   "cv": 243,
+   "contacts": 7,
+   "reponses": 2,
+   "score": 274,
+   "delta": 274,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 5,
+   "nom": "Vernon · 385",
+   "src": "Vernon · 385",
+   "region": "Normandie",
+   "cv": 242,
+   "contacts": 3,
+   "reponses": 2,
+   "score": 261,
+   "delta": 261,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 6,
+   "nom": "Harfleur · 22",
+   "src": "Harfleur · 22",
+   "region": "Normandie",
+   "cv": 61,
+   "contacts": 5,
+   "reponses": 3,
+   "score": 91,
+   "delta": 91,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 7,
+   "nom": "Caen · 508",
+   "src": "Caen · 508",
+   "region": "Normandie",
+   "cv": 2,
+   "contacts": 12,
+   "reponses": 3,
+   "score": 53,
+   "delta": 53,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 8,
    "nom": "Charlotte",
    "src": "charlotte",
    "region": "Normandie",
@@ -5773,20 +5851,7 @@
    "actif": true
   },
   {
-   "rang": 4,
-   "nom": "Alençon · 536",
-   "src": "Alencon · 536",
-   "region": "Normandie",
-   "cv": 3,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 3,
-   "delta": 3,
-   "score_ref": 0,
-   "actif": true
-  },
-  {
-   "rang": 5,
+   "rang": 9,
    "nom": "Val-de-Reuil · 384",
    "src": "Valdereuil · 384",
    "region": "Normandie",
@@ -5799,33 +5864,7 @@
    "actif": true
   },
   {
-   "rang": 6,
-   "nom": "Caen · 508",
-   "src": "Caen · 508",
-   "region": "Normandie",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 7,
-   "nom": "Vernon · 385",
-   "src": "Vernon · 385",
-   "region": "Normandie",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 8,
+   "rang": 10,
    "nom": "Evreux · 383",
    "src": "Evreux · 383",
    "region": "Normandie",
@@ -5838,20 +5877,7 @@
    "actif": false
   },
   {
-   "rang": 9,
-   "nom": "Pont-Audemer · 130",
-   "src": "Pontaudemer · 130",
-   "region": "Normandie",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 10,
+   "rang": 11,
    "nom": "Sotteville · 408",
    "src": "Sotteville · 408",
    "region": "Normandie",
@@ -5864,7 +5890,7 @@
    "actif": false
   },
   {
-   "rang": 11,
+   "rang": 12,
    "nom": "Cherbourg · 68",
    "src": "Cherbourg · 68",
    "region": "Normandie",
@@ -5877,7 +5903,7 @@
    "actif": false
   },
   {
-   "rang": 12,
+   "rang": 13,
    "nom": "Tancarville · 409",
    "src": "Tancarville · 409",
    "region": "Normandie",
@@ -5890,7 +5916,7 @@
    "actif": false
   },
   {
-   "rang": 13,
+   "rang": 14,
    "nom": "Le Havre · 512",
    "src": "Lehavre · 512",
    "region": "Normandie",
@@ -5903,7 +5929,7 @@
    "actif": false
   },
   {
-   "rang": 14,
+   "rang": 15,
    "nom": "Dieppe · 511",
    "src": "Dieppe · 511",
    "region": "Normandie",
@@ -5916,7 +5942,7 @@
    "actif": false
   },
   {
-   "rang": 15,
+   "rang": 16,
    "nom": "Verneuil · 366",
    "src": "Verneuil · 366",
    "region": "Normandie",
@@ -5929,7 +5955,7 @@
    "actif": false
   },
   {
-   "rang": 16,
+   "rang": 17,
    "nom": "Le Havre · 284",
    "src": "Lehavre · 284",
    "region": "Normandie",
@@ -5942,7 +5968,7 @@
    "actif": false
   },
   {
-   "rang": 17,
+   "rang": 18,
    "nom": "Argentan · 209",
    "src": "Argentan · 209",
    "region": "Normandie",
@@ -5955,7 +5981,7 @@
    "actif": false
   },
   {
-   "rang": 18,
+   "rang": 19,
    "nom": "Avranches · 577",
    "src": "Avranches · 577",
    "region": "Normandie",
@@ -5968,7 +5994,7 @@
    "actif": false
   },
   {
-   "rang": 19,
+   "rang": 20,
    "nom": "Barentin · 143",
    "src": "Barentin · 143",
    "region": "Normandie",
@@ -5981,7 +6007,7 @@
    "actif": false
   },
   {
-   "rang": 20,
+   "rang": 21,
    "nom": "Bayeux · 624",
    "src": "Bayeux · 624",
    "region": "Normandie",
@@ -5994,7 +6020,7 @@
    "actif": false
   },
   {
-   "rang": 21,
+   "rang": 22,
    "nom": "Caen · 376",
    "src": "Caen · 376",
    "region": "Normandie",
@@ -6007,7 +6033,7 @@
    "actif": false
   },
   {
-   "rang": 22,
+   "rang": 23,
    "nom": "Coutances · 603",
    "src": "Coutances · 603",
    "region": "Normandie",
@@ -6020,22 +6046,9 @@
    "actif": false
   },
   {
-   "rang": 23,
+   "rang": 24,
    "nom": "Fécamp · 616",
    "src": "Fecamp · 616",
-   "region": "Normandie",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 24,
-   "nom": "Harfleur · 22",
-   "src": "Harfleur · 22",
    "region": "Normandie",
    "cv": 0,
    "contacts": 0,
@@ -6142,12 +6155,12 @@
    "src": "Lisieux · 06",
    "region": "Normandie",
    "cv": 0,
-   "contacts": 0,
+   "contacts": 1,
    "reponses": 0,
-   "score": 0,
-   "delta": -3,
-   "score_ref": 3,
-   "actif": false
+   "score": 3,
+   "delta": -2,
+   "score_ref": 5,
+   "actif": true
   },
   {
    "rang": 33,
@@ -6158,8 +6171,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -37,
-   "score_ref": 37,
+   "delta": -67,
+   "score_ref": 67,
    "actif": false
   },
   {
@@ -6171,8 +6184,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -39,
-   "score_ref": 39,
+   "delta": -70,
+   "score_ref": 70,
    "actif": false
   },
   {
@@ -6184,8 +6197,8 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -116,
-   "score_ref": 116,
+   "delta": -209,
+   "score_ref": 209,
    "actif": false
   },
   {
@@ -6193,11 +6206,11 @@
    "nom": "Douai · 515",
    "src": "Douai · 515",
    "region": "Nord",
-   "cv": 283,
-   "contacts": 42,
-   "reponses": 8,
-   "score": 449,
-   "delta": 449,
+   "cv": 1013,
+   "contacts": 80,
+   "reponses": 26,
+   "score": 1383,
+   "delta": 1383,
    "score_ref": 0,
    "actif": true
   },
@@ -6206,12 +6219,12 @@
    "nom": "Compiègne · 164",
    "src": "Compiegne · 164",
    "region": "Nord",
-   "cv": 111,
-   "contacts": 35,
-   "reponses": 6,
-   "score": 246,
-   "delta": 238,
-   "score_ref": 8,
+   "cv": 384,
+   "contacts": 78,
+   "reponses": 27,
+   "score": 753,
+   "delta": 739,
+   "score_ref": 14,
    "actif": true
   },
   {
@@ -6219,81 +6232,133 @@
    "nom": "Valenciennes · 497",
    "src": "Valenciennes · 497",
    "region": "Nord",
-   "cv": 171,
-   "contacts": 11,
-   "reponses": 3,
-   "score": 219,
-   "delta": 219,
+   "cv": 392,
+   "contacts": 35,
+   "reponses": 12,
+   "score": 557,
+   "delta": 557,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 4,
-   "nom": "Lille · 59",
-   "src": "Lille · 59",
+   "nom": "Calais · 352",
+   "src": "Calais · 352",
    "region": "Nord",
-   "cv": 72,
-   "contacts": 13,
-   "reponses": 5,
-   "score": 136,
-   "delta": 136,
-   "score_ref": 0,
+   "cv": 601,
+   "contacts": 25,
+   "reponses": 14,
+   "score": 746,
+   "delta": 484,
+   "score_ref": 262,
    "actif": true
   },
   {
    "rang": 5,
-   "nom": "Beauvais · 510",
-   "src": "Beauvais · 510",
+   "nom": "Nesle · 256",
+   "src": "Nesle · 256",
    "region": "Nord",
-   "cv": 29,
-   "contacts": 14,
-   "reponses": 6,
-   "score": 101,
-   "delta": 101,
+   "cv": 353,
+   "contacts": 17,
+   "reponses": 3,
+   "score": 419,
+   "delta": 419,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 6,
-   "nom": "Saint-Omer · 506",
-   "src": "Saintomer · 506",
+   "nom": "Lille · 59",
+   "src": "Lille · 59",
    "region": "Nord",
-   "cv": 48,
-   "contacts": 4,
-   "reponses": 1,
-   "score": 65,
-   "delta": 65,
+   "cv": 176,
+   "contacts": 46,
+   "reponses": 14,
+   "score": 384,
+   "delta": 384,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 7,
-   "nom": "Givet · 160",
-   "src": "Givet · 160",
+   "nom": "Saint-Omer · 506",
+   "src": "Saintomer · 506",
    "region": "Nord",
-   "cv": 68,
-   "contacts": 10,
-   "reponses": 1,
-   "score": 103,
-   "delta": 54,
-   "score_ref": 49,
+   "cv": 258,
+   "contacts": 15,
+   "reponses": 11,
+   "score": 358,
+   "delta": 358,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 8,
-   "nom": "Nesle · 256",
-   "src": "Nesle · 256",
+   "nom": "Beauvais · 510",
+   "src": "Beauvais · 510",
    "region": "Nord",
-   "cv": 10,
-   "contacts": 7,
-   "reponses": 1,
-   "score": 36,
-   "delta": 36,
+   "cv": 70,
+   "contacts": 37,
+   "reponses": 16,
+   "score": 261,
+   "delta": 261,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 9,
+   "nom": "Charleville-Mézières · 606",
+   "src": "Charleville · 606",
+   "region": "Nord",
+   "cv": 195,
+   "contacts": 22,
+   "reponses": 5,
+   "score": 286,
+   "delta": 212,
+   "score_ref": 74,
+   "actif": true
+  },
+  {
+   "rang": 10,
+   "nom": "Givet · 160",
+   "src": "Givet · 160",
+   "region": "Nord",
+   "cv": 204,
+   "contacts": 15,
+   "reponses": 3,
+   "score": 264,
+   "delta": 175,
+   "score_ref": 89,
+   "actif": true
+  },
+  {
+   "rang": 11,
+   "nom": "Eugenie Villette",
+   "src": "Eugenie Villette",
+   "region": "Nord",
+   "cv": 50,
+   "contacts": 4,
+   "reponses": 1,
+   "score": 67,
+   "delta": 60,
+   "score_ref": 7,
+   "actif": true
+  },
+  {
+   "rang": 12,
+   "nom": "Lens · 51",
+   "src": "Lens · 51",
+   "region": "Nord",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": 0,
+   "score_ref": 0,
+   "actif": false
+  },
+  {
+   "rang": 13,
    "nom": "Arras · 503",
    "src": "Arras · 503",
    "region": "Nord",
@@ -6306,7 +6371,7 @@
    "actif": false
   },
   {
-   "rang": 10,
+   "rang": 14,
    "nom": "Croix · 495",
    "src": "Croix · 495",
    "region": "Nord",
@@ -6319,7 +6384,7 @@
    "actif": false
   },
   {
-   "rang": 11,
+   "rang": 15,
    "nom": "Boulogne-sur-Mer · 607",
    "src": "Boulognesurmer · 607",
    "region": "Nord",
@@ -6332,7 +6397,7 @@
    "actif": false
   },
   {
-   "rang": 12,
+   "rang": 16,
    "nom": "Lille · 492",
    "src": "Lille · 492",
    "region": "Nord",
@@ -6345,7 +6410,7 @@
    "actif": false
   },
   {
-   "rang": 13,
+   "rang": 17,
    "nom": "Saint-Quentin · 487",
    "src": "Saintquentin · 487",
    "region": "Nord",
@@ -6358,7 +6423,7 @@
    "actif": false
   },
   {
-   "rang": 14,
+   "rang": 18,
    "nom": "Tourcoing · 496",
    "src": "Tourcoing · 496",
    "region": "Nord",
@@ -6371,7 +6436,7 @@
    "actif": false
   },
   {
-   "rang": 15,
+   "rang": 19,
    "nom": "Lens · 504",
    "src": "Lens · 504",
    "region": "Nord",
@@ -6384,33 +6449,7 @@
    "actif": false
   },
   {
-   "rang": 16,
-   "nom": "Charleville-Mézières · 606",
-   "src": "Charleville · 606",
-   "region": "Nord",
-   "cv": 20,
-   "contacts": 6,
-   "reponses": 0,
-   "score": 38,
-   "delta": -3,
-   "score_ref": 41,
-   "actif": true
-  },
-  {
-   "rang": 17,
-   "nom": "Eugenie Villette",
-   "src": "Eugenie Villette",
-   "region": "Nord",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -4,
-   "score_ref": 4,
-   "actif": false
-  },
-  {
-   "rang": 18,
+   "rang": 20,
    "nom": "Dunkerque · 158",
    "src": "Dunkerque · 158",
    "region": "Nord",
@@ -6418,12 +6457,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -9,
-   "score_ref": 9,
+   "delta": -17,
+   "score_ref": 17,
    "actif": false
   },
   {
-   "rang": 19,
+   "rang": 21,
+   "nom": "Béthune · 505",
+   "src": "Bethune · 505",
+   "region": "Nord",
+   "cv": 3,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 3,
+   "delta": -32,
+   "score_ref": 35,
+   "actif": true
+  },
+  {
+   "rang": 22,
    "nom": "Reims · 567",
    "src": "Reims · 567",
    "region": "Nord",
@@ -6431,38 +6483,25 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -19,
-   "score_ref": 19,
+   "delta": -34,
+   "score_ref": 34,
    "actif": false
   },
   {
-   "rang": 20,
-   "nom": "Béthune · 505",
-   "src": "Bethune · 505",
+   "rang": 23,
+   "nom": "Rosane",
+   "src": "Rosane",
    "region": "Nord",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -20,
-   "score_ref": 20,
-   "actif": false
-  },
-  {
-   "rang": 21,
-   "nom": "Calais · 352",
-   "src": "Calais · 352",
-   "region": "Nord",
-   "cv": 93,
-   "contacts": 8,
-   "reponses": 1,
-   "score": 122,
-   "delta": -23,
-   "score_ref": 145,
+   "cv": 8,
+   "contacts": 3,
+   "reponses": 2,
+   "score": 27,
+   "delta": -47,
+   "score_ref": 74,
    "actif": true
   },
   {
-   "rang": 22,
+   "rang": 24,
    "nom": "Armentières · 320",
    "src": "Armentieres · 320",
    "region": "Nord",
@@ -6470,40 +6509,14 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -28,
-   "score_ref": 28,
-   "actif": false
-  },
-  {
-   "rang": 23,
-   "nom": "Hazebrouck · 596",
-   "src": "Hazebrouck · 596",
-   "region": "Nord",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -29,
-   "score_ref": 29,
-   "actif": false
-  },
-  {
-   "rang": 24,
-   "nom": "Rosane",
-   "src": "Rosane",
-   "region": "Nord",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -41,
-   "score_ref": 41,
+   "delta": -51,
+   "score_ref": 51,
    "actif": false
   },
   {
    "rang": 25,
-   "nom": "Lens · 636",
-   "src": "Lens · 636",
+   "nom": "Hazebrouck · 596",
+   "src": "Hazebrouck · 596",
    "region": "Nord",
    "cv": 0,
    "contacts": 0,
@@ -6515,6 +6528,19 @@
   },
   {
    "rang": 26,
+   "nom": "Lens · 636",
+   "src": "Lens · 636",
+   "region": "Nord",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -93,
+   "score_ref": 93,
+   "actif": false
+  },
+  {
+   "rang": 27,
    "nom": "Seclin · 255",
    "src": "Seclin · 255",
    "region": "Nord",
@@ -6522,33 +6548,33 @@
    "contacts": 13,
    "reponses": 0,
    "score": 83,
-   "delta": -100,
-   "score_ref": 183,
+   "delta": -246,
+   "score_ref": 329,
    "actif": true
   },
   {
    "rang": 1,
-   "nom": "Rochefort · 340",
-   "src": "Rochefort · 340",
+   "nom": "Tom",
+   "src": "Tom",
    "region": "Sud-Ouest",
-   "cv": 253,
-   "contacts": 49,
-   "reponses": 21,
-   "score": 505,
-   "delta": 505,
-   "score_ref": 0,
+   "cv": 1121,
+   "contacts": 13,
+   "reponses": 6,
+   "score": 1190,
+   "delta": 705,
+   "score_ref": 485,
    "actif": true
   },
   {
    "rang": 2,
-   "nom": "Brive · 80",
-   "src": "Brive · 80",
+   "nom": "Rochefort · 340",
+   "src": "Rochefort · 340",
    "region": "Sud-Ouest",
-   "cv": 186,
-   "contacts": 40,
-   "reponses": 4,
-   "score": 326,
-   "delta": 326,
+   "cv": 262,
+   "contacts": 56,
+   "reponses": 28,
+   "score": 570,
+   "delta": 570,
    "score_ref": 0,
    "actif": true
   },
@@ -6557,25 +6583,25 @@
    "nom": "Audrey",
    "src": "Audrey",
    "region": "Sud-Ouest",
-   "cv": 213,
-   "contacts": 7,
-   "reponses": 6,
-   "score": 264,
-   "delta": 264,
+   "cv": 280,
+   "contacts": 11,
+   "reponses": 7,
+   "score": 348,
+   "delta": 348,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 4,
-   "nom": "Sabrina Mabrier",
-   "src": "Sabrina Mabrier",
+   "nom": "Hugo Fruitier",
+   "src": "Hugo Fruitier",
    "region": "Sud-Ouest",
-   "cv": 90,
-   "contacts": 7,
-   "reponses": 1,
-   "score": 116,
-   "delta": 116,
-   "score_ref": 0,
+   "cv": 165,
+   "contacts": 36,
+   "reponses": 12,
+   "score": 333,
+   "delta": 182,
+   "score_ref": 151,
    "actif": true
   },
   {
@@ -6583,42 +6609,55 @@
    "nom": "Morgane Bonnin",
    "src": "Morgane Bonnin",
    "region": "Sud-Ouest",
-   "cv": 61,
-   "contacts": 3,
+   "cv": 147,
+   "contacts": 5,
    "reponses": 1,
-   "score": 75,
-   "delta": 75,
+   "score": 167,
+   "delta": 167,
    "score_ref": 0,
    "actif": true
   },
   {
    "rang": 6,
-   "nom": "Camille Vallerey",
-   "src": "Camille Vallerey",
+   "nom": "Sabrina Mabrier",
+   "src": "Sabrina Mabrier",
    "region": "Sud-Ouest",
-   "cv": 24,
+   "cv": 90,
    "contacts": 7,
-   "reponses": 6,
-   "score": 75,
-   "delta": 46,
-   "score_ref": 29,
+   "reponses": 2,
+   "score": 121,
+   "delta": 121,
+   "score_ref": 0,
    "actif": true
   },
   {
    "rang": 7,
-   "nom": "Toulouse · 535",
-   "src": "Toulouse · 535",
+   "nom": "Camille Vallerey",
+   "src": "Camille Vallerey",
    "region": "Sud-Ouest",
-   "cv": 22,
-   "contacts": 3,
-   "reponses": 2,
-   "score": 41,
-   "delta": 24,
-   "score_ref": 17,
+   "cv": 34,
+   "contacts": 7,
+   "reponses": 6,
+   "score": 85,
+   "delta": 33,
+   "score_ref": 52,
    "actif": true
   },
   {
    "rang": 8,
+   "nom": "Toulouse · 535",
+   "src": "Toulouse · 535",
+   "region": "Sud-Ouest",
+   "cv": 34,
+   "contacts": 4,
+   "reponses": 2,
+   "score": 56,
+   "delta": 25,
+   "score_ref": 31,
+   "actif": true
+  },
+  {
+   "rang": 9,
    "nom": "Oceane Dassy",
    "src": "Oceane Dassy",
    "region": "Sud-Ouest",
@@ -6631,7 +6670,46 @@
    "actif": true
   },
   {
-   "rang": 9,
+   "rang": 10,
+   "nom": "Evelyne Olcomendy",
+   "src": "Evelyne Olcomendy",
+   "region": "Sud-Ouest",
+   "cv": 3,
+   "contacts": 3,
+   "reponses": 1,
+   "score": 17,
+   "delta": 17,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 11,
+   "nom": "Julie Reidenbach",
+   "src": "Julie Reidenbach",
+   "region": "Sud-Ouest",
+   "cv": 12,
+   "contacts": 1,
+   "reponses": 0,
+   "score": 15,
+   "delta": 15,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 12,
+   "nom": "Patrice Rubio",
+   "src": "Patrice Rubio",
+   "region": "Sud-Ouest",
+   "cv": 4,
+   "contacts": 1,
+   "reponses": 1,
+   "score": 12,
+   "delta": 12,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 13,
    "nom": "Vanessa",
    "src": "Vanessa",
    "region": "Sud-Ouest",
@@ -6644,7 +6722,20 @@
    "actif": true
   },
   {
-   "rang": 10,
+   "rang": 14,
+   "nom": "Brive · 80",
+   "src": "Brive · 80",
+   "region": "Sud-Ouest",
+   "cv": 7,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 7,
+   "delta": 7,
+   "score_ref": 0,
+   "actif": true
+  },
+  {
+   "rang": 15,
    "nom": "Saintes · 309",
    "src": "Saintes · 309",
    "region": "Sud-Ouest",
@@ -6657,7 +6748,7 @@
    "actif": false
   },
   {
-   "rang": 11,
+   "rang": 16,
    "nom": "Mathieu Marrocq",
    "src": "Mathieu Marrocq",
    "region": "Sud-Ouest",
@@ -6670,7 +6761,7 @@
    "actif": false
   },
   {
-   "rang": 12,
+   "rang": 17,
    "nom": "Manon Graffeuille",
    "src": "Manon Graffeuille",
    "region": "Sud-Ouest",
@@ -6683,7 +6774,7 @@
    "actif": false
   },
   {
-   "rang": 13,
+   "rang": 18,
    "nom": "Enora",
    "src": "Enora",
    "region": "Sud-Ouest",
@@ -6696,7 +6787,7 @@
    "actif": false
   },
   {
-   "rang": 14,
+   "rang": 19,
    "nom": "Jennifer Dumeaux",
    "src": "Jennifer Dumeaux",
    "region": "Sud-Ouest",
@@ -6709,7 +6800,7 @@
    "actif": false
   },
   {
-   "rang": 15,
+   "rang": 20,
    "nom": "Nina",
    "src": "Nina",
    "region": "Sud-Ouest",
@@ -6722,7 +6813,7 @@
    "actif": false
   },
   {
-   "rang": 16,
+   "rang": 21,
    "nom": "Céline",
    "src": "Céline",
    "region": "Sud-Ouest",
@@ -6735,7 +6826,7 @@
    "actif": false
   },
   {
-   "rang": 17,
+   "rang": 22,
    "nom": "Lydie Sarres",
    "src": "Lydie Sarres",
    "region": "Sud-Ouest",
@@ -6748,7 +6839,7 @@
    "actif": false
   },
   {
-   "rang": 18,
+   "rang": 23,
    "nom": "Limoges · 415",
    "src": "Limoges · 415",
    "region": "Sud-Ouest",
@@ -6761,7 +6852,7 @@
    "actif": false
   },
   {
-   "rang": 19,
+   "rang": 24,
    "nom": "Limoges · 46",
    "src": "Limoges · 46",
    "region": "Sud-Ouest",
@@ -6774,7 +6865,7 @@
    "actif": false
   },
   {
-   "rang": 20,
+   "rang": 25,
    "nom": "Ma Thiebaut",
    "src": "Ma Thiebaut",
    "region": "Sud-Ouest",
@@ -6787,7 +6878,7 @@
    "actif": false
   },
   {
-   "rang": 21,
+   "rang": 26,
    "nom": "Cassandra",
    "src": "Cassandra",
    "region": "Sud-Ouest",
@@ -6800,9 +6891,9 @@
    "actif": false
   },
   {
-   "rang": 22,
-   "nom": "Dounia Chaibi",
-   "src": "Dounia Chaibi",
+   "rang": 27,
+   "nom": "Dounia",
+   "src": "Dounia",
    "region": "Sud-Ouest",
    "cv": 0,
    "contacts": 0,
@@ -6813,7 +6904,7 @@
    "actif": false
   },
   {
-   "rang": 23,
+   "rang": 28,
    "nom": "La Rochelle · 378",
    "src": "Larochelle · 378",
    "region": "Sud-Ouest",
@@ -6826,20 +6917,7 @@
    "actif": false
   },
   {
-   "rang": 24,
-   "nom": "Patrice Rubio",
-   "src": "Patrice Rubio",
-   "region": "Sud-Ouest",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 25,
+   "rang": 29,
    "nom": "Elodie Paquotte",
    "src": "Elodie Paquotte",
    "region": "Sud-Ouest",
@@ -6852,7 +6930,7 @@
    "actif": false
   },
   {
-   "rang": 26,
+   "rang": 30,
    "nom": "Al Daudet",
    "src": "Al Daudet",
    "region": "Sud-Ouest",
@@ -6865,20 +6943,7 @@
    "actif": false
   },
   {
-   "rang": 27,
-   "nom": "Evelyne Olcomendy",
-   "src": "Evelyne Olcomendy",
-   "region": "Sud-Ouest",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 28,
+   "rang": 31,
    "nom": "Doriane Lindron",
    "src": "Doriane Lindron",
    "region": "Sud-Ouest",
@@ -6891,7 +6956,7 @@
    "actif": false
   },
   {
-   "rang": 29,
+   "rang": 32,
    "nom": "Julie Massa",
    "src": "Julie Massa",
    "region": "Sud-Ouest",
@@ -6904,7 +6969,7 @@
    "actif": false
   },
   {
-   "rang": 30,
+   "rang": 33,
    "nom": "La Rochelle · 170",
    "src": "Larochelle · 170",
    "region": "Sud-Ouest",
@@ -6917,7 +6982,7 @@
    "actif": false
   },
   {
-   "rang": 31,
+   "rang": 34,
    "nom": "Valerie Lours",
    "src": "Valerie Lours",
    "region": "Sud-Ouest",
@@ -6930,7 +6995,7 @@
    "actif": false
   },
   {
-   "rang": 32,
+   "rang": 35,
    "nom": "Amélya",
    "src": "Amélya",
    "region": "Sud-Ouest",
@@ -6943,7 +7008,7 @@
    "actif": false
   },
   {
-   "rang": 33,
+   "rang": 36,
    "nom": "Libourne · 136",
    "src": "Libourne · 136",
    "region": "Sud-Ouest",
@@ -6956,7 +7021,7 @@
    "actif": false
   },
   {
-   "rang": 34,
+   "rang": 37,
    "nom": "Emilie",
    "src": "Emilie",
    "region": "Sud-Ouest",
@@ -6969,7 +7034,7 @@
    "actif": false
   },
   {
-   "rang": 35,
+   "rang": 38,
    "nom": "Niort · 321",
    "src": "Niort · 321",
    "region": "Sud-Ouest",
@@ -6982,7 +7047,7 @@
    "actif": false
   },
   {
-   "rang": 36,
+   "rang": 39,
    "nom": "Angoulême · 03",
    "src": "Angouleme · 03",
    "region": "Sud-Ouest",
@@ -6995,7 +7060,7 @@
    "actif": false
   },
   {
-   "rang": 37,
+   "rang": 40,
    "nom": "Bressuire · 611",
    "src": "Bressuire · 611",
    "region": "Sud-Ouest",
@@ -7008,7 +7073,7 @@
    "actif": false
   },
   {
-   "rang": 38,
+   "rang": 41,
    "nom": "Valerie Laxalde",
    "src": "Valerie Laxalde",
    "region": "Sud-Ouest",
@@ -7021,7 +7086,7 @@
    "actif": false
   },
   {
-   "rang": 39,
+   "rang": 42,
    "nom": "Aurelie",
    "src": "Aurelie",
    "region": "Sud-Ouest",
@@ -7034,7 +7099,7 @@
    "actif": false
   },
   {
-   "rang": 40,
+   "rang": 43,
    "nom": "Celine",
    "src": "celine",
    "region": "Sud-Ouest",
@@ -7047,7 +7112,7 @@
    "actif": false
   },
   {
-   "rang": 41,
+   "rang": 44,
    "nom": "Cynthia",
    "src": "Cynthia",
    "region": "Sud-Ouest",
@@ -7060,7 +7125,7 @@
    "actif": false
   },
   {
-   "rang": 42,
+   "rang": 45,
    "nom": "Diana",
    "src": "Diana",
    "region": "Sud-Ouest",
@@ -7073,7 +7138,7 @@
    "actif": false
   },
   {
-   "rang": 43,
+   "rang": 46,
    "nom": "Johann",
    "src": "Johann",
    "region": "Sud-Ouest",
@@ -7086,7 +7151,7 @@
    "actif": false
   },
   {
-   "rang": 44,
+   "rang": 47,
    "nom": "Jessica Ferhat",
    "src": "Jessica Ferhat",
    "region": "Sud-Ouest",
@@ -7099,7 +7164,7 @@
    "actif": false
   },
   {
-   "rang": 45,
+   "rang": 48,
    "nom": "Marie",
    "src": "Marie",
    "region": "Sud-Ouest",
@@ -7112,7 +7177,7 @@
    "actif": false
   },
   {
-   "rang": 46,
+   "rang": 49,
    "nom": "Johanna",
    "src": "Johanna",
    "region": "Sud-Ouest",
@@ -7125,7 +7190,7 @@
    "actif": false
   },
   {
-   "rang": 47,
+   "rang": 50,
    "nom": "Marillon Belmonte",
    "src": "Marillon Belmonte",
    "region": "Sud-Ouest",
@@ -7138,7 +7203,7 @@
    "actif": false
   },
   {
-   "rang": 48,
+   "rang": 51,
    "nom": "Thallia Darocha",
    "src": "Thallia Darocha",
    "region": "Sud-Ouest",
@@ -7151,7 +7216,7 @@
    "actif": false
   },
   {
-   "rang": 49,
+   "rang": 52,
    "nom": "Gwladys Salles",
    "src": "Gwladys Salles",
    "region": "Sud-Ouest",
@@ -7164,20 +7229,7 @@
    "actif": false
   },
   {
-   "rang": 50,
-   "nom": "Julie Reidenbach",
-   "src": "Julie Reidenbach",
-   "region": "Sud-Ouest",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": 0,
-   "score_ref": 0,
-   "actif": false
-  },
-  {
-   "rang": 51,
+   "rang": 53,
    "nom": "AXELLE",
    "src": "AXELLE",
    "region": "Sud-Ouest",
@@ -7185,12 +7237,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -3,
-   "score_ref": 3,
+   "delta": -6,
+   "score_ref": 6,
    "actif": false
   },
   {
-   "rang": 52,
+   "rang": 54,
    "nom": "Camille Meneret",
    "src": "Camille Meneret",
    "region": "Sud-Ouest",
@@ -7198,12 +7250,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -4,
-   "score_ref": 4,
+   "delta": -7,
+   "score_ref": 7,
    "actif": false
   },
   {
-   "rang": 53,
+   "rang": 55,
    "nom": "Fanny Catala",
    "src": "Fanny Catala",
    "region": "Sud-Ouest",
@@ -7211,40 +7263,14 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -4,
-   "score_ref": 4,
-   "actif": false
-  },
-  {
-   "rang": 54,
-   "nom": "Txomin",
-   "src": "Txomin",
-   "region": "Sud-Ouest",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -5,
-   "score_ref": 5,
-   "actif": false
-  },
-  {
-   "rang": 55,
-   "nom": "Mc Dealmeida",
-   "src": "Mc Dealmeida",
-   "region": "Sud-Ouest",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -5,
-   "score_ref": 5,
+   "delta": -7,
+   "score_ref": 7,
    "actif": false
   },
   {
    "rang": 56,
-   "nom": "Sylviane Casseleux",
-   "src": "Sylviane Casseleux",
+   "nom": "Mc Dealmeida",
+   "src": "Mc Dealmeida",
    "region": "Sud-Ouest",
    "cv": 0,
    "contacts": 0,
@@ -7256,73 +7282,34 @@
   },
   {
    "rang": 57,
-   "nom": "Manon Dhaussy",
-   "src": "Manon Dhaussy",
+   "nom": "Txomin",
+   "src": "Txomin",
    "region": "Sud-Ouest",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -11,
-   "score_ref": 11,
+   "delta": -10,
+   "score_ref": 10,
    "actif": false
   },
   {
    "rang": 58,
-   "nom": "Aurelien Beray",
-   "src": "Aurelien Beray",
+   "nom": "Sylviane Casseleux",
+   "src": "Sylviane Casseleux",
    "region": "Sud-Ouest",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -12,
-   "score_ref": 12,
+   "delta": -15,
+   "score_ref": 15,
    "actif": false
   },
   {
    "rang": 59,
-   "nom": "Sophie",
-   "src": "Sophie",
-   "region": "Sud-Ouest",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -15,
-   "score_ref": 15,
-   "actif": false
-  },
-  {
-   "rang": 60,
-   "nom": "Amélie",
-   "src": "Amélie",
-   "region": "Sud-Ouest",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -15,
-   "score_ref": 15,
-   "actif": false
-  },
-  {
-   "rang": 61,
-   "nom": "Laetitia",
-   "src": "laetitia",
-   "region": "Sud-Ouest",
-   "cv": 0,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 0,
-   "delta": -16,
-   "score_ref": 16,
-   "actif": false
-  },
-  {
-   "rang": 62,
-   "nom": "Yana Popko",
-   "src": "Yana Popko",
+   "nom": "Manon Dhaussy",
+   "src": "Manon Dhaussy",
    "region": "Sud-Ouest",
    "cv": 0,
    "contacts": 0,
@@ -7333,20 +7320,85 @@
    "actif": false
   },
   {
-   "rang": 63,
-   "nom": "Jessica Macaluso",
-   "src": "Jessica Macaluso",
+   "rang": 60,
+   "nom": "Aurelien Beray",
+   "src": "Aurelien Beray",
    "region": "Sud-Ouest",
    "cv": 0,
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -35,
-   "score_ref": 35,
+   "delta": -22,
+   "score_ref": 22,
+   "actif": false
+  },
+  {
+   "rang": 61,
+   "nom": "Sophie",
+   "src": "Sophie",
+   "region": "Sud-Ouest",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -26,
+   "score_ref": 26,
+   "actif": false
+  },
+  {
+   "rang": 62,
+   "nom": "Amélie",
+   "src": "Amélie",
+   "region": "Sud-Ouest",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -26,
+   "score_ref": 26,
+   "actif": false
+  },
+  {
+   "rang": 63,
+   "nom": "Laetitia",
+   "src": "laetitia",
+   "region": "Sud-Ouest",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -29,
+   "score_ref": 29,
    "actif": false
   },
   {
    "rang": 64,
+   "nom": "Yana Popko",
+   "src": "Yana Popko",
+   "region": "Sud-Ouest",
+   "cv": 0,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 0,
+   "delta": -34,
+   "score_ref": 34,
+   "actif": false
+  },
+  {
+   "rang": 65,
+   "nom": "Jessica Macaluso",
+   "src": "Jessica Macaluso",
+   "region": "Sud-Ouest",
+   "cv": 3,
+   "contacts": 0,
+   "reponses": 0,
+   "score": 3,
+   "delta": -59,
+   "score_ref": 62,
+   "actif": true
+  },
+  {
+   "rang": 66,
    "nom": "Marie-Jeanne",
    "src": "Marie-Jeanne",
    "region": "Sud-Ouest",
@@ -7354,12 +7406,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -38,
-   "score_ref": 38,
+   "delta": -68,
+   "score_ref": 68,
    "actif": false
   },
   {
-   "rang": 65,
+   "rang": 67,
    "nom": "Dorine Bourthoumieu",
    "src": "Dorine Bourthoumieu",
    "region": "Sud-Ouest",
@@ -7367,12 +7419,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -56,
-   "score_ref": 56,
+   "delta": -100,
+   "score_ref": 100,
    "actif": false
   },
   {
-   "rang": 66,
+   "rang": 68,
    "nom": "Sylvie Couni",
    "src": "Sylvie Couni",
    "region": "Sud-Ouest",
@@ -7380,25 +7432,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -56,
-   "score_ref": 56,
+   "delta": -101,
+   "score_ref": 101,
    "actif": false
   },
   {
-   "rang": 67,
-   "nom": "Hugo Fruitier",
-   "src": "Hugo Fruitier",
-   "region": "Sud-Ouest",
-   "cv": 26,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 26,
-   "delta": -58,
-   "score_ref": 84,
-   "actif": true
-  },
-  {
-   "rang": 68,
+   "rang": 69,
    "nom": "Muret · 575",
    "src": "Muret · 575",
    "region": "Sud-Ouest",
@@ -7406,12 +7445,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -59,
-   "score_ref": 59,
+   "delta": -106,
+   "score_ref": 106,
    "actif": false
   },
   {
-   "rang": 69,
+   "rang": 70,
    "nom": "Alex Fontaine",
    "src": "Alex Fontaine",
    "region": "Sud-Ouest",
@@ -7419,12 +7458,12 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -61,
-   "score_ref": 61,
+   "delta": -109,
+   "score_ref": 109,
    "actif": false
   },
   {
-   "rang": 70,
+   "rang": 71,
    "nom": "Sylvie Mazieres",
    "src": "Sylvie Mazieres",
    "region": "Sud-Ouest",
@@ -7432,22 +7471,9 @@
    "contacts": 0,
    "reponses": 0,
    "score": 0,
-   "delta": -123,
-   "score_ref": 123,
+   "delta": -221,
+   "score_ref": 221,
    "actif": false
-  },
-  {
-   "rang": 71,
-   "nom": "Tom",
-   "src": "Tom",
-   "region": "Sud-Ouest",
-   "cv": 98,
-   "contacts": 0,
-   "reponses": 0,
-   "score": 98,
-   "delta": -172,
-   "score_ref": 270,
-   "actif": true
   }
  ]
 }
